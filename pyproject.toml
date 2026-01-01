@@ -13,6 +13,8 @@ beautifulsoup4 = "^4.12.3"
 python-dateutil = "^2.9.0"
 pyyaml = "^6.0.1"
 pandas = "^2.3.3"
+pyairtable = "^3.3.0"
+python-dotenv = "^1.2.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0.0"
