@@ -23,6 +23,8 @@ pyyaml = "^6.0.1"
 pandas = "^2.3.3"
 pyairtable = "^3.3.0"
 python-dotenv = "^1.2.1"
+anthropic = "^0.28.0"
+pypdf = "^4.0.0"
 
 [project.optional-dependencies]
 dev = [
