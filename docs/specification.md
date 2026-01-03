@@ -65,13 +65,13 @@ Même constat que les marchés publics : fragmentation extrême des sources, pas
 
 ### 3.1 Sources validées pour MVP
 
-| Source | Type | Méthode | Priorité |
-|--------|------|---------|----------|
-| Carenews | Agrégateur | HTML scraping | P0 |
-| IDF OpenData | API | REST API | P0 |
-| Paris.fr | Institutionnel | HTML scraping | P1 |
-| Profession Banlieue | Centre ressources | RSS | P1 |
-| DRIEETS IDF | Gouv | RSS | P2 |
+| Source | Type | Méthode | Status | AAPs |
+|--------|------|---------|--------|------|
+| Carenews | Agrégateur | HTML scraping | ✅ Done | ~100 |
+| IDF OpenData | API | REST API | ✅ Done | ~343 |
+| Paris.fr | Institutionnel | HTML + PDF + LLM | 🔄 En cours (Walid) | - |
+| Profession Banlieue | Centre ressources | RSS | 🔜 À faire | - |
+| DRIEETS IDF | Gouv | RSS | 🔜 À faire | - |
 
 ### 3.2 Sources à auditer (V2)
 
@@ -114,28 +114,50 @@ Phase 3 : Partenariats
 > 
 > On commence simple, on itère.
 
-### 4.1 Schéma AAP normalisé (V1)
-<!-- A voir avec ce qu'on obtient comme données -->
-```json
-{
-  "id": "uuid",
-  "titre": "string",
-  "organisme": "string",
-  "date_publication": "date",
-  "date_limite": "date",
-  "categories": ["string"],      // Taxonomie fixe (filtrage)
-  "tags": ["string"],            // Tags libres générés par LLM
-  "perimetre_geo": "string",
-  "public_cible": ["associations", "ESUS", "collectifs"...],
-  "montant_min": "number | null",
-  "montant_max": "number | null",
-  "url_source": "string",
-  "url_candidature": "string | null",
-  "resume": "string (300 chars)",
-  "source_id": "string",
-  "created_at": "datetime",
-  "fingerprint": "hash(titre+organisme+date_limite)"
-}
+### 4.1 Schéma AAP normalisé (V1 - Implémenté)
+
+```python
+class AAP(BaseModel):
+    # === Identité ===
+    id: str                          # UUID auto-généré
+    titre: str
+    url_source: str
+    source: Source                   # {id, name, url}
+    
+    # === Contenu ===
+    description: str | None
+    organisme: str | None
+    url_candidature: str | None
+    contact: str | None              # Email/téléphone
+    
+    # === Dates ===
+    date_publication: date | None
+    date_limite: date | None
+    
+    # === Classification ===
+    categories: list[Category]       # Taxonomie fixe (12 valeurs)
+    tags: list[str]                  # Tags libres (LLM ou source)
+    eligibilite: list[EligibiliteType]  # Qui peut candidater (7 valeurs)
+    statut: StatutAAP                # ouvert/ferme/permanent/inconnu
+    
+    # === Géographie ===
+    perimetre_geo: str | None        # Texte libre (ex: "Île-de-France")
+    perimetre_niveau: Perimetre | None  # Enum (6 valeurs)
+    
+    # === Financement ===
+    montant_min: float | None
+    montant_max: float | None
+    
+    # === Computed fields ===
+    fingerprint: str                 # hash(titre+organisme+date_limite)
+    is_active: bool                  # date_limite >= today ou permanent
+    days_remaining: int | None       # Jours avant deadline
+    urgence: str | None              # urgent/proche/confortable/permanent/expire
+    
+    # === Metadata ===
+    raw_data: dict | None            # Données brutes source
+    created_at: datetime
+    updated_at: datetime
 ```
 
 ### 4.2 Catégories vs Tags
@@ -147,19 +169,57 @@ Phase 3 : Partenariats
 | **Cardinalité** | 1-3 par AAP | 0-10 par AAP |
 | **Exemple** | `insertion-emploi` | `jeunes`, `QPV`, `formation`, `numérique` |
 
-### 4.3 Taxonomie catégories (draft)
+### 4.3 Taxonomies (implémentées)
 
-```
+```python
+# Catégories (12)
 categories/
-├── insertion-emploi
-├── education-jeunesse
-├── sante-handicap
-├── culture-sport
-├── environnement-transition
-├── solidarite-inclusion
-├── vie-associative
-├── numerique
+├── insertion-emploi         # IAE, formation, emploi
+├── education-jeunesse       # Éducation, jeunesse, périscolaire
+├── sante-handicap           # Santé, handicap, médico-social
+├── culture-sport            # Culture, sport, loisirs
+├── environnement-transition # Écologie, climat, biodiversité
+├── solidarite-inclusion     # Solidarité, inclusion, lutte contre précarité
+├── vie-associative          # Bénévolat, engagement civique
+├── numerique                # Numérique, digital, médiation numérique
+├── economie-ess             # ESS, entrepreneuriat social
+├── logement-urbanisme       # Habitat, urbanisme, cadre de vie
+├── mobilite-transport       # Mobilité, transport, déplacement
+└── autre                    # Non catégorisable
+
+# Éligibilité (7)
+eligibilite/
+├── associations             # Associations loi 1901
+├── collectivites            # Collectivités territoriales
+├── etablissements           # Établissements publics, EPLE, hôpitaux
+├── entreprises              # Entreprises, ESUS, coopératives
+├── professionnels           # Professionnels, indépendants
+├── particuliers             # Personnes physiques
 └── autre
+
+# Périmètre géographique (6)
+perimetre/
+├── local                    # Commune, intercommunalité
+├── departemental            # Département
+├── regional                 # Région
+├── national                 # France entière
+├── europeen                 # Union européenne
+└── international            # Mondial
+
+# Statut AAP (4)
+statut/
+├── ouvert                   # En cours, candidatures ouvertes
+├── ferme                    # Deadline passée
+├── permanent                # AAP permanent (pas de deadline)
+└── inconnu                  # Statut non déterminable
+
+# Urgence (calculée automatiquement)
+urgence/
+├── urgent                   # ≤ 7 jours
+├── proche                   # ≤ 30 jours
+├── confortable              # > 30 jours
+├── permanent                # AAP permanent
+└── expire                   # Deadline passée
 ```
 
 ### 4.4 Modèle relationnel (si Supabase/SQL)
@@ -246,15 +306,18 @@ Rationale :
 │                                                                  │
 │  ┌─────────────────────────────────────────────────────────┐    │
 │  │                 LLM Extraction                           │    │
-│  │  Input: HTML/texte brut                                  │    │
+│  │  Input: HTML/PDF/texte brut                              │    │
 │  │  Output: JSON normalisé (schéma §4.1)                    │    │
-│  │  Model: Gemini Flash (cost-efficient)                    │    │
+│  │  Model: Claude Sonnet (enrichissement)                   │    │
 │  └─────────────────────────────────────────────────────────┘    │
 │                           │                                      │
 │                           ▼                                      │
 │  ┌─────────────────────────────────────────────────────────┐    │
-│  │              Déduplication                               │    │
-│  │  fingerprint = hash(titre + organisme + date_limite)     │    │
+│  │              Normalisation + Auto-inférence              │    │
+│  │  • Inférence catégories (keywords)                       │    │
+│  │  • Inférence éligibilité (public_cible)                  │    │
+│  │  • Inférence périmètre (géographie)                      │    │
+│  │  • fingerprint = hash(titre + organisme + date_limite)   │    │
 │  └─────────────────────────────────────────────────────────┘    │
 └──────────────────────────┬──────────────────────────────────────┘
                            │
@@ -262,9 +325,9 @@ Rationale :
 ┌─────────────────────────────────────────────────────────────────┐
 │                    STORAGE LAYER                                 │
 │                                                                  │
-│  Option A: Notion (gratuit, UI native)                          │
-│  Option B: Airtable (API + UI, limites gratuites)               │
-│  Option C: Supabase (SQL, scalable, gratuit tier)               │
+│  ✅ Airtable (pyairtable) — 200+ AAPs actifs                    │
+│     Table: tbleGNripKuAgDppx                                    │
+│     Base: appRgVRJoIZUC19C4                                     │
 └──────────────────────────┬──────────────────────────────────────┘
                            │
                            ▼
@@ -273,33 +336,36 @@ Rationale :
 │                                                                  │
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐              │
 │  │ Digest Hebdo│  │ Alerte Urgente│ │ Dashboard  │              │
-│  │ (email)     │  │ (Telegram)   │  │ (Notion)   │              │
+│  │ (email)     │  │ (Telegram)   │  │ (Airtable) │              │
 │  └─────────────┘  └─────────────┘  └─────────────┘              │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### 5.2 Stack technique proposée
+### 5.2 Stack technique (implémentée)
 
-| Composant | Choix MVP | Alternative |
-|-----------|-----------|-------------|
-| Langage | Python 3.11+ | - |
-| Orchestration | GitHub Actions | n8n, Make.com |
-| Scraping HTML | BeautifulSoup + requests | Playwright (si JS) |
-| Parsing RSS | feedparser | - |
-| LLM | Gemini Flash | Claude Haiku |
-| Storage | Notion API | Airtable, Supabase |
-| Alertes | Telegram Bot | Email SMTP, Slack |
-| Repo | GitHub (public ou privé) | - |
+| Composant | Choix MVP | Status |
+|-----------|-----------|--------|
+| Langage | Python 3.12+ | ✅ |
+| Package manager | uv | ✅ |
+| Data validation | Pydantic v2 | ✅ |
+| Orchestration | GitHub Actions | 🔜 |
+| Scraping HTML | BeautifulSoup + requests | ✅ |
+| PDF parsing | pypdf | ✅ (Walid) |
+| Parsing RSS | feedparser | 🔜 |
+| LLM enrichissement | Claude Sonnet | ✅ (Walid) |
+| Storage | **Airtable** (pyairtable) | ✅ |
+| Alertes | Telegram Bot | 🔜 |
+| Repo | GitHub (privé) | ✅ |
 
 ### 5.3 Estimation coûts
 
 | Poste | Estimation mensuelle |
 |-------|---------------------|
 | GitHub Actions | Gratuit (2000 min/mois) |
-| Gemini Flash API | ~$1-5 (selon volume) |
-| Notion | Gratuit |
+| Claude API | ~$5-10 (selon volume enrichissement) |
+| Airtable | Gratuit (jusqu'à 1000 records) |
 | Telegram Bot | Gratuit |
-| **Total** | **< $10/mois** |
+| **Total** | **< $15/mois** |
 
 ---
 
@@ -317,9 +383,10 @@ Rationale :
 > En tant qu'utilisateur, je veux consulter tous les AAP dans une interface unique avec filtres (thème, deadline, périmètre).
 
 **Critères d'acceptation :**
-- [ ] Base Notion/Airtable accessible
-- [ ] Filtres par thème, date limite, source
-- [ ] Tri par date de publication ou deadline
+- [x] Base Airtable accessible (200+ AAPs)
+- [x] Filtres par catégorie, éligibilité, urgence
+- [x] Tri par date de publication ou deadline
+- [x] Computed field `urgence` pour priorisation
 
 ### US-03 : Alertes nouveaux AAP
 > En tant qu'utilisateur, je veux recevoir une alerte (Telegram/email) quand un nouvel AAP correspond à mes thèmes d'intérêt.
@@ -333,45 +400,58 @@ Rationale :
 > En tant qu'utilisateur, je ne veux pas voir le même AAP plusieurs fois s'il apparaît sur plusieurs sources.
 
 **Critères d'acceptation :**
-- [ ] Déduplication par fingerprint
-- [ ] Merge des sources si doublon
+- [x] Déduplication par fingerprint
+- [x] Merge des sources si doublon (via AAPCollection)
 
 ---
 
 ## 7. Roadmap
 
-### Phase 0 : POC (1-2 jours)
-- [ ] Scraper Carenews (1 source)
-- [ ] Extraction LLM → JSON
-- [ ] Stockage Notion
-- [ ] Alerte Telegram manuelle
+### ✅ Phase 0 : POC (Done)
+- [x] Scraper Carenews (~100 AAPs)
+- [x] Connecteur API IDF (~343 AAPs)
+- [x] Modèle de données Pydantic v2 avec taxonomies riches
+- [x] Pipeline : Connector → RawAAP → Normalizer → AAP → AAPCollection
+- [x] Déduplication par fingerprint
+- [x] Migration Poetry → uv
 
-### Phase 1 : MVP (1-2 semaines)
-- [ ] Ajouter sources P0/P1 (IDF API, Paris.fr, RSS)
+### ✅ Phase 1 : MVP (Done)
+- [x] Stockage Airtable (200+ AAPs actifs)
+- [x] Export CSV avec filtres
+- [x] Scripts setup Airtable
+- [x] Computed fields : `is_active`, `days_remaining`, `urgence`
+- [x] Filtres : by_category, by_eligibilite, by_urgence
+- [x] Auto-inférence : catégories, éligibilité, périmètre
+
+### 🔄 Phase 1.5 : Enrichissement (En cours)
+- [ ] Paris.fr scraping (PDF + LLM) — *Walid*
+- [ ] Enrichissement LLM (catégories, tags) via Claude
 - [ ] Cron GitHub Actions
-- [ ] Déduplication
-- [ ] Digest hebdo automatique
+- [ ] Alerte Telegram (nouveaux AAPs)
 
-### Phase 2 : Consolidation (1 mois)
-- [ ] Auditer sources V2
-- [ ] UI de configuration (thèmes, alertes)
+### 📋 Phase 2 : Consolidation (1 mois)
+- [ ] Ajouter sources RSS (Profession Banlieue, DRIEETS)
+- [ ] Tests unitaires & intégration
+- [ ] UI de consultation
 - [ ] Métriques (nb AAP/semaine, sources actives)
 
-### Phase 3 : Expansion (optionnel)
-- [ ] Ouvrir à d'autres assos (multi-tenant?)
-- [ ] Scraping fondations privées (si faisable)
+### 🚀 Phase 3 : Expansion (optionnel)
+- [ ] Multi-tenant (plusieurs assos)
 - [ ] Matching intelligent asso/AAP
+- [ ] Scraping fondations privées
 
 ---
 
-## 8. Décisions à prendre
+## 8. Décisions prises
 
-| Question | Options | Recommandation |
+| Question | Options envisagées | **Décision** |
 |----------|---------|----------------|
-| Storage | Notion vs Airtable vs Supabase | **Notion** (gratuit, UI prête) |
-| Alertes | Telegram vs Email vs Slack | **Telegram** (temps réel, gratuit) |
-| Orchestration | GitHub Actions vs n8n vs Make | **GitHub Actions** (gratuit, code-first) |
-| Repo | Public vs Privé | À décider |
+| Storage | Notion vs Airtable vs Supabase | ✅ **Airtable** (API + UI, gratuit jusqu'à 1000 records) |
+| Alertes | Telegram vs Email vs Slack | **Telegram** (temps réel, gratuit) — à implémenter |
+| Orchestration | GitHub Actions vs n8n vs Make | **GitHub Actions** (gratuit, code-first) — à implémenter |
+| Package manager | Poetry vs pip vs uv | ✅ **uv** (performance, simplicité) |
+| LLM | Gemini vs Claude | ✅ **Claude Sonnet** (qualité extraction) |
+| Repo | Public vs Privé | **Privé** (GitHub) |
 | Fréquence collecte | Quotidien vs Hebdo | **Quotidien** (coût négligeable) |
 
 ---
@@ -389,23 +469,21 @@ Rationale :
 
 ## 10. Prochaines étapes
 
-### Immédiat (cette semaine)
+### En cours
 
-1. **Pauline** : Demander à sa responsable le temps passé/mois sur la veille AAP
-2. **Walid** : Tester l'API IDF (déjà fait ✓)
-3. **Younes + Walid** : Valider cette spec, choisir storage
+1. **Walid** : Paris.fr scraping (PDF parsing + Claude enrichissement)
+2. **Younes** : Documentation, tests, GitHub Actions
 
-### POC (1-2 jours)
+### À faire
 
-```
-Jour 1 : Scraper Carenews → JSON normalisé → Notion/Airtable
-Jour 2 : GitHub Actions cron + Telegram alert
-```
+- [ ] Cron GitHub Actions (collecte quotidienne)
+- [ ] Alerte Telegram (nouveaux AAPs)
+- [ ] Sources RSS (Profession Banlieue, DRIEETS)
+- [ ] Tests unitaires
 
-### Post-POC
+### Post-MVP
 
-- Ajouter les autres sources P0/P1
-- Présenter le MVP à Pauline → feedback
+- Présenter le produit à des assos → feedback
 - Si traction → explorer business model
 
 ---

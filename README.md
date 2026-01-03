@@ -31,28 +31,33 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ```bash
 # Cloner le repo
-git clone https://github.com/votre-user/appels-a-projets.git
+git clone https://github.com/WalidB857/appels-a-projets.git
 cd appels-a-projets
 
 # Créer l'environnement et installer les dépendances
 uv sync
 
-# Activer l'environnement (optionnel, uv run fait ça automatiquement)
-source .venv/bin/activate
+# Copier et configurer les variables d'environnement
+cp .env.example .env
+# Éditer .env avec vos credentials Airtable
 ```
-
-> **Note :** Le projet utilisait initialement Poetry. La migration vers uv a été faite pour une meilleure performance et simplicité. Le fichier `poetry.lock` est conservé pour référence mais n'est plus utilisé.
 
 ## 🚀 Utilisation
 
-### Lancer un connecteur
+### Scripts disponibles
 
 ```bash
-# Scraper Carenews (HTML scraping)
-uv run python -m appels_a_projets.connectors.carenews
+# Tester le modèle de données (charge 443 AAPs)
+uv run python scripts/test_model.py
 
-# API Île-de-France OpenData
-uv run python -m appels_a_projets.connectors.iledefrance_opendata
+# Exporter les AAPs actifs en CSV
+uv run python scripts/export_csv.py --active-only
+
+# Afficher le schéma Airtable recommandé
+uv run python scripts/setup_airtable.py --schema
+
+# Tester la connexion Airtable
+uv run python scripts/setup_airtable.py --test
 ```
 
 ### Utiliser dans du code Python
@@ -60,32 +65,35 @@ uv run python -m appels_a_projets.connectors.iledefrance_opendata
 ```python
 from appels_a_projets.connectors import CarenewsConnector, IleDeFranceConnector
 from appels_a_projets.processing import normalize_all
-from appels_a_projets.models import AAPCollection, Category
+from appels_a_projets.models import Category, EligibiliteType
 
-# 1. Fetch les données brutes
-connector = CarenewsConnector()
-raw_aaps = connector.run()
+# 1. Fetch et normaliser les données
+carenews = CarenewsConnector()
+collection = normalize_all(carenews.run(), "Carenews", "https://www.carenews.com")
 
-# 2. Normaliser vers le schéma AAP
-aaps = normalize_all(raw_aaps, "Carenews", "https://www.carenews.com/appels_a_projets")
+# 2. Fusionner plusieurs sources
+idf = IleDeFranceConnector()
+collection.merge(normalize_all(idf.run(), "IDF", "https://data.iledefrance.fr"))
 
-# 3. Créer une collection (avec déduplication)
-collection = AAPCollection(aaps=aaps, sources=["carenews"])
+# 3. Filtrer
+actifs = collection.filter_active()
+assos = actifs.filter_by_eligibilite(EligibiliteType.ASSOCIATIONS)
+solidarite = assos.filter_by_category(Category.SOLIDARITE_INCLUSION)
+urgents = solidarite.filter_by_urgence("urgent", "proche")
 
-# 4. Filtrer
-active_aaps = collection.filter_active()
-education_aaps = collection.filter_by_category(Category.EDUCATION_JEUNESSE)
+# 4. Statistiques
+print(collection.stats())
 
 # 5. Exporter
+collection.to_csv("export.csv")
+collection.to_json("export.json")
 df = collection.to_dataframe()
 ```
 
 ### Explorer les données
 
-Le notebook `appels_a_projets/jobs/inspect_idf.ipynb` permet d'explorer les données de l'API IDF.
-
 ```bash
-# Lancer Jupyter
+# Lancer Jupyter pour les notebooks d'exploration
 uv run jupyter notebook
 ```
 
@@ -94,68 +102,104 @@ uv run jupyter notebook
 ```
 appels-a-projets/
 ├── appels_a_projets/
-│   ├── connectors/          # Connecteurs par source
-│   │   ├── base.py          # BaseConnector + RawAAP
-│   │   ├── carenews.py      # Scraper HTML Carenews
-│   │   └── iledefrance_opendata.py  # API IDF
-│   ├── models/              # Modèles de données (Pydantic)
-│   │   └── aap.py           # AAP, Category, AAPCollection
-│   ├── processing/          # Normalisation, déduplication
-│   │   └── normalizer.py    # RawAAP → AAP
-│   └── jobs/                # Notebooks d'exploration
-├── data/                    # Données extraites (JSON)
-├── docs/                    # Documentation & specs
-├── pyproject.toml           # Config projet (uv/pip)
-└── uv.lock                  # Lock file uv
+│   ├── connectors/              # Connecteurs par source
+│   │   ├── base.py              # BaseConnector + RawAAP
+│   │   ├── carenews.py          # Scraper HTML Carenews
+│   │   ├── iledefrance_opendata.py  # API IDF
+│   │   └── airtable_connector.py    # Upload Airtable
+│   ├── models/                  # Modèles de données (Pydantic)
+│   │   └── aap.py               # AAP, Category, EligibiliteType...
+│   ├── processing/              # Normalisation, déduplication
+│   │   └── normalizer.py        # RawAAP → AAP (avec inférence)
+│   └── jobs/                    # Notebooks d'exploration/enrichissement
+│       ├── inspect_idf.ipynb
+│       ├── scrape_paris.ipynb
+│       └── enrichment_*.ipynb   # Enrichissement LLM
+├── scripts/                     # Scripts utilitaires
+│   ├── test_model.py
+│   ├── export_csv.py
+│   └── setup_airtable.py
+├── data/                        # Données extraites
+├── docs/                        # Documentation & specs
+├── .env.example                 # Template variables d'environnement
+├── pyproject.toml               # Config projet (uv/pip)
+└── uv.lock                      # Lock file uv
 ```
 
 ## 🔌 Sources de données
 
-| Source | Type | Méthode | Status |
-|--------|------|---------|--------|
-| Carenews | Agrégateur | HTML scraping | ✅ Implémenté |
-| IDF OpenData | API | REST API | ✅ Implémenté |
-| Paris.fr | Institutionnel | HTML scraping | 🔜 À faire |
-| Profession Banlieue | Centre ressources | RSS | 🔜 À faire |
-| DRIEETS IDF | Gouv | RSS | 🔜 À faire |
+| Source | Type | Méthode | Status | AAPs |
+|--------|------|---------|--------|------|
+| Carenews | Agrégateur | HTML scraping | ✅ Done | ~100 |
+| IDF OpenData | API | REST API | ✅ Done | ~343 |
+| Paris.fr | Institutionnel | HTML + PDF + LLM | 🔄 En cours | - |
+| Profession Banlieue | Centre ressources | RSS | 🔜 À faire | - |
+| DRIEETS IDF | Gouv | RSS | 🔜 À faire | - |
 
 ## 📊 Modèle de données
 
-Chaque AAP est normalisé vers ce schéma :
+### Taxonomies
+
+**Categories (12):**
+`insertion-emploi` · `education-jeunesse` · `sante-handicap` · `culture-sport` · `environnement-transition` · `solidarite-inclusion` · `vie-associative` · `numerique` · `economie-ess` · `logement-urbanisme` · `mobilite-transport` · `autre`
+
+**Éligibilité (7):**
+`associations` · `collectivites` · `etablissements` · `entreprises` · `professionnels` · `particuliers` · `autre`
+
+**Périmètre (6):**
+`local` · `departemental` · `regional` · `national` · `europeen` · `international`
+
+**Urgence (5):**
+`urgent` (≤7j) · `proche` (≤30j) · `confortable` (>30j) · `permanent` · `expire`
+
+### Schéma AAP
 
 ```python
 AAP(
+    # Identité
     id="uuid",
     titre="Concours 2026 de La France s'engage",
     url_source="https://...",
-    source=Source(id="carenews", name="Carenews", url="..."),
-    organisme="Fondation La France s'engage",
+    source=Source(id="carenews", name="Carenews"),
+    
+    # Dates
     date_publication=date(2025, 12, 24),
     date_limite=date(2026, 1, 29),
+    
+    # Classification
     categories=[Category.SOLIDARITE_INCLUSION],
     tags=["ESS", "innovation sociale"],
-    perimetre_geo="National",
-    public_cible=["associations", "fondations"],
+    eligibilite=[EligibiliteType.ASSOCIATIONS],
+    
+    # Géographie
+    perimetre_niveau=Perimetre.NATIONAL,
+    perimetre_geo="France",
+    
+    # Financement
+    montant_min=10000,
     montant_max=300000,
-    resume="...",
+    
     # Computed fields
-    fingerprint="abc123...",  # Pour déduplication
+    fingerprint="abc123...",   # Déduplication
     is_active=True,
     days_remaining=26,
+    urgence="proche",
+    statut=StatutAAP.OUVERT,
 )
 ```
 
-### Catégories (taxonomie fixe)
+## 💾 Stockage Airtable
 
-- `insertion-emploi`
-- `education-jeunesse`
-- `sante-handicap`
-- `culture-sport`
-- `environnement-transition`
-- `solidarite-inclusion`
-- `vie-associative`
-- `numerique`
-- `autre`
+La base Airtable contient **200+ AAPs actifs** avec tous les champs du modèle.
+
+```bash
+# Vérifier la connexion
+uv run python scripts/setup_airtable.py --test
+
+# Exporter et importer de nouvelles données
+uv run python scripts/export_csv.py --active-only
+# Puis importer le CSV dans Airtable
+```
 
 ## 🛠️ Développement
 
@@ -186,27 +230,34 @@ uv run ruff format .
 
 ### ✅ Phase 0 : POC (Done)
 
-- [x] Scraper Carenews (HTML) → 40+ AAPs
-- [x] Connecteur API IDF OpenData → 100+ AAPs
-- [x] Modèle de données normalisé (Pydantic)
-- [x] Pipeline : Connector → RawAAP → Normalizer → AAP
+- [x] Scraper Carenews (HTML) → ~100 AAPs
+- [x] Connecteur API IDF OpenData → ~343 AAPs
+- [x] Modèle de données normalisé (Pydantic) avec taxonomies riches
+- [x] Pipeline : Connector → RawAAP → Normalizer → AAP → AAPCollection
 - [x] Déduplication par fingerprint
 - [x] Migration Poetry → uv
 
-### 🔄 Phase 1 : MVP (En cours)
+### ✅ Phase 1 : MVP (Done)
 
-- [ ] Ajouter sources P1 (Paris.fr, RSS)
-- [ ] Enrichissement LLM (catégories, tags) via Gemini Flash
-- [ ] Stockage Notion API
+- [x] Stockage Airtable (200+ AAPs actifs)
+- [x] Export CSV avec filtres
+- [x] Scripts setup Airtable
+- [x] Computed fields : `is_active`, `days_remaining`, `urgence`
+- [x] Filtres : by_category, by_eligibilite, by_urgence
+
+### 🔄 Phase 1.5 : Enrichissement (En cours)
+
+- [ ] Paris.fr scraping (PDF + LLM) — *Walid*
+- [ ] Enrichissement LLM (catégories, tags) via Claude
 - [ ] Cron GitHub Actions (collecte quotidienne)
 - [ ] Alerte Telegram (nouveaux AAPs)
 
 ### 📋 Phase 2 : Consolidation
 
+- [ ] Ajouter sources RSS (Profession Banlieue, DRIEETS)
 - [ ] Tests unitaires & intégration
 - [ ] UI de consultation (Notion ou web)
 - [ ] Métriques (nb AAP/semaine, sources actives)
-- [ ] Documentation API
 
 ### 🚀 Phase 3 : Expansion
 
@@ -216,8 +267,8 @@ uv run ruff format .
 
 ## 👥 Équipe
 
-- **Younes Ajeddig** — Développement, scraping
-- **Walid Becherif** — Architecture, API IDF
+- **Younes Ajeddig** — Développement, scraping, data model
+- **Walid Becherif** — Architecture, API IDF, enrichissement LLM
 
 ## 📄 License
 
