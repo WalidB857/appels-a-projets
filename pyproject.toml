@@ -11,6 +11,11 @@ dependencies = [
     "python-dateutil>=2.9.0",
     "pyyaml>=6.0.1",
     "pandas>=2.3.3",
+    "pydantic>=2.12.5",
+    "pyairtable>=3.3.0",
+    "python-dotenv>=1.2.1",
+    "anthropic>=0.75.0",
+    "pypdf>=6.5.0",
 ]
 packages = [{ include = "appels_a_projets" }]
 

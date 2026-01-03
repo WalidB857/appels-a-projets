@@ -12,3 +12,4 @@ data/*.csv
 # IDE
 .vscode/
 .idea/
+.env
