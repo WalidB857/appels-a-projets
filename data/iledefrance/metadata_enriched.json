@@ -1,0 +1,4186 @@
+[
+  {
+    "id": "a87c0acf791f4aeaf9b07e770165d040",
+    "titre": "Trophées franciliens de l'innovation numérique dans le supérieur",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/601",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2023-09-04",
+    "date_publication": "2023-04-11",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île-de-France distingue des projets d'innovation numérique dans l'enseignement supérieur pour améliorer les conditions de vie, d'études et de formation.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\a87c0acf791f4aeaf9b07e770165d040.txt",
+    "categories": [
+      "education-jeunesse",
+      "numerique"
+    ],
+    "tags": [
+      "innovation",
+      "numérique",
+      "enseignement supérieur",
+      "pédagogie",
+      "territoire"
+    ],
+    "public_cible": [
+      "Établissement d'enseignement supérieur"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/601",
+    "email_contact": null,
+    "eligibilite": [
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Étudiants",
+      "Professionnels"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "0f02094358b21fbd7ea4aeed20872b42",
+    "titre": "Soutien à l'hébergement, aux services et accueils de jour destinés aux femmes en difficulté",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/24",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La Région soutient des centres d'accueil et d'hébergement dédiés aux femmes vulnérables en situation de précarité et de pauvreté.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\0f02094358b21fbd7ea4aeed20872b42.txt",
+    "categories": [
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "femmes",
+      "hébergement",
+      "précarité",
+      "pauvreté",
+      "accompagnement"
+    ],
+    "public_cible": [
+      "Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Département|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/24",
+    "email_contact": "solidarites@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites",
+      "etablissements",
+      "autre"
+    ],
+    "public_cible_detail": [
+      "Femmes en difficulté",
+      "Femmes avec ou sans enfant"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "eda291bbb9a241c8aacef6672e1c6367",
+    "titre": "Aide à l'investissement en faveur de l'accès à l'IVG (centre de planification, éducation familiale)",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/30",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île-de-France promeut l’égal accès aux soins gynécologiques et obstétriques pour toutes les Franciliennes. Elle soutient l'équipement des centres de planification ou d'éducation familiale.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\eda291bbb9a241c8aacef6672e1c6367.txt",
+    "categories": [
+      "sante-handicap"
+    ],
+    "tags": [
+      "IVG",
+      "centre de planification",
+      "éducation familiale",
+      "soins gynécologiques",
+      "équipement"
+    ],
+    "public_cible": [
+      "Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Département|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/30",
+    "email_contact": "magdouda.bendjebla@iledefrance.fr",
+    "eligibilite": [
+      "collectivites",
+      "autre"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "cdf58033c169a3d70127783c8dbb0412",
+    "titre": "Contrat de développement transmission",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/422",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "Faciliter le financement de la reprise de PME par crédit bancaire en diminuant la charge de remboursement de la dette d’acquisition sur les deux premières années.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\cdf58033c169a3d70127783c8dbb0412.txt",
+    "categories": [
+      "economie-ess"
+    ],
+    "tags": [
+      "financement",
+      "reprise",
+      "PME",
+      "crédit bancaire",
+      "transmission"
+    ],
+    "public_cible": [
+      "Entreprises"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.bpifrance.fr/",
+    "email_contact": null,
+    "eligibilite": [
+      "entreprises"
+    ],
+    "type_financement": "Prêt",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "c96d7a1cda85f4961c6dd2143e8adeee",
+    "titre": "LES IDEATEURS : Programme « Parcours1-CREA : Lance-toi et crée ta jeune entreprise ! »",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/565",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2024-06-29",
+    "date_publication": "2023-08-31",
+    "organisme": "Région Île-de-France",
+    "resume": "Le programme « Parcours1-CREA » invite les lycéens à créer et gérer une petite entreprise pendant une année scolaire, afin de découvrir le fonctionnement des entreprises, renforcer leur orientation professionnelle, développer des compétences transversales et stimuler l'esprit d'entreprendre.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\c96d7a1cda85f4961c6dd2143e8adeee.txt",
+    "categories": [
+      "education-jeunesse",
+      "insertion-emploi"
+    ],
+    "tags": [
+      "jeunes",
+      "entrepreneuriat",
+      "lycéens",
+      "mentorat",
+      "orientation"
+    ],
+    "public_cible": [
+      "Particulier - Lycéen|||Établissement d'enseignement secondaire"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "direction@lesideateurs-france.org",
+    "enrichment_status": "success",
+    "eligibilite": [
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Lycéens (15-18 ans)",
+      "Élèves de lycée"
+    ],
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free"
+  },
+  {
+    "id": "ec82e62b8f44dff65cc392f9e497ddbf",
+    "titre": "CONTRACEPTION - GROSSESSES PRÉCOCES - IVG",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/390",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": "2023-03-09",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région soutient les structures investies sur la santé sexuelle afin de prévenir les grossesses précoces ou non désirées, faciliter l’accès à la contraception et à l’IVG, et promouvoir la santé sexuelle des femmes, notamment des personnes vulnérables.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\ec82e62b8f44dff65cc392f9e497ddbf.txt",
+    "categories": [
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "contraception",
+      "grossesses précoces",
+      "IVG",
+      "santé sexuelle",
+      "region Île-de-France"
+    ],
+    "public_cible": [
+      "Associations|||Collectivités - Institutions|||Entreprises"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "sante@iledefrance.fr",
+    "enrichment_status": "success",
+    "eligibilite": [
+      "associations",
+      "collectivités",
+      "entreprises"
+    ],
+    "public_cible_detail": [
+      "Femmes confrontées à des grossesses précoces ou non désirées",
+      "Personnes vulnérables"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free"
+  },
+  {
+    "id": "5234e8da92946fee2ecb7a197efcc9b9",
+    "titre": "Prix des Innovateurs Île-de-France 2024",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/700",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2024-05-20",
+    "date_publication": "2024-02-18",
+    "organisme": "Région Île-de-France",
+    "resume": "Le Prix des Innovateurs Île-de-France 2024 vise à encourager et valoriser la recherche, le transfert de technologie et les innovations en santé, en reconnaissant les équipes dont l’impact sociétal et public est remarquable, et en favorisant la création de spin‑offs et l’attractivité régionale.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\5234e8da92946fee2ecb7a197efcc9b9.txt",
+    "categories": [
+      "autre"
+    ],
+    "tags": [
+      "innovation",
+      "santé",
+      "recherche",
+      "spin-off",
+      "valorisation"
+    ],
+    "public_cible": [
+      "Professionnel - Chercheur|||Établissement de recherche et laboratoire"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "transferttechno@iledefrance.fr",
+    "enrichment_status": "success",
+    "eligibilite": [
+      "professionnels",
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Chercheurs",
+      "Équipes de recherche",
+      "Laboratoires"
+    ],
+    "type_financement": "Prix",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free"
+  },
+  {
+    "id": "bb8962bc07a5bb6fd06ba3fec3101ac5",
+    "titre": "SESAME-FEDER Plateformes de recherche",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/707",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2024-09-30",
+    "date_publication": "2024-04-04",
+    "organisme": "Région Île-de-France",
+    "resume": "Cet appel à projets vise à soutenir, développer et créer des plateformes de recherche structurantes en Île-de-France, ouvertes aux PME, afin de renforcer la coopération recherche‑industrie, favoriser le transfert de technologie et contribuer au moins à un domaine d'innovation stratégique (IA, quantique, matériaux, hydrogène, bioproduction, biotechnologies, santé), avec un financement FEDER de 14 à 16 M€.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\bb8962bc07a5bb6fd06ba3fec3101ac5.txt",
+    "categories": [
+      "numerique",
+      "economie-ess"
+    ],
+    "tags": [
+      "plateformes de recherche",
+      "R&D",
+      "PME",
+      "fonds FEDER",
+      "innovation stratégique"
+    ],
+    "public_cible": [
+      "Établissement de recherche et laboratoire|||Professionnel - Chercheur|||Établissement d'enseignement supérieur|||Association - Fondation|||Professionnel - PME < 250"
+    ],
+    "montant_min": 14000000,
+    "montant_max": 16000000,
+    "url_candidature": "https://www.europeidf.fr/jai-un-projet/appels-a-projets/plateformes-recherche",
+    "email_contact": "aap-feder@iledefrance.fr",
+    "enrichment_status": "success",
+    "eligibilite": [
+      "associations",
+      "etablissements",
+      "entreprises",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "PME (< 250 salariés)",
+      "laboratoires de recherche",
+      "établissements d'enseignement supérieur",
+      "associations - fondations"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free"
+  },
+  {
+    "id": "a51cdca01f5339409a9ef4405b6730d9",
+    "titre": "Soutien à l'agriculture dans les zones périurbaines",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/364",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2024-06-27",
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "Permettre le maintien et le développement de l'agriculture en zone périurbaine en soutenant les territoires d'expérimentation de politiques locales, les projets agricoles de proximité, les actions environnementales, la communication, le foncier et la remise en culture.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\a51cdca01f5339409a9ef4405b6730d9.txt",
+    "categories": [
+      "environnement-transition"
+    ],
+    "tags": [
+      "agriculture",
+      "zone périurbaine",
+      "développement territorial",
+      "projets de proximité",
+      "financement"
+    ],
+    "public_cible": [
+      "Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - EPCI|||Association - Régie par la loi de 1901|||Professionnel - Agriculture et alimentation"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/364",
+    "email_contact": "agricultureurbaine@iledefrance.fr",
+    "enrichment_status": "success",
+    "eligibilite": [
+      "associations",
+      "collectivités",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Collectivités locales (communes, EPCI)",
+      "Associations agricoles",
+      "Professionnels de l'agriculture et de l'alimentation"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free"
+  },
+  {
+    "id": "e6b3fa50cda75b5fd904a6ee17db141d",
+    "titre": "Fonds Île de France Réindustrialisation",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/764",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": "2024-09-18",
+    "organisme": "Région Île-de-France",
+    "resume": "Le fonds Île-de-France Réindustrialisation finance en fonds propres les start‑ups industrielles innovantes en phase d’amorçage ou d’industrialisation, afin de créer des emplois durables en Île-de-France.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\e6b3fa50cda75b5fd904a6ee17db141d.txt",
+    "categories": [
+      "economie-ess"
+    ],
+    "tags": [
+      "financement",
+      "start-up",
+      "industrie",
+      "emplois durables",
+      "Île-de-France"
+    ],
+    "public_cible": [
+      "Professionnel - TPE < 10|||Professionnel - PME < 250"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://reindustrialisation.iledefrance.fr/",
+    "email_contact": null,
+    "enrichment_status": "success",
+    "eligibilite": [
+      "entreprises",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Start-ups industrielles en phase d’amorçage ou d’industrialisation",
+      "TPE/PME basées en Île-de-France"
+    ],
+    "type_financement": "Apport en fonds propres",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free"
+  },
+  {
+    "id": "8d367ce5cf1ec09ef1d8d358ba97536a",
+    "titre": "Chaleur et froid renouvelables",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/67",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2024-11-19",
+    "date_publication": "2018-11-08",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île-de-France, avec l'ADEME, cofinance la production de chaleur et de froid renouvelables ainsi que la création et l'extension de réseaux de chaleur dont le taux d’énergie renouvelable dépasse 65 %.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\8d367ce5cf1ec09ef1d8d358ba97536a.txt",
+    "categories": [
+      "environnement-transition"
+    ],
+    "tags": [
+      "chaleur renouvelable",
+      "froid renouvelable",
+      "réseaux de chaleur",
+      "géothermie",
+      "solaire thermique"
+    ],
+    "public_cible": [
+      "Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal|||Association - Régie par la loi de 1901|||Établissement d'enseignement secondaire|||Établissement d'enseignement supérieur|||Professionnel - ETI < 5000|||Professionnel - PME < 250|||Professionnel - GE > 5000|||Professionnel - TPE < 10"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "aap-chaleur-renouvelable@iledefrance.fr",
+    "eligibilite": [
+      "collectivites",
+      "associations",
+      "etablissements",
+      "entreprises",
+      "professionnels"
+    ],
+    "public_cible_detail": [],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "44095768c04412cd5cbe4ed485c78f3f",
+    "titre": "Développement d'unités de méthanisation",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/79",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2024-11-19",
+    "date_publication": "2023-05-11",
+    "organisme": "Région Île-de-France",
+    "resume": "Développer des unités de méthanisation agricoles ou non‑agricoles (y compris la micro‑méthanisation des biodéchets alimentaires) afin de valoriser les déchets organiques et produire du biogaz, ouvert aux agriculteurs, TPE/PME, collectivités et structures associatives.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\44095768c04412cd5cbe4ed485c78f3f.txt",
+    "categories": [
+      "environnement-transition"
+    ],
+    "tags": [
+      "méthanisation",
+      "biogaz",
+      "biodéchets",
+      "agriculture",
+      "collectivités"
+    ],
+    "public_cible": [
+      "Professionnel - Agriculture et alimentation|||Professionnel - TPE < 10|||Professionnel - PME < 250|||Professionnel - ETI < 5000|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/79",
+    "email_contact": null,
+    "eligibilite": [
+      "professionnels",
+      "collectivites",
+      "entreprises"
+    ],
+    "public_cible_detail": [
+      "Exploitations agricoles",
+      "Sociétés de projet agricoles",
+      "Collectivités territoriales",
+      "Micro‑méthanisation de biodéchets alimentaires",
+      "TPE (<10 salariés)",
+      "PME (<250 salariés)"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "bf09b10a26f2512fc3c064e3d1e8875a",
+    "titre": "WORKINGFIT : Programme « Workingfit for women » Wo Tech",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/782",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-06-29",
+    "date_publication": "2024-08-31",
+    "organisme": "Région Île-de-France",
+    "resume": "Programme « Workingfit for women » Wo Tech de la Région Île‑de‑France vise à promouvoir les métiers de l’informatique, du numérique et des industries créatives auprès des lycéennes, afin de renforcer leur pouvoir d’agir et de faciliter leur insertion et progression en entreprise.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\bf09b10a26f2512fc3c064e3d1e8875a.txt",
+    "categories": [
+      "education-jeunesse",
+      "numerique"
+    ],
+    "tags": [
+      "informatique",
+      "digital",
+      "industries créatives",
+      "orientation",
+      "lycéennes"
+    ],
+    "public_cible": [
+      "Établissement d'enseignement secondaire|||Particulier - Lycéen"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "workingfitconsulting@gmail.com",
+    "eligibilite": [
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Lycéennes (élèves de lycée)"
+    ],
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "341c69508a8193a0d4ec109b56f836f0",
+    "titre": "Plan route de demain : Agences locales de mobilité et Plans de mobilité",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/611",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La Région soutient les projets visant à transformer les usages de la route pour les rendre plus modernes, performants et respectueux de l'environnement, afin de réduire la congestion routière et anticiper le développement de la route de demain.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\341c69508a8193a0d4ec109b56f836f0.txt",
+    "categories": [
+      "mobilite-transport"
+    ],
+    "tags": [
+      "mobilité",
+      "plan de mobilité",
+      "financement",
+      "développement durable",
+      "agence locale"
+    ],
+    "public_cible": [
+      "Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Département|||Association - Régie par la loi de 1901|||Établissement d'enseignement secondaire|||Établissement de recherche et laboratoire|||Établissement ou organismes de formation (OF, OPCO, FSS, CFA...)"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.mesdemarches.iledefrance.fr",
+    "email_contact": "pro.mobilite@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites",
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "lycées",
+      "campus universitaires",
+      "entreprises"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "7051e8d87e5708c512fde05c8a52f458",
+    "titre": "Budget Participatif Handicap",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/704",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-04-12",
+    "date_publication": "2025-02-04",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île-de-France lance un appel à projets participatif destiné à soutenir des initiatives pour les personnes en situation de handicap, ouvert aux associations, collectivités et établissements, couvrant sept thématiques (culture, sport, sécurité, santé, bien‑être, enseignement, formation et emploi, citoyenneté).",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\7051e8d87e5708c512fde05c8a52f458.txt",
+    "categories": [
+      "solidarite-inclusion",
+      "culture-sport",
+      "sante-handicap",
+      "insertion-emploi"
+    ],
+    "tags": [
+      "Budget Participatif",
+      "Handicap",
+      "Initiatives",
+      "Région Île-de-France",
+      "Appel à projets"
+    ],
+    "public_cible": [
+      "Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal|||Établissement d'enseignement secondaire|||Établissement d'enseignement supérieur"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "budget-participatif-handicap@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites",
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Personnes en situation de handicap",
+      "Seniors isolés"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "589727c882ab6c7aef3e9ca067424ece",
+    "titre": "Innov'up Expérimentation Silver Economie / Bien vieillir",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/578",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": "2023-05-01",
+    "organisme": "Région Île-de-France",
+    "resume": "Ce dispositif soutient les TPE, PME et ETI d’Île‑de‑France dans l’expérimentation de solutions innovantes favorisant le bien‑vieillir, notamment sur la santé, la prévention, le soutien aux aidants, l’inclusion sociale, la mobilité et l’aménagement du logement, afin de répondre aux enjeux de la silver économie.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\589727c882ab6c7aef3e9ca067424ece.txt",
+    "categories": [
+      "solidarite-inclusion",
+      "sante-handicap",
+      "economie-ess"
+    ],
+    "tags": [
+      "bien vieillir",
+      "silver économie",
+      "santé",
+      "prévention",
+      "aide aux aidants"
+    ],
+    "public_cible": [
+      "Entreprises|||Associations"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/578",
+    "email_contact": "innovup-silvereco@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "entreprises"
+    ],
+    "public_cible_detail": [
+      "personnes âgées",
+      "personnes fragilisées",
+      "aidants"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "17ac84b25ff619b3631a4c084fce5c05",
+    "titre": "Appel à projets \" Île-de-France BTP circulaire\"",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/804",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-06-15",
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "Appel à projets « Île-de-France BTP circulaire » lancé par la Région pour soutenir des constructions et aménagements intégrant l’économie circulaire, notamment la déconstruction, la rénovation, le réemploi et le recyclage des matériaux, avec deux volets : territoires engagés et filières de tri/recyclage.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\17ac84b25ff619b3631a4c084fce5c05.txt",
+    "categories": [
+      "environnement-transition",
+      "logement-urbanisme"
+    ],
+    "tags": [
+      "construction circulaire",
+      "économie circulaire",
+      "déconstruction",
+      "recyclage BTP",
+      "subvention"
+    ],
+    "public_cible": [
+      "Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - EPCI|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Professionnel - PME < 250|||Professionnel - TPE < 10|||Association - Fondation"
+    ],
+    "montant_min": 10000,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "zerodechet@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites",
+      "professionnels"
+    ],
+    "public_cible_detail": [],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "9a56d33791517b7ed971f6d2ccd81d72",
+    "titre": "Soutien à l'équipement des forces de sécurité et à la sécurisation des équipements publics",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/125",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île‑de‑France soutient, via le « Bouclier de sécurité », la modernisation du matériel et des équipements des forces de police municipale et participe à la sécurisation des espaces publics.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\9a56d33791517b7ed971f6d2ccd81d72.txt",
+    "categories": [
+      "autre"
+    ],
+    "tags": [
+      "modernisation police municipale",
+      "sécurisation espaces publics",
+      "Bouclier de sécurité",
+      "équipements",
+      "collectivités"
+    ],
+    "public_cible": [
+      "Collectivités - Institutions"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "SSP@iledefrance.fr",
+    "eligibilite": [
+      "collectivites"
+    ],
+    "public_cible_detail": [],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "2a6a3dbcf12102316fb90938d79dd733",
+    "titre": "Égalité femmes-hommes et Lutte contre les violences faites aux femmes",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/711",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-09-14",
+    "date_publication": "2025-06-15",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région soutient des actions innovantes pour favoriser l'égalité femmes‑hommes et combattre les violences faites aux femmes sur tout le territoire francilien, en financant proyectos de sensibilisation, prévention et accompagnement des victimes.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\2a6a3dbcf12102316fb90938d79dd733.txt",
+    "categories": [
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "égalité femmes‑hommes",
+      "violences faites aux femmes",
+      "soutien aux associations",
+      "programme francilien",
+      "aide régionale"
+    ],
+    "public_cible": [
+      "Association - Régie par la loi de 1901|||Association - ONG|||Association - Fondation"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/711",
+    "email_contact": "egaliteFH@iledefrance.fr",
+    "eligibilite": [
+      "associations"
+    ],
+    "public_cible_detail": [
+      "femmes en difficulté",
+      "victimes de violences faites aux femmes"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "ade6b51f20a38046412a1764e633d041",
+    "titre": "Agriculture urbaine et périurbaine",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/61",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-07-28",
+    "date_publication": "2025-06-08",
+    "organisme": "Région Île-de-France",
+    "resume": "La région Île‑de‑France soutient les projets d'agriculture urbaine et périurbaine professionnelle en accompagnant collectivités et leurs opérateurs pour créer des pôles de production, des formes agricoles mixtes et intégrer l'agriculture dans les projets urbains, au bénéfice des habitants.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\ade6b51f20a38046412a1764e633d041.txt",
+    "categories": [
+      "environnement-transition",
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "agriculture urbaine",
+      "permaculture",
+      "production alimentaire",
+      "développement territorial",
+      "collectivités"
+    ],
+    "public_cible": [
+      "Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Professionnel - Agriculture et alimentation"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "agricultureurbaine@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivités",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Collectivités territoriales (communes, EPCI, métropoles)",
+      "Opérateurs agricoles et porteurs de projets",
+      "Habitants des territoires urbains et périurbains"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "17f7f2d5614fdc590fb2d096488fc229",
+    "titre": "Accompagnement RSE & inclusion",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/814",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-10-15",
+    "date_publication": "2025-07-09",
+    "organisme": "Région Île-de-France",
+    "resume": "Accompagner les dirigeants de TPE et PME (<10 et <250 salariés) dans la structuration et le renforcement de leurs démarches RSE et inclusion, en les faisant rencontrer des acteurs, s’inspirer d’exemples, échanger entre pairs et bénéficier d’un suivi personnalisé.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\17f7f2d5614fdc590fb2d096488fc229.txt",
+    "categories": [
+      "solidarite-inclusion",
+      "economie-ess"
+    ],
+    "tags": [
+      "RSE",
+      "inclusion",
+      "TPE",
+      "PME",
+      "accompagnement"
+    ],
+    "public_cible": [
+      "Professionnel - TPE < 10|||Professionnel - PME < 250"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "clara.blanchard@iledefrance.fr",
+    "eligibilite": [
+      "entreprises",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Dirigeants de TPE et PME"
+    ],
+    "type_financement": "Accompagnement",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "31e4ad4323813edbaad9ff4335a44364",
+    "titre": "Aide à la restauration et numérisation d'œuvre d'un fonds patrimonial identifié",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/71",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île‑de‑France soutient la restauration et la numérisation d’archives photographiques, audiovisuelles ou papier, publiques ou privées, liées à l’histoire et à la mémoire de l’Île‑de‑France, en vue de valoriser ce patrimoine auprès du public.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\31e4ad4323813edbaad9ff4335a44364.txt",
+    "categories": [
+      "culture-sport",
+      "numerique"
+    ],
+    "tags": [
+      "restauration",
+      "numérisation",
+      "patrimoine",
+      "archives",
+      "culture"
+    ],
+    "public_cible": [
+      "Professionnel - Culture|||Professionnel - Patrimoine|||Association - Régie par la loi de 1901|||Association - Fondation|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Bailleurs sociaux"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.mesdemarches.iledefrance.fr",
+    "email_contact": "heloise.maille-virole@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "grand public"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "526ea6998baa50c9f75ab99521af19ff",
+    "titre": "Parentalité, ouverture socio-culturelle et scolarité pour les enfants en difficulté",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/23",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2026-02-12",
+    "date_publication": "2026-01-04",
+    "organisme": "Région Île-de-France",
+    "resume": "Dans le cadre du programme Région solidaire, la Région Île‑de‑France soutient des projets associatifs visant à accompagner les enfants ou adolescents franciliens en difficulté, à soutenir leurs familles, à favoriser l'ouverture socio‑culturelle, la scolarité et l'accompagnement des victimes de violences, via actions régionales, réseaux et formation des bénévoles.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\526ea6998baa50c9f75ab99521af19ff.txt",
+    "categories": [
+      "solidarité-inclusion",
+      "education-jeunesse"
+    ],
+    "tags": [
+      "parentalité",
+      "scolarité",
+      "ouverture socio-culturelle",
+      "enfants en difficulté",
+      "soutien aux familles"
+    ],
+    "public_cible": [
+      "Association - Régie par la loi de 1901"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "solidarites@iledefrance.fr",
+    "eligibilite": [
+      "associations"
+    ],
+    "public_cible_detail": [
+      "Enfants en difficulté",
+      "Adolescents franciliens",
+      "Familles précaires",
+      "Enfants victimes de violences"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "37c03985d131ca1836d29d066026b74b",
+    "titre": "PASS 2 ENTREPRENEUR#LEADER : JE FINANCE MON ENTREPRISE",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/793",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": "2025-04-01",
+    "organisme": "Région Île-de-France",
+    "resume": "Le Pass 2 « Je finance mon entreprise » de la Région Île‑de‑France aide les particuliers et créateurs d’entreprise francilviens à obtenir un microcrédit ou un prêt d’honneur via des opérateurs labellisés, en les accompagnant dans la structuration de leur projet et la rédaction d’un business plan.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\37c03985d131ca1836d29d066026b74b.txt",
+    "categories": [
+      "economie-ess"
+    ],
+    "tags": [
+      "Pass EntrepreneurLeader",
+      "microcrédit",
+      "prêt d'honneur",
+      "financement",
+      "création d'entreprise"
+    ],
+    "public_cible": [
+      "Particulier - Francilien|||Professionnel - Créateur d'entreprise"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "aides.economiques@iledefrance.fr",
+    "eligibilite": [
+      "particuliers",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "créateurs d'entreprise",
+      "demandeurs d'emploi",
+      "personnes en situation de handicap",
+      "résidents en Île-de-France"
+    ],
+    "type_financement": "Prêt d'honneur",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "682b67d414885f0285ab38661b64fba7",
+    "titre": "Soutien aux réseaux cinématographiques",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/128",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-12-01",
+    "date_publication": "2025-10-09",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région soutient financièrement les réseaux cinématographiques afin de favoriser la diffusion de films de qualité, l’accompagnement culturel, la sensibilisation du public et la professionnalisation des talents émergents sur le territoire francilien.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\682b67d414885f0285ab38661b64fba7.txt",
+    "categories": [
+      "culture-sport"
+    ],
+    "tags": [
+      "cinéma",
+      "diffusion de films",
+      "sensibilisation",
+      "professionnalisation",
+      "culture"
+    ],
+    "public_cible": [
+      "Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/128",
+    "email_contact": "olivier.bruand@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivités"
+    ],
+    "public_cible_detail": [],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "3885885e26c71ebfec6f849593e76d9a",
+    "titre": "Aide aux manifestations littéraires",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/115",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-12-01",
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La région soutient financièrement les manifestations littéraires (salons, festivals, rencontres) inscrites dans une dynamique territoriale, visant à favoriser la découverte de la création littéraire et à associer les acteurs du livre, en excluant les événements principalement commerciaux.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\3885885e26c71ebfec6f849593e76d9a.txt",
+    "categories": [
+      "culture-sport"
+    ],
+    "tags": [
+      "manifestations littéraires",
+      "aide régionale",
+      "salons",
+      "festival",
+      "rencontres littéraires"
+    ],
+    "public_cible": [
+      "Association - Fondation|||Association - Régie par la loi de 1901|||Association - ONG|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Office de tourisme intercommunal"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "gwenaelle.hamelin@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivités"
+    ],
+    "public_cible_detail": [],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "1436d93aedf45041ddd18543111d0c3d",
+    "titre": "PRPhD 2026- Financement d'allocations doctorales",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/116",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2026-03-23",
+    "date_publication": "2025-12-18",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région finance, via des allocations doctorales de 36 mois, des projets de recherche à dimension numérique avec un partenaire socio‑économique, sur les thématiques du climat, santé, innovation pédagogique, transitions énergétiques ou logistiques. Les montants varient entre 100 000 € et 120 000 € maximum.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\1436d93aedf45041ddd18543111d0c3d.txt",
+    "categories": [
+      "environnement-transition",
+      "numerique",
+      "mobilite-transport"
+    ],
+    "tags": [
+      "allocations doctorales",
+      "numérique",
+      "climat",
+      "santé",
+      "transition énergétique"
+    ],
+    "public_cible": [
+      "Professionnel - Chercheur|||Établissement de recherche et laboratoire"
+    ],
+    "montant_min": 100000,
+    "montant_max": 120000,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/116",
+    "email_contact": "parisregionphd@iledefrance.fr",
+    "eligibilite": [
+      "etablissements",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "doctorants",
+      "établissements de recherche",
+      "entreprises partenaires"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "3db86a3e7869fc3a6972577d80a1f377",
+    "titre": "Fonds régional pour le tourisme",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/108",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-12-19",
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "Le Fonds régional pour le tourisme accompagne collectivités et professionnels du tourisme dans la création, le développement et la digitalisation de l'offre touristique régionale, en favorisant une offre durable et innovante compatible avec la transition écologique de Paris Île-de-France.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\3db86a3e7869fc3a6972577d80a1f377.txt",
+    "categories": [
+      "environnement-transition",
+      "numerique"
+    ],
+    "tags": [
+      "tourisme durable",
+      "digitalisation",
+      "transition écologique",
+      "offre touristique",
+      "aide régionale"
+    ],
+    "public_cible": [
+      "Professionnel - PME < 250|||Professionnel - TPE < 10|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Département|||Association - Régie par la loi de 1901|||Association - Fondation"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "isabelle.zuber@iledefrance.fr",
+    "eligibilite": [
+      "entreprises",
+      "collectivites",
+      "associations",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "PME du tourisme (< 250 salariés)",
+      "TPE du tourisme (< 10 salariés)",
+      "Collectivités territoriales (communes, départements, EPCI)",
+      "Associations loi 1901"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "f29cec597b9e4c6539a9ec8b0914e463",
+    "titre": "Plan route de demain : Sécurité routière",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/606",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La région soutient un programme de sécurité routière visant à identifier les anomalies des infrastructures (zones d’accidents, transitions, obstacles, carrefours) et à renforcer la protection des usagers vulnérables, sécuriser les passages à niveau et favoriser les échanges de bonnes pratiques entre maîtres d’ouvrage.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\f29cec597b9e4c6539a9ec8b0914e463.txt",
+    "categories": [
+      "mobilite-transport",
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "sécurité routière",
+      "infrastructure",
+      "usagers vulnérables",
+      "passages à niveaux",
+      "échanges bonnes pratiques"
+    ],
+    "public_cible": [
+      "Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Département"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.mesdemarches.iledefrance.fr",
+    "email_contact": "directiondestransports@iledefrance.fr",
+    "eligibilite": [
+      "collectivites"
+    ],
+    "public_cible_detail": [],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "b2c3da28f85a4c7e4e352c21406ad1f0",
+    "titre": "Favoriser le partenariat entre le monde de l'éducation et le monde économique",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/341",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2023-03-31",
+    "date_publication": "2023-02-15",
+    "organisme": "Région Île-de-France",
+    "resume": "Favoriser le partenariat entre l’éducation et l’économie en permettant aux jeunes de découvrir l’entreprise, son organisation et d’être sensibilisés à l’entrepreneuriat.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\b2c3da28f85a4c7e4e352c21406ad1f0.txt",
+    "categories": [
+      "education-jeunesse",
+      "economie-ess",
+      "insertion-emploi"
+    ],
+    "tags": [
+      "partenariat éducation-économie",
+      "découverte entreprise",
+      "jeunes",
+      "entrepreneuriat",
+      "Région Île-de-France"
+    ],
+    "public_cible": [
+      "Établissement d'enseignement secondaire"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/341",
+    "email_contact": "sylvie.artois@iledefrance.fr",
+    "eligibilite": [
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Lycéens",
+      "Équipes éducatives"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "81e66a87919a645b2c42c4f09961c2a9",
+    "titre": "Soutien aux actions d'innovation en matière de logistique",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/100",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La Région soutient l'émergence de solutions innovantes pour une « smart logistique » en Île‑de-France, afin de réorganiser les chaînes logistiques, de développer des infrastructures connectées, de favoriser les véhicules propres et autonomes, et d'améliorer la connaissance des flux grâce à la data et à la simulation.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\81e66a87919a645b2c42c4f09961c2a9.txt",
+    "categories": [
+      "mobilite-transport",
+      "environnement-transition"
+    ],
+    "tags": [
+      "logistique intelligente",
+      "innovation",
+      "smart city",
+      "flux de marchandises",
+      "transports propres"
+    ],
+    "public_cible": [
+      "Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Département|||Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Professionnel - PME < 250|||Professionnel - TPE < 10"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/100",
+    "email_contact": "directiondestransports@iledefrance.fr",
+    "eligibilite": [
+      "collectivites",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Collectivités locales (communes, EPT, métropole, département)",
+      "Professionnels (ETI, GE, PME, TPE)"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "97cb4b3e5239cef96f4bf06c9910254d",
+    "titre": "LES ENTRETIENS DE L'EXCELLENCE : La Tournée des Entretiens de l'Excellence",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/477",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2024-06-29",
+    "date_publication": "2022-08-31",
+    "organisme": "Région Île-de-France",
+    "resume": "Programme régional qui encourage l’ambition des jeunes éloignés des réseaux en les confrontant à des parcours exemplaires et à l’excellence républicaine, via des ateliers thématiques entre professionnels bénévoles et lycéens/collégiens.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\97cb4b3e5239cef96f4bf06c9910254d.txt",
+    "categories": [
+      "education-jeunesse",
+      "solidarité-inclusion"
+    ],
+    "tags": [
+      "excellence",
+      "jeunes",
+      "parcours",
+      "entretiens",
+      "éducation"
+    ],
+    "public_cible": [
+      "Établissement d'enseignement secondaire|||Établissement d'enseignement supérieur|||Particulier - Lycéen"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/477",
+    "email_contact": "jr.delissagaray@lesentretiens.org",
+    "eligibilite": [
+      "etablissements",
+      "particuliers"
+    ],
+    "public_cible_detail": [
+      "Lycéens",
+      "Collégiens"
+    ],
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "857ba0a4220494c0f9aca569621d70cf",
+    "titre": "100 000 ENTREPRENEURS : Programme « Témoignages inspirants »",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/471",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "Programme « Témoignages inspirants » qui sensibilise les lycéens franiliens à l’esprit d’entreprendre en faisant intervenir des professionnels pour partager leur parcours, afin d’élargir les perspectives de carrière.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\857ba0a4220494c0f9aca569621d70cf.txt",
+    "categories": [
+      "education-jeunesse",
+      "economie-ess"
+    ],
+    "tags": [
+      "témoignages",
+      "entrepreneuriat",
+      "lycéens",
+      "inspiration",
+      "programme"
+    ],
+    "public_cible": [
+      "Particulier - Lycéen|||Établissement d'enseignement secondaire"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "josephine.boulinguez@100000entrepreneurs.com",
+    "eligibilite": [
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Lycéens franciliens",
+      "Enseignants"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "babb333a99c7b6c17dd57d4048b03ebc",
+    "titre": "Maison Région Solidaire",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/682",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2024-02-20",
+    "date_publication": "2024-01-18",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région soutient la création de Maisons Région solidaire afin de resocialiser et réintégrer les personnes en grande précarité vivant dans le métro, via hébergement, accompagnement et partenariat, dans le cadre du plan quinquennal logement d'abord 2023‑2027.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\babb333a99c7b6c17dd57d4048b03ebc.txt",
+    "categories": [
+      "logement-urbanisme",
+      "solidarite-inclusion",
+      "insertion-emploi"
+    ],
+    "tags": [
+      "Maisons Région solidaire",
+      "personnes précaires",
+      "hébergement",
+      "partenariats",
+      "plan logement d'abord"
+    ],
+    "public_cible": [
+      "Association - Fondation|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/682",
+    "email_contact": "solidarites@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites",
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Personnes en grande précarité vivant dans le métro"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "5f1b1b3590580b33f97dbe5133a8f942",
+    "titre": "Aide à la restauration et à l'aménagement des maisons ou des ateliers d'artistes remarquables",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/204",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La Région soutient la restauration et l’aménagement des maisons et ateliers d’artistes remarquables afin de préserver leur patrimoine et d’ouvrir ces lieux au public.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\5f1b1b3590580b33f97dbe5133a8f942.txt",
+    "categories": [
+      "culture-sport"
+    ],
+    "tags": [
+      "maison d'artiste",
+      "restauration",
+      "patrimoine",
+      "atelier d'artiste",
+      "aide régionale"
+    ],
+    "public_cible": [
+      "Particulier - Francilien|||Professionnel - Culture|||Professionnel - Patrimoine|||Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.mesdemarches.iledefrance.fr",
+    "email_contact": "heloise.maille-virole@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivités",
+      "professionnels",
+      "particuliers"
+    ],
+    "public_cible_detail": [
+      "Amateurs d’art",
+      "Public local",
+      "Étudiants en art"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "32b375f489a0af99566d7d4cf9a145dc",
+    "titre": "Challenge IA pour la Santé",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/766",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2024-12-05",
+    "date_publication": "2024-09-30",
+    "organisme": "Région Île-de-France",
+    "resume": "Challenge IA pour la santé, doté de 500 000 €, vise à développer un algorithme d’intelligence artificielle permettant la relecture automatisée de l’imagerie de susceptibilité pour détecter la veine centrale et le signe du halo chez les patients atteints de sclérose en plaques, afin d’améliorer leur diagnostic et suivi.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\32b375f489a0af99566d7d4cf9a145dc.txt",
+    "categories": [
+      "sante-handicap",
+      "numerique"
+    ],
+    "tags": [
+      "IA",
+      "sclérose en plaques",
+      "veine centrale",
+      "hôpital Fondation Rothschild",
+      "Challenge IA Santé"
+    ],
+    "public_cible": [
+      "Professionnel - PME < 250|||Professionnel - ETI < 5000|||Établissement de recherche et laboratoire"
+    ],
+    "montant_min": 500000,
+    "montant_max": 500000,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/766",
+    "email_contact": "ai-healthchallenge@iledefrance.fr",
+    "eligibilite": [
+      "entreprises",
+      "professionnels",
+      "établissements"
+    ],
+    "public_cible_detail": [
+      "Patients atteints de sclérose en plaques"
+    ],
+    "type_financement": "Prix",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "b5364585b65b0b9c2da264c380a8c3d2",
+    "titre": "Aide à la librairie indépendante",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/151",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La Région soutient les librairies indépendantes en création, reprise, déménagement ou rénovation afin deconstituer ou renforcer leur fonds, via une aide couvrant travaux, mobilier, enseigne, etc., destinée aux TPE/PME, associations et professionnels du livre.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\b5364585b65b0b9c2da264c380a8c3d2.txt",
+    "categories": [
+      "economie-ess",
+      "culture-sport"
+    ],
+    "tags": [
+      "librairie indépendante",
+      "subvention",
+      "fonds",
+      "création",
+      "reprise"
+    ],
+    "public_cible": [
+      "Professionnel - Créateur d'entreprise|||Professionnel - Culture|||Professionnel - TPE < 10|||Professionnel - PME < 250|||Professionnel - GE > 5000|||Association - Fondation|||Association - ONG"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "laurence.vintejoux@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "entreprises",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Librairies indépendantes en phase de création ou reprise",
+      "Professionnels du livre et de la culture",
+      "Petites structures (TPE/PME)"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "dc0cba494ab6529a7eead71b17ac4dad",
+    "titre": "Projets citoyens d'énergies renouvelables",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/96",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2024-11-19",
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île‑de‑France soutient les projets citoyens d’énergies renouvelables en financant des études de faisabilité technique, juridique et économique, afin de favoriser la transition énergétique participative.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\dc0cba494ab6529a7eead71b17ac4dad.txt",
+    "categories": [
+      "environnement-transition"
+    ],
+    "tags": [
+      "énergies renouvelables",
+      "citoyen",
+      "participatif",
+      "transition énergétique",
+      "subvention"
+    ],
+    "public_cible": [
+      "Association - Régie par la loi de 1901|||Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Professionnel - PME < 250|||Professionnel - TPE < 10|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": null,
+    "eligibilite": [
+      "associations",
+      "collectivités",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Porteurs de projets d'énergies renouvelables"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "4daeb1ca98acbb4548f46c3ba571979d",
+    "titre": "ASMAE : Yalla ! Pas de droits pour les clichés",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/784",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-06-29",
+    "date_publication": "2024-09-01",
+    "organisme": "Région Île-de-France",
+    "resume": "Ateliers scolaires de 1h à 1h30 visant à déconstruire les stéréotypes de genre dans les sciences et techniques pour encourager les filles à s'engager dans ces filières.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\4daeb1ca98acbb4548f46c3ba571979d.txt",
+    "categories": [
+      "education-jeunesse",
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "stéréotypes",
+      "genre",
+      "scientifiques",
+      "techniques",
+      "inégalités"
+    ],
+    "public_cible": [
+      "Établissement d'enseignement secondaire|||Particulier - Lycéen"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "infos@asmae.fr",
+    "public_cible_detail": [
+      "Établissements d'enseignement secondaire",
+      "Lycéens"
+    ],
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "d43b9ee8ad826fbae1b65534f438348c",
+    "titre": "Soutien à l'investissement des organismes de formation dispensant des formations par apprentissage",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/424",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-02-14",
+    "date_publication": "2025-01-20",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île‑de‑France soutient les projets d'investissement (travaux et équipements) des organismes de formation qui dispensent des formations par apprenticeship sur son territoire, sous conditions de certification, présence d’un bail ou propriété, et besoin de financement non couvert par les fonds propres.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\d43b9ee8ad826fbae1b65534f438348c.txt",
+    "categories": [
+      "insertion-emploi",
+      "education-jeunesse"
+    ],
+    "tags": [
+      "apprentissage",
+      "investissement",
+      "formation",
+      "subvention",
+      "Île-de-France"
+    ],
+    "public_cible": [
+      "Établissement ou organismes de formation (OF, OPCO, FSS, CFA...)"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "investissement-apprentissage@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Jeunes en apprentissage",
+      "Organismes de formation"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "3e284b0ba5196238adac93a526a42bfd",
+    "titre": "Prix des Innovateurs Île-de-France 2025 : l'appel à candidatures est ouvert",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/796",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-05-20",
+    "date_publication": "2025-02-25",
+    "organisme": "Région Île-de-France",
+    "resume": "Le Prix des Innovateurs Île-de-France 2025 vise à repérer et valoriser les chercheurs et leurs équipes dont les innovations en santé ont un fort impact sociétal, en les encourageant, en les soutenant, en favorisant la création de spin-offs et en renforçant l’attractivité régionale.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\3e284b0ba5196238adac93a526a42bfd.txt",
+    "categories": [
+      "autre"
+    ],
+    "tags": [
+      "innovation santé",
+      "prix des innovateurs",
+      "recherche santé",
+      "spin-off",
+      "attractivité régionale"
+    ],
+    "public_cible": [
+      "Professionnel - Chercheur|||Établissement de recherche et laboratoire"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "transferttechno@iledefrance.fr",
+    "eligibilite": [
+      "etablissements",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "chercheurs",
+      "équipes de recherche",
+      "jeunes chercheurs"
+    ],
+    "type_financement": "Prix",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "75f204ffa1194384d08e7732a3828123",
+    "titre": "SESAME - Équipements et plateformes scientifiques et technologiques",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/104",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-06-03",
+    "date_publication": "2025-03-03",
+    "organisme": "Région Île-de-France",
+    "resume": "Le dispositif SESAME vise à faire de l'Île‑de‑France un leader mondial de la science et de la technologie en dotant les laboratoires d’équipements de pointe et de plateformes mutualisées, afin de soutenir des projets de recherche nécessitant un investissement matériel important.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\75f204ffa1194384d08e7732a3828123.txt",
+    "categories": [
+      "autre"
+    ],
+    "tags": [
+      "SESAME",
+      "équipements scientifiques",
+      "plateformes de recherche",
+      "Île‑de‑France",
+      "subvention"
+    ],
+    "public_cible": [
+      "Professionnel - Chercheur|||Établissement de recherche et laboratoire|||Établissement d'enseignement supérieur"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "equipementlabo@iledefrance.fr",
+    "eligibilite": [
+      "professionnels",
+      "etablissements",
+      "associations"
+    ],
+    "public_cible_detail": [
+      "chercheurs",
+      "laboratoires de recherche",
+      "entreprises franciliennes"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "79ca8670a024a5eb319371a706c46495",
+    "titre": "Chèque investissement Cyber",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/640",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-02-21",
+    "date_publication": "2023-10-14",
+    "organisme": "Région Île-de-France",
+    "resume": "Le Chèque investissement Cyber proposait une aide jusqu’à 10 000 € aux TPE et PME (et associations 1901) pour renforcer leur cybersécurité, soumise à un diagnostic labellisé, mais l’aide n’est plus proposée.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\79ca8670a024a5eb319371a706c46495.txt",
+    "categories": [
+      "numerique"
+    ],
+    "tags": [
+      "cybersécurité",
+      "TPE",
+      "PME",
+      "aide financière",
+      "subvention"
+    ],
+    "public_cible": [
+      "Professionnel - TPE < 10|||Professionnel - PME < 250|||Association - Régie par la loi de 1901"
+    ],
+    "montant_min": null,
+    "montant_max": 10000,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/640",
+    "email_contact": "aides.economiques@iledefrance.fr",
+    "eligibilite": [
+      "entreprises",
+      "associations",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "TPE < 10 salariés",
+      "PME de 10 à moins de 250 salariés",
+      "Associations loi 1901"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "65709daaf92aaac00443ff51728b72b2",
+    "titre": "Dispositif de soutien à l'animation des résidences étudiantes par l'engagement de leurs résidents",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/451",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-06-09",
+    "date_publication": "2025-04-27",
+    "organisme": "Région Île-de-France",
+    "resume": "Le dispositif de la Région Île-de-France soutient les projets d'animation collective et de prise d'initiative des résidents dans les résidences étudiantes, afin d'améliorer les conditions de vie, de favoriser le vivre-ensemble et de développer les compétences informelles des étudiants.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\65709daaf92aaac00443ff51728b72b2.txt",
+    "categories": [
+      "solidarite-inclusion",
+      "vie-associative"
+    ],
+    "tags": [
+      "résidences étudiantes",
+      "animation collective",
+      "engagement bénévole",
+      "vie associative",
+      "compétences informelles"
+    ],
+    "public_cible": [
+      "Associations"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/451",
+    "email_contact": "gilles.bonnet@iledefrance.fr",
+    "eligibilite": [
+      "associations"
+    ],
+    "public_cible_detail": [
+      "résidents étudiants",
+      "étudiants"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "fd36e759ee225923f5ff670644843e17",
+    "titre": "Soutien aux femmes en difficulté",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/22",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-09-14",
+    "date_publication": "2025-06-15",
+    "organisme": "Région Île-de-France",
+    "resume": "Soutien aux projets associatifs d’accompagnement des femmes en situation de précarité ou de pauvreté, afin de favoriser leur insertion sociale, l’accès à l’emploi, aux droits et à la santé, en favorisant leur autonomisation et le rayonnement régional.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\fd36e759ee225923f5ff670644843e17.txt",
+    "categories": [
+      "solidarite-inclusion",
+      "insertion-emploi"
+    ],
+    "tags": [
+      "femmes",
+      "précarité",
+      "insertion",
+      "solidarité",
+      "aide régionale"
+    ],
+    "public_cible": [
+      "Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/22",
+    "email_contact": "egalitefh@iledefrance.fr",
+    "eligibilite": [
+      "associations"
+    ],
+    "public_cible_detail": [
+      "Femmes en précarité ou pauvreté",
+      "Femmes victimes de violences"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "fb8e94fc1b3bfbd7da64aa6abb2a0778",
+    "titre": "CONVENTIONS DE DEVELOPPEMENT CULTUREL - ARTS VISUELS",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/338",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-06-29",
+    "date_publication": "2025-06-08",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région accompagne via des conventions quadriennales de développement culturel dans les arts plastiques, numériques et urbains, en favorisant l'hybridation, la diffusion, l'émergence artistique et les partenariats avec acteurs culturels, éducatifs ou sociaux.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\fb8e94fc1b3bfbd7da64aa6abb2a0778.txt",
+    "categories": [
+      "culture-sport"
+    ],
+    "tags": [
+      "conventions culturelles",
+      "arts visuels",
+      "plastique",
+      "numérique",
+      "urbain"
+    ],
+    "public_cible": [
+      "Professionnel - Créateur d'entreprise|||Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Professionnel - PME < 250|||Professionnel - TPE < 10|||Professionnel - Artisan ou commercant|||Professionnel - Culture|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Office de tourisme intercommunal|||Collectivité ou institution - Département|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/338",
+    "email_contact": "edouard.brena@iledefrance.fr",
+    "eligibilite": [
+      "entreprises",
+      "professionnels",
+      "collectivites"
+    ],
+    "public_cible_detail": [
+      "structures culturelles",
+      "acteurs culturels"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "f7620f7cc0583b56e93d13d3cb6461ab",
+    "titre": "Appel à candidatures : participation au salon Smart City Expo World Congress Barcelona 2025",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/810",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-07-01",
+    "date_publication": "2025-06-10",
+    "organisme": "Région Île-de-France",
+    "resume": "Appel à candidatures pour constituer une délégation de start-up régionale afin de participer au Smart City Expo World Congress Barcelona 2025 (4-6 novembre), en présentant prototypes ou démonstrateurs dans les filières énergie, transports, bâtiments durables, aménagement urbain, inclusion sociale et sécurité, avec priorité aux projets portés par des femmes.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\f7620f7cc0583b56e93d13d3cb6461ab.txt",
+    "categories": [
+      "environnement-transition",
+      "logement-urbanisme",
+      "mobilite-transport",
+      "numerique",
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "Smart City",
+      "innovation",
+      "start-up",
+      "transition énergétique",
+      "transition numérique"
+    ],
+    "public_cible": [
+      "Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Professionnel - PME < 250|||Professionnel - TPE < 10"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "missions.export@iledefrance.fr",
+    "eligibilite": [
+      "entreprises",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Start-up avec prototype",
+      "PME/TPE < 250 salariés",
+      "Projets portés par des femmes"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "21dfb2e443e6097455f0af618d4fb7c7",
+    "titre": "Aide au montage de projets européens",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/634",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-11-29",
+    "date_publication": "2023-09-03",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île-de-France accompagne la recherche de financements européens pour des projets innovants, en trois étapes : informer, conseiller, appuyer le montage.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\21dfb2e443e6097455f0af618d4fb7c7.txt",
+    "categories": [
+      "autre"
+    ],
+    "tags": [
+      "aide montage projets européens",
+      "financements européens",
+      "innovation",
+      "accompagnement",
+      "projets européens"
+    ],
+    "public_cible": [
+      "Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Professionnel - PME < 250|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal|||Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Établissement ou organismes de formation (OF, OPCO, FSS, CFA...)|||Établissement d'enseignement secondaire|||Établissement d'enseignement supérieur|||Établissement de recherche et laboratoire"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "europe@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites",
+      "etablissements",
+      "entreprises",
+      "professionnels"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "9ef76fef73fe0769544bcf931ddfe812",
+    "titre": "Soutien régional aux évènements sportifs et Esportifs se déroulant en Île-de-France",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/708",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île‑de‑France soutient les événements sportifs et e‑sportifs organisés sur son territoire, ouverts au public, avec une attention particulière aux projets de prestige, de maillage territorial, d’accessibilité, d’éco‑responsabilité, d’égalité femme‑homme et d’inclusion de tous les publics (handicap, sport féminin, sport santé).",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\9ef76fef73fe0769544bcf931ddfe812.txt",
+    "categories": [
+      "culture-sport",
+      "sante-handicap",
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "sport",
+      "esport",
+      "subvention régionale",
+      "accessibilité",
+      "inclusion"
+    ],
+    "public_cible": [
+      "Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Professionnel - TPE < 10|||Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Association - Fondation|||Professionnel - PME < 250"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "laurent.toutain@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites",
+      "entreprises",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "personnes en situation de handicap",
+      "sport féminin",
+      "sport santé"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "819619cc56d05a519cfb9e465fc4ff05",
+    "titre": "Programme de sensibilisation sur l'Histoire de la Shoah et sur les valeurs de la République",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/246",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2026-06-30",
+    "date_publication": "2025-09-01",
+    "organisme": "Région Île-de-France",
+    "resume": "Sensibiliser les lycéens à l'Histoire de la Shoah et aux valeurs républicaines via neuf actions (formation des professeurs, visites au Mémorial, parcours mémoriels, expositions, voyages à Auschwitz, ateliers de citoyenneté) afin de promouvoir la tolérance et la citoyenneté active.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\819619cc56d05a519cfb9e465fc4ff05.txt",
+    "categories": [
+      "education-jeunesse",
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "Shoah",
+      "mémoire",
+      "citoyenneté",
+      "lycéens",
+      "expositions"
+    ],
+    "public_cible": [
+      "Établissement d'enseignement secondaire"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "contact@memorialdelashoah.org",
+    "eligibilite": [
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Lycéens",
+      "Professeurs",
+      "Établissements scolaires"
+    ],
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "9ad14df99b06e4810acf2adfc040fb2d",
+    "titre": "Soutien régional à la culture ultramarine - Concours « Les Chanté Nwel de la Région Île-de-France »",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/267",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-11-13",
+    "date_publication": "2025-09-11",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région soutient les associations ultramarines franciliennes organisant un événement « Chanté Nwel » (chants de Noël) en Île-de-France, offrant une subvention pour des manifestations à entrée libre ou tarif modéré, avec cinq chants traditionnels imposés, et récompense les projets les plus exceptionnels.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\9ad14df99b06e4810acf2adfc040fb2d.txt",
+    "categories": [
+      "culture-sport"
+    ],
+    "tags": [
+      "Chanté Nwel",
+      "concours",
+      "culture ultramarine",
+      "subvention régionale",
+      "associations franciliennes"
+    ],
+    "public_cible": [
+      "Association - Régie par la loi de 1901"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/267",
+    "email_contact": "chantenwel@iledefrance.fr",
+    "eligibilite": [
+      "associations"
+    ],
+    "public_cible_detail": [
+      ""
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "800948e36ead0e976f25803c33126451",
+    "titre": "Tickets-Loisirs",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/123",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-12-17",
+    "date_publication": "2025-09-04",
+    "organisme": "Région Île-de-France",
+    "resume": "Développer l’accès aux loisirs et aux vacances pour les Franciliens en situation d’exclusion via les Tickets‑Loisirs, qui financent des sorties, des séjours et des cycles d’activités sportives ou sociales pour les familles fragilisées, les femmes victimes de violences et les structures sportives.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\800948e36ead0e976f25803c33126451.txt",
+    "categories": [
+      "solidarite-inclusion",
+      "culture-sport"
+    ],
+    "tags": [
+      "Tickets-Loisirs",
+      "loisirs",
+      "vacances",
+      "sport",
+      "inclusion"
+    ],
+    "public_cible": [
+      "Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/123",
+    "email_contact": "loisirs@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites"
+    ],
+    "public_cible_detail": [
+      "Familles fragilisées",
+      "Femmes victimes de violences",
+      "Adhérents sportifs",
+      "Licenciés sportifs"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "6e9cad2223d87a81085d2a3c84ac33ae",
+    "titre": "Soutien au maintien et à la sécurisation des professionnels de santé libéraux",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/27",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La Région soutient les professionnels libéraux de santé (omnipraticiens, spécialistes d’accès direct) en leur permettant d’acquérir du matériel (mobiliers, informatique) et de sécuriser leurs cabinets, via le plan Région solidaire.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\6e9cad2223d87a81085d2a3c84ac33ae.txt",
+    "categories": [
+      "sante-handicap"
+    ],
+    "tags": [
+      "professionnels de santé",
+      "cabinets médicaux",
+      "acquisition équipements",
+      "sécurisation",
+      "plan Région solidaire"
+    ],
+    "public_cible": [
+      "Professionnel - TPE < 10"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "sante@iledefrance.fr",
+    "eligibilite": [
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Professionnels de santé libéraux (omnipraticiens, spécialistes d'accès direct)"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "5967a508659648c3c2485a0a684da79c",
+    "titre": "Liberté, Égalité, Fraternité",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/818",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2026-12-30",
+    "date_publication": "2025-10-12",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région propose une subvention forfaitaire pour aider les lycées publics d'Île-de-France à apposer la devise républicaine « Liberté, Égalité, Fraternité » sur leurs façades, afin de se conformer à la loi.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\5967a508659648c3c2485a0a684da79c.txt",
+    "categories": [
+      "education-jeunesse"
+    ],
+    "tags": [
+      "devise républicaine",
+      "lycées",
+      "subvention",
+      "conformité légale",
+      "affichage façade"
+    ],
+    "public_cible": [
+      "Établissement d'enseignement secondaire"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "polelycees@iledefrance.fr",
+    "eligibilite": [
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Lycées publics d'Île-de-France"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "cd4ef19eaf78bf3f813c2e1be7490c94",
+    "titre": "Îlots de fraîcheur",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/420",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "Création d'îlots de fraîcheur dans les espaces publics, écoles et établissements recevus du public via désimperméabilisation, végétalisation, gestion des eaux pluviales et toitures végétalisées, afin d’adapter les territoires au changement climatique par des solutions fondées sur la nature.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\cd4ef19eaf78bf3f813c2e1be7490c94.txt",
+    "categories": [
+      "environnement-transition",
+      "logement-urbanisme"
+    ],
+    "tags": [
+      "îlots de fraîcheur",
+      "adaptation climatique",
+      "solutions fondées sur la nature",
+      "végétalisation",
+      "toitures végétalisées"
+    ],
+    "public_cible": [
+      "Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal|||Association - Régie par la loi de 1901|||Établissement d'enseignement secondaire|||Établissement d'enseignement supérieur|||Établissement ou organismes de formation (OF, OPCO, FSS, CFA...)"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "biodiversite@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites",
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "habitants des quartiers urbains",
+      "élèves",
+      "usagers des espaces publics"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "249e501a607e6f799b5bdffc7eaf4707",
+    "titre": "PASS 1 ENTREPRENEUR#LEADER : JE CREE MON ENTREPRISE",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/792",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": "2025-04-01",
+    "organisme": "Région Île-de-France",
+    "resume": "Le Pass 1 « Je crée mon entreprise » de la Région Île‑de‑France finance un accompagnement individuel pour aider les particuliers et professionnels à élaborer leur plan d’action, formaliser le business plan, choisir le statut juridique, fiscal et social, et identifier les financements nécessaires.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\249e501a607e6f799b5bdffc7eaf4707.txt",
+    "categories": [
+      "economie-ess"
+    ],
+    "tags": [
+      "Pass 1",
+      "création d'entreprise",
+      "Île-de-France",
+      "accompagnement",
+      "financement"
+    ],
+    "public_cible": [
+      "Particulier - Francilien|||Professionnel - Créateur d'entreprise"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "aides.economiques@iledefrance.fr",
+    "eligibilite": [
+      "particuliers",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Particulier résident en Île-de-France",
+      "Créateur d'entreprise",
+      "Demandeur d'emploi",
+      "Personne en situation de handicap"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "e4bbd1e4af9f6b23ad9e5d819fcee4c8",
+    "titre": "PASS 3 ENTREPRENEUR#LEADER : JE DIRIGE MON ENTREPRISE",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/795",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": "2025-04-01",
+    "organisme": "Région Île-de-France",
+    "resume": "Pass 3 « Je dirige mon entreprise » de la Région Île‑de‑France finance des accompagnements individuels pour aider les créateurs ou repreneurs à développer, piloter, commercialiser, recruter et sécuriser leur activité.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\e4bbd1e4af9f6b23ad9e5d819fcee4c8.txt",
+    "categories": [
+      "economie-ess"
+    ],
+    "tags": [
+      "Pass Entrepreneur",
+      "création d'entreprise",
+      "reprise d'entreprise",
+      "accompagnement",
+      "financement"
+    ],
+    "public_cible": [
+      "Professionnel - Créateur d'entreprise"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "aides.economiques@iledefrance.fr",
+    "eligibilite": [
+      "professionnels",
+      "particuliers"
+    ],
+    "public_cible_detail": [
+      "Professionnel - créateur d'entreprise"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "6da0a368d1cea6c2d4a01812563cbc22",
+    "titre": "Lycées Eco-Responsables",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/38",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2026-06-07",
+    "date_publication": "2026-04-02",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île‑de‑France lance l’appel à projets « Lycées Eco‑Responsables » pour encourager les établissements d’enseignement secondaire à mettre en place des actions réduisant leur empreinte environnementale (biodiversité, déchets, énergie‑climat, eau, alimentation‑santé, solidarité) entre le 2 avril et le 7 juin 2026.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\6da0a368d1cea6c2d4a01812563cbc22.txt",
+    "categories": [
+      "environnement-transition",
+      "education-jeunesse",
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "Lycées Eco-Responsables",
+      "transition écologique",
+      "gestion des déchets",
+      "énergie-climat",
+      "biodiversité"
+    ],
+    "public_cible": [
+      "Particulier - Lycéen|||Établissement d'enseignement secondaire"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "lycees.eco-responsables@iledefrance.fr",
+    "eligibilite": [
+      "particuliers",
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Élèves de lycée",
+      "Enseignants",
+      "Agents de l'établissement",
+      "Direction des lycées"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "27c5422097fc6085f06c1ac1dbf990b9",
+    "titre": "Fonds d'urgence pour les communes et leurs groupements touchés par la tornade du 20 octobre 2025",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/820",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2026-01-30",
+    "date_publication": "2025-11-20",
+    "organisme": "Région Île-de-France",
+    "resume": "Le fonds d'urgence de la Région Île‑de‑France finance, sous forme d'avance remboursable, les dépenses immédiates de démolition, remise en état et reconstruction des équipements publics et biens immobiliers des communes et groupements touchés par la tornade du 20 octobre 2025.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\27c5422097fc6085f06c1ac1dbf990b9.txt",
+    "categories": [
+      "logement-urbanisme"
+    ],
+    "tags": [
+      "tornade",
+      "aide urgente",
+      "collectivités",
+      "reconstruction",
+      "fonds d'urgence"
+    ],
+    "public_cible": [
+      "Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr/",
+    "email_contact": "amenagement@iledefrance.fr",
+    "eligibilite": [
+      "collectivites"
+    ],
+    "public_cible_detail": [
+      "Communes de < 2000 habitants",
+      "Communes de 2000 à 10000 habitants",
+      "Communes de 10000 à 20000 habitants",
+      "Communes de > 20000 habitants",
+      "Groupements de collectivités"
+    ],
+    "type_financement": "Avance remboursable",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "484b65af89008638fe4e242580962ee1",
+    "titre": "Challenge IA pour l'Industrie",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/821",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2026-02-10",
+    "date_publication": "2025-12-08",
+    "organisme": "Région Île-de-France",
+    "resume": "Challenge IA pour l'Industrie vise à développer et valider des solutions d'IA pour la conception industrielle, afin d'améliorer l'efficacité de l'ingénierie, avec une subvention pouvant atteindre 500 000 €.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\484b65af89008638fe4e242580962ee1.txt",
+    "categories": [
+      "numerique",
+      "economie-ess"
+    ],
+    "tags": [
+      "IA",
+      "conception industrielle",
+      "subvention",
+      "industrie",
+      "EIT Manufacturing"
+    ],
+    "public_cible": [
+      "Établissement de recherche et laboratoire|||Professionnel - TPE < 10|||Professionnel - ETI < 5000|||Professionnel - PME < 250"
+    ],
+    "montant_min": null,
+    "montant_max": 500000,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/821",
+    "email_contact": "ai-industrychallenge@iledefrance.fr",
+    "eligibilite": [
+      "etablissements",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "PME (< 250 salariés)",
+      "TPE (< 10 salariés)",
+      "ETI (< 5 000 salariés)",
+      "établissements de recherche et laboratoire"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "48501d38ee4e96b50e3bd206ae03fcd5",
+    "titre": "Aide aux projets des réseaux franciliens œuvrant à la valorisation du patrimoine",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/111",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La Région accompagne les réseaux franciliens qui valorisent le patrimoine culturel en proposant des actions de diffusion, de médiation, d'évènements et d'outils pédagogiques, tout en renforçant les synergies entre acteurs professionnels et associatifs du secteur.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\48501d38ee4e96b50e3bd206ae03fcd5.txt",
+    "categories": [
+      "culture-sport"
+    ],
+    "tags": [
+      "patrimoine",
+      "valorisation",
+      "réseaux franciliens",
+      "culture",
+      "aide régionale"
+    ],
+    "public_cible": [
+      "Professionnel - Culture|||Professionnel - Patrimoine|||Association - Régie par la loi de 1901"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "heloise.maille-virole@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "professionnels"
+    ],
+    "public_cible_detail": [],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "374e2c0d9b1db393799dcbeec5ad90db",
+    "titre": "Résorption des dépôts sauvages de déchets sur les terres agricoles",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/63",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-12-12",
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La Région finance partiellement l’enlèvement et le traitement des déchets sauvages présents sur les parcelles agricoles, afin de permettre aux agriculteurs de reprendre leur activité et de remettre en culture les terres en friche.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\374e2c0d9b1db393799dcbeec5ad90db.txt",
+    "categories": [
+      "environnement-transition"
+    ],
+    "tags": [
+      "déchets sauvages",
+      "agriculture",
+      "enlèvement déchets",
+      "subvention régionale",
+      "remise en culture"
+    ],
+    "public_cible": [
+      "Professionnel - Agriculture et alimentation"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "agriculture@iledefrance.fr",
+    "eligibilite": [
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Agriculteurs"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "33451cf0c0b9e98c5b5a26da3835ffa4",
+    "titre": "Appel à candidatures Village Femtech Salon Medintechs 9 et/ou 10 mars 2026  Parc floral",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/823",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2026-01-11",
+    "date_publication": "2025-11-25",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île‑de‑France, avec partenaires, lance un appel à candidatures afin de sélectionner 8 à 9 entreprises femtech innovantes pour occuper un espace gratuit sur le Village Santé des Femmes lors du salon Medintechs les 9‑10 mars 2026 au Parc Floral.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\33451cf0c0b9e98c5b5a26da3835ffa4.txt",
+    "categories": [
+      "sante-handicap"
+    ],
+    "tags": [
+      "Femtech",
+      "santé des femmes",
+      "innovation",
+      "Village Santé des Femmes",
+      "Medintechs"
+    ],
+    "public_cible": [
+      "Association - Régie par la loi de 1901|||Professionnel - Chercheur|||Professionnel - TPE < 10|||Professionnel - PME < 250"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/823",
+    "email_contact": "femtech1@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "entreprises",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "entreprises innovantes du secteur Femtech",
+      "start-ups spécialisées santé des femmes"
+    ],
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "d8f68266d6e6960157ee615b109bf2dd",
+    "titre": "Développement de la formation de manipulateur d'électroradiologie médicale IFMEM",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/600",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2023-07-04",
+    "date_publication": "2023-06-05",
+    "organisme": "Région Île-de-France",
+    "resume": "Création ou extension d'un institut ou antenne de formation de manipulateur d'électroradiologie médicale en Île-de-France, offrant 35 places en 1re année pour la rentrée septembre 2024, sans concurrencer l'offre existante.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\d8f68266d6e6960157ee615b109bf2dd.txt",
+    "categories": [
+      "sante-handicap",
+      "education-jeunesse"
+    ],
+    "tags": [
+      "manipulateur d'electroradiologie",
+      "IFMEM",
+      "formation",
+      "Région Île-de-France",
+      "appel à projets"
+    ],
+    "public_cible": [
+      "Lycées et centres de formation|||Collectivités - Institutions"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "autorisations.fss@iledefrance.fr",
+    "eligibilite": [
+      "etablissements",
+      "collectivites"
+    ],
+    "public_cible_detail": [
+      "Candidats à la formation de manipulateur d'electroradiologie médicale"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "5e882652a0ed9dd600bfc09ce4e480ee",
+    "titre": "Reconquérir les friches franciliennes",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/490",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2023-09-13",
+    "date_publication": "2023-08-31",
+    "organisme": "Région Île-de-France",
+    "resume": "Aide de la Région Île‑de‑France pour accompagner la requalification des friches industrielles, commerciales, économiques ou agricoles, en soutenant les projets de réaménagement urbain, de rénovation d'espaces artificialisés ou de remise en culture agricole, ouverts aux collectivités et structures éligibles.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\5e882652a0ed9dd600bfc09ce4e480ee.txt",
+    "categories": [
+      "logement-urbanisme",
+      "environnement-transition"
+    ],
+    "tags": [
+      "friche",
+      "requalification",
+      "développement urbain",
+      "brownfield",
+      "Île-de-France"
+    ],
+    "public_cible": [
+      "Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - EPCI"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "planfriches@iledefrance.fr",
+    "eligibilite": [
+      "collectivites",
+      "autre"
+    ],
+    "public_cible_detail": [
+      "Collectivités territoriales",
+      "Porteurs de projets"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "bed54980203df06b5f707b47f9e2592a",
+    "titre": "Soutien régional en investissement pour la protection des jeunes en situation de précarité",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/6",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2019-07-07",
+    "date_publication": "2019-06-02",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île‑de‑France subventionne la construction, l'acquisition ou la réhabilitation de lieux d'accueil et d'hébergement temporaire pour les jeunes en rupture sociale ou familiale, en veillant à l'accessibilité des personnes en situation de handicap.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\bed54980203df06b5f707b47f9e2592a.txt",
+    "categories": [
+      "solidarite-inclusion",
+      "logement-urbanisme"
+    ],
+    "tags": [
+      "jeunes précarité",
+      "hébergement temporaire",
+      "investissement régional",
+      "accessibilité handicap",
+      "rupture familiale"
+    ],
+    "public_cible": [
+      "Association - Régie par la loi de 1901|||Association - ONG|||Association - Fondation|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Département"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "lcd@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivités"
+    ],
+    "public_cible_detail": [
+      "Jeunes en rupture sociale et familiale",
+      "Jeunes en situation de précarité"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "913e256ca4e9a5a00f683ffaf498dc18",
+    "titre": "Aide aux communes, EPCI et établissements d'enseignement supérieur mobilisés dans la vaccination",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/426",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": "2021-01-20",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région soutient les collectivités territoriales et les établissements d'enseignement supérieur qui créent des centres de vaccination anti-Covid ou acquièrent des équipements sanitaires (ex. purificateurs d'air).",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\913e256ca4e9a5a00f683ffaf498dc18.txt",
+    "categories": [
+      "sante-handicap"
+    ],
+    "tags": [
+      "vaccination",
+      "centres de vaccination",
+      "purificateurs d'air",
+      "collectivités",
+      "établissements d'enseignement supérieur"
+    ],
+    "public_cible": [
+      "Établissement d'enseignement supérieur|||Établissement de recherche et laboratoire|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "pierre.faivre@iledefrance.fr",
+    "eligibilite": [
+      "collectivites",
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Collectivités territoriales (communes, départements, EPCI)",
+      "Établissements d'enseignement supérieur",
+      "Laboratoires de recherche"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "ed079d7286852a120911657bc54059d2",
+    "titre": "Impact local",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/228",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île‑de‑France, via le fonds IMPACT Création IDF porté par IMPACT Partenaires, soutient financièrement l'implantation de commerces franchisés dans les quartiers politiques de la ville (QPV) afin d’accompagner entrepreneurs et franchisés dans leurs projets de création, reprise ou développement en multi‑franchise.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\ed079d7286852a120911657bc54059d2.txt",
+    "categories": [
+      "economie-ess"
+    ],
+    "tags": [
+      "franchisé",
+      "création d'entreprise",
+      "PME",
+      "QPV",
+      "subvention"
+    ],
+    "public_cible": [
+      "Particulier - Francilien|||Professionnel - Créateur d'entreprise|||Professionnel - TPE < 10|||Professionnel - PME < 250"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.montetafranchise.com",
+    "email_contact": null,
+    "eligibilite": [
+      "particuliers",
+      "entreprises",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Franciliens",
+      "Créateurs d'entreprise",
+      "TPE (<10 salariés)",
+      "PME (<250 salariés)"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "636eefe6ab1a7c19a6ecea8bbe9ecce3",
+    "titre": "APPEL A MANIFESTATION D’INTERET - Activité économique de surf sur l'île de loisirs de Vaires-Torcy",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/279",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2019-10-18",
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "Appel à manifestation d’intérêt pour implanter une structure démontable immergée sur le plan d’eau de Vaires (77) afin de créer une vague dynamique d’au moins 1,5 m, adaptée aux débutants et aux athlètes de haut niveau, respectant l’esthétique du site et ne perturbant pas le stade d’aviron, sur une surface d’environ 15 000 m².",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\636eefe6ab1a7c19a6ecea8bbe9ecce3.txt",
+    "categories": [
+      "culture-sport"
+    ],
+    "tags": [
+      "surf",
+      "manifestation d’intérêt",
+      "vague dynamique",
+      "Ile de loisirs Vaires",
+      "développement économique"
+    ],
+    "public_cible": [
+      "Particuliers|||Jeunes|||Entreprises|||Professionnels"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "Valerie.berger-aumont@iledefrance.fr",
+    "eligibilite": [
+      "particuliers",
+      "jeunes",
+      "entreprises",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Jeunes",
+      "Professionnels",
+      "Particuliers",
+      "Entreprises"
+    ],
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "6f140b653a32937125295c3e8fe1c8cf",
+    "titre": "Domaines de Recherche et d'Innovation Majeurs",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/489",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2021-10-13",
+    "date_publication": "2021-07-11",
+    "organisme": "Région Île-de-France",
+    "resume": "Appel à projets régionaux «Domaines de Recherche et d'Innovation Majeurs» financant, sur 5 ans (2022-2026), des réseaux de recherche structurants associant équipes académiques et entreprises innovantes, avec équipements scientifiques et plateformes mutualisées.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\6f140b653a32937125295c3e8fe1c8cf.txt",
+    "categories": [
+      "autre"
+    ],
+    "tags": [
+      "Domaines de Recherche",
+      "Réseaux de recherche",
+      "excellence",
+      "partenariat entreprise-recherche",
+      "financement régional"
+    ],
+    "public_cible": [
+      "Chercheurs"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr/",
+    "email_contact": "recherche@iledefrance.fr",
+    "eligibilite": [
+      "etablissements"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "7f40dac2089423db69b7c2a21bfb7a20",
+    "titre": "Investissement culturel Aide à l'acquisition construction restauration structures itinérantes (SV)",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/541",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": "2021-12-31",
+    "organisme": "Région Île-de-France",
+    "resume": "Cette aide de la Région soutient financièrement l'acquisition, la construction ou la restauration de structures itinérantes (chapiteaux, péniches, yourtes…) destinées à accueillir des manifestations culturelles ou à réaliser des actions culturelles.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\7f40dac2089423db69b7c2a21bfb7a20.txt",
+    "categories": [
+      "culture-sport"
+    ],
+    "tags": [
+      "structures itinérantes",
+      "acquisition",
+      "construction",
+      "restauration",
+      "spectacle vivant"
+    ],
+    "public_cible": [
+      "Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Professionnel - Culture|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "christine.vacher@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites",
+      "professionnels"
+    ],
+    "public_cible_detail": [],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "ba6bd26ed0fd4f548c657044b849b34f",
+    "titre": "MOUVEMENT DES ENTREPRISES DU VAL D'OISE-MEDEF95  (MEVO-MEDEF95) : Programme « A'venir des lycéens »",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/466",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2024-06-29",
+    "date_publication": "2023-08-31",
+    "organisme": "Région Île-de-France",
+    "resume": "Programme régional favorisant le rapprochement école-entreprise pour permettre aux lycéens de découvrir l'entreprise, sensibiliser à l'entrepreneuriat et aux techniques de recherche d'emploi via ateliers et visites d'entreprises.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\ba6bd26ed0fd4f548c657044b849b34f.txt",
+    "categories": [
+      "education-jeunesse",
+      "insertion-emploi"
+    ],
+    "tags": [
+      "lycéens",
+      "entreprenariat",
+      "recherche d'emploi",
+      "sensibilisation",
+      "visite d'entreprise"
+    ],
+    "public_cible": [
+      "Établissement d'enseignement secondaire|||Établissement ou organismes de formation (OF, OPCO, FSS, CFA...)|||Particulier - Lycéen"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "hamonic@mevo95.fr",
+    "eligibilite": [
+      "etablissements",
+      "particuliers"
+    ],
+    "public_cible_detail": [
+      "Lycéens"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "f1ab09ba95112b253f28d8b243f9c85d",
+    "titre": "ENTREPRENDRE POUR APPRENDRE : Programme « La Mini-Entreprise »",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/636",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2024-06-29",
+    "date_publication": "2023-08-31",
+    "organisme": "Région Île-de-France",
+    "resume": "Le programme « La Mini‑Entreprise » de la Région Île‑de‑France prépare les jeunes à la vie professionnelle en développant compétences entrepreneuriales, créativité et expérience pratique, avec l’appui de mentors et encadrants.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\f1ab09ba95112b253f28d8b243f9c85d.txt",
+    "categories": [
+      "education-jeunesse",
+      "economie-ess",
+      "insertion-emploi"
+    ],
+    "tags": [
+      "Mini-Entreprise",
+      "entrepreneuriat",
+      "jeunes",
+      "formation",
+      "programme"
+    ],
+    "public_cible": [
+      "Particulier - Lycéen|||Établissement d'enseignement secondaire"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.entreprendre-pour-apprendre.fr/ile-de-france",
+    "email_contact": "contact@epa-idf.fr",
+    "eligibilite": [
+      "etablissements",
+      "particuliers"
+    ],
+    "public_cible_detail": [
+      "Lycéens",
+      "Élèves de secondaire"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "535d00b618094a95a2bf2e1f8eaf413a",
+    "titre": "Logement : Dispositif de soutien au bail réel solidaire (BRS)",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/528",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île‑de‑France subventionne la création de logements en bail réel solidaire (BRS) pour faciliter l’accès à la propriété ou le maintien de copropriété en difficulté, en finançant le foncier ou les travaux de rénovation.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\535d00b618094a95a2bf2e1f8eaf413a.txt",
+    "categories": [
+      "logement-urbanisme"
+    ],
+    "tags": [
+      "bail réel solidaire",
+      "BRS",
+      "logement",
+      "accession à la propriété",
+      "subvention"
+    ],
+    "public_cible": [
+      "Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Association - Régie par la loi de 1901|||Collectivité ou institution - Bailleurs sociaux"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "loic.gandais@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites",
+      "autre"
+    ],
+    "public_cible_detail": [
+      "Copropriétés en difficulté",
+      "Acheteurs de logements en BRS"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "b15507e06b8d55e5e5ef618caad845ba",
+    "titre": "JOP 2024 - Soutien aux Célébrations",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/683",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2024-02-29",
+    "date_publication": "2024-01-15",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île-de-France soutient financièrement les communes franciliennes pour organiser des célébrations sportives et culturelles autour des Jeux Olympiques et Paralympiques 2024, entre le 22 juin et le 15 septembre, avec accès gratuit et programmation festive.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\b15507e06b8d55e5e5ef618caad845ba.txt",
+    "categories": [
+      "culture-sport",
+      "solidarite-inclusion",
+      "vie-associative"
+    ],
+    "tags": [
+      "Jeux olympiques",
+      "célébration",
+      "sport",
+      "festif",
+      "commune"
+    ],
+    "public_cible": [
+      "Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de > 20 000 hab"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "celebrationsjop2024@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites"
+    ],
+    "public_cible_detail": [
+      "Résidents des communes franciliennes",
+      "Clubs sportifs locaux",
+      "Associations culturelles"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "8c7d40dc74b93d1f7c10f6a57354b702",
+    "titre": "Quartiers innovants et écologiques",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/253",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2024-04-04",
+    "date_publication": "2023-11-30",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île‑de‑France lance un appel à projets visant à accompagner les collectivités dans la création de quartiers innovants, durables et inclusifs, alliant logements, emplois, services, nature et transition écologique.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\8c7d40dc74b93d1f7c10f6a57354b702.txt",
+    "categories": [
+      "environnement-transition",
+      "logement-urbanisme",
+      "mobilite-transport",
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "quartiers innovants",
+      "écologiques",
+      "logements",
+      "mobilité durable",
+      "transition énergétique"
+    ],
+    "public_cible": [
+      "Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "amenagement@iledefrance.fr",
+    "eligibilite": [
+      "collectivites"
+    ],
+    "public_cible_detail": [],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "e9383faf650c4a7c9ef1e6e71ba34bb9",
+    "titre": "Développement de l'offre de formation d'aide-soignant (IFAS)",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/681",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2024-05-30",
+    "date_publication": "2024-02-04",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île-de-France lance un appel à projets pour créer 150 nouvelles places en formation d'aide-soignant (IFAS) entre septembre 2024 et septembre 2025, afin de renforcer l'offre territoriale, répondre aux besoins de professionnels et aux recrutements liés au vieillissement de la population.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\e9383faf650c4a7c9ef1e6e71ba34bb9.txt",
+    "categories": [
+      "sante-handicap"
+    ],
+    "tags": [
+      "formation aide-soignant",
+      "places",
+      "IFAS",
+      "recrutement",
+      "territoires"
+    ],
+    "public_cible": [
+      "Association - Fondation|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "autorisations.fss@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites",
+      "autre"
+    ],
+    "public_cible_detail": [
+      "candidats à la formation d'aide-soignant"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "6cfcb3a16056f719a7945539456a3379",
+    "titre": "Modernisation de l'éclairage public et réduction de la pollution lumineuse",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/327",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": "2022-12-31",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région soutient les collectivités souhaitant moderniser l’éclairage public afin d’améliorer la sécurité et préserver la biodiversité nocturne, en réduisant la consommation énergétique d’au moins 66 % grâce à un nouvel éclairage à température de couleur ≤ 2700 K.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\6cfcb3a16056f719a7945539456a3379.txt",
+    "categories": [
+      "environnement-transition"
+    ],
+    "tags": [
+      "éclairage public",
+      "biodiversité nocturne",
+      "pollution lumineuse",
+      "économie d'énergie",
+      "modernisation"
+    ],
+    "public_cible": [
+      "Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - EPCI"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "aap-eclairage-public@iledefrance.fr",
+    "eligibilite": [
+      "collectivites"
+    ],
+    "public_cible_detail": [
+      "Communes de 10 000 à 20 000 hab",
+      "Communes de < 2000 hab",
+      "Communes de 2000 à 10 000 hab",
+      "EPCI"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "6979215a840bc75b564f6f03662832e0",
+    "titre": "Affirmer le principe de laïcité, les valeurs de la République et la prévention de la radicalisation",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/530",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": "2024-04-14",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île-de-France lance un appel à projets pour soutenir des actions affirmant la laïcité, prévenant la radicalisation et luttant contre les dérives sportives, en mobilisant collectivités, associations et partenaires publics/privés.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\6979215a840bc75b564f6f03662832e0.txt",
+    "categories": [
+      "education-jeunesse",
+      "culture-sport",
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "laïcité",
+      "radicalisation",
+      "prévention",
+      "sport",
+      "valeurs de la République"
+    ],
+    "public_cible": [
+      "Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Association - Fondation|||Association - ONG"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "preventionradicalisation@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivités"
+    ],
+    "public_cible_detail": [
+      "Jeunes",
+      "associations jeunesse",
+      "collectivités territoriales",
+      "acteurs du sport"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "1197eaa4aea476521bbe4f322f8deba0",
+    "titre": "Aide à la rénovation thermique des logements sociaux",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/318",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La Région soutient la rénovation thermique des logements sociaux classés E, F ou G afin de les amener à atteindre au minimum la classe C du DPE, avec un gain d’au moins deux classes énergétiques.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\1197eaa4aea476521bbe4f322f8deba0.txt",
+    "categories": [
+      "environnement-transition",
+      "logement-urbanisme"
+    ],
+    "tags": [
+      "rénovation thermique",
+      "passoires énergétiques",
+      "logements sociaux",
+      "subvention rénovation",
+      "DPE"
+    ],
+    "public_cible": [
+      "Collectivité ou institution - Bailleurs sociaux|||Association - Régie par la loi de 1901"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "melissa.lhostis@iledefrance.fr, jerome.de-vivies@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivités"
+    ],
+    "public_cible_detail": [
+      "résidences étudiantes",
+      "foyers de jeunes travailleurs"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "0d414e3f2533b6f97923e88caaabae6c",
+    "titre": "Prêt d'amorcage",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/223",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "Le prêt d'amorçage de la Région, en partenariat avec Bpifrance, soutient financièrement les PME et startups innovantes afin de consolider leur trésorerie et préparer leur levée de fonds.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\0d414e3f2533b6f97923e88caaabae6c.txt",
+    "categories": [
+      "economie-ess"
+    ],
+    "tags": [
+      "prêt d'amorçage",
+      "Bpifrance",
+      "PME",
+      "innovation",
+      "levée de fonds"
+    ],
+    "public_cible": [
+      "Professionnel - Créateur d'entreprise|||Professionnel - TPE < 10|||Professionnel - PME < 250"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": null,
+    "eligibilite": [
+      "entreprises",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Créateurs d'entreprise",
+      "TPE de moins de 10 salariés",
+      "PME de moins de 250 salariés"
+    ],
+    "type_financement": "prêt",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "94f25078d8cc183b1641d9b5c38f0526",
+    "titre": "Amélioration de la ventilation des lieux accueillant des publics fragiles.",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/379",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2024-11-19",
+    "date_publication": "2021-06-30",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région soutient les collectivités de moins de 20 000 habitants pour réhabiliter ou transformer leurs équipements de ventilation dans les crèches, écoles, accueils de loisirs et maisons de retraite afin d'améliorer la qualité de l’air et la santé des publics fragiles.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\94f25078d8cc183b1641d9b5c38f0526.txt",
+    "categories": [
+      "environnement-transition"
+    ],
+    "tags": [
+      "ventilation",
+      "collectivités",
+      "crèches",
+      "maisons de retraite",
+      "budget participatif"
+    ],
+    "public_cible": [
+      "Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - EPCI"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/379",
+    "email_contact": null,
+    "eligibilite": [
+      "collectivites"
+    ],
+    "public_cible_detail": [
+      "Enfants en crèche",
+      "Élèves d'école",
+      "Usagers d'accueils de loisirs",
+      "Résidents de maisons de retraite"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "63553c14daf9d0e089ca6db4d3324229",
+    "titre": "Budget participatif écologique et solidaire",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/670",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-01-28",
+    "date_publication": "2024-12-09",
+    "organisme": "Région Île-de-France",
+    "resume": "Le Budget participatif écologique et solidaire de la Région Île‑de‑France encourage les initiatives citoyennes visant à protéger l’environnement quotidien, en mobilisant les habitants pour choisir et financer des projets dans six domaines clés (alimentation, biodiversité, mobilité douce, propreté, économie circulaire, énergies renouvelables).",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\63553c14daf9d0e089ca6db4d3324229.txt",
+    "categories": [
+      "environnement-transition",
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "budget participatif",
+      "écologie",
+      "solidaire",
+      "initiative citoyenne",
+      "Région Île-de-France"
+    ],
+    "public_cible": [
+      "Association - Régie par la loi de 1901|||Association - Fondation|||Association - ONG|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal|||Établissement d'enseignement secondaire"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "budgetparticipatif@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites",
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "habitants de l'Île-de-France"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "c5fb87db6b9364f0272f8bb0e1ca718d",
+    "titre": "FEADER - Aide à l'installation du jeune agriculteur",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/595",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": "2023-03-29",
+    "organisme": "Région Île-de-France",
+    "resume": "Aide à l'installation des jeunes agriculteurs (18-39 ans) sous forme de dotation en capital, pour projets d'installation principale, secondaire ou progressive, afin de soutenir le début d'activité agricole.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\c5fb87db6b9364f0272f8bb0e1ca718d.txt",
+    "categories": [
+      "insertion-emploi"
+    ],
+    "tags": [
+      "installation jeune agriculteur",
+      "aide trésorerie",
+      "FEADER",
+      "jeune agriculteur",
+      "emploi rural"
+    ],
+    "public_cible": [
+      "Professionnel - Agriculture et alimentation"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "feader.installation@iledefrance.fr",
+    "eligibilite": [
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Jeunes agriculteurs 18-39 ans"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "cd531f747b5b1393c3b72b7932160d5f",
+    "titre": "Accompagnement des acteurs de l'ESS dans leurs démarches immobilières",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/781",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-03-31",
+    "date_publication": "2025-01-09",
+    "organisme": "Région Île-de-France",
+    "resume": "Accompagnement des acteurs de l'Economie Sociale et Solidaire (ESS) dans leurs projets immobiliers (location ou achat) en Île-de-France, via un partenariat de la Région et de Splendide! Conseils.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\cd531f747b5b1393c3b72b7932160d5f.txt",
+    "categories": [
+      "logement-urbanisme",
+      "economie-ess"
+    ],
+    "tags": [
+      "ess",
+      "immobilier",
+      "accompagnement",
+      "splendide",
+      "ile-de-france"
+    ],
+    "public_cible": [
+      "Professionnel - PME < 250|||Professionnel - TPE < 10|||Professionnel - ETI < 5000"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": null,
+    "email_contact": "clara.blanchard@iledefrance.fr",
+    "eligibilite": [
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "PME (<250 salariés)",
+      "TPE (<10 salariés)",
+      "ETI (<5000 salariés)"
+    ],
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "d276a82e934a808b7991fa834ea6c95a",
+    "titre": "CGÉNIAL : Ingénieures et techniciennes dans les classes !",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/786",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-06-29",
+    "date_publication": "2024-09-01",
+    "organisme": "Région Île-de-France",
+    "resume": "La Fondation CGénial invite des ingénieures et techniciennes à intervenir en classe (ou en visioconférence) pour présenter leurs parcours, leurs métiers et inspirer les lycéennes vers les filières scientifiques, afin de diversifier les orientations et briser les stéréotypes de genre.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\d276a82e934a808b7991fa834ea6c95a.txt",
+    "categories": [
+      "education-jeunesse",
+      "numerique"
+    ],
+    "tags": [
+      "ingénieurs",
+      "techniciennes",
+      "orientation",
+      "genre",
+      "STEM"
+    ],
+    "public_cible": [
+      "Établissement d'enseignement secondaire|||Particulier - Lycéen"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://cgenial-connect.fr/",
+    "email_contact": "e.duboc@cgenial.org",
+    "eligibilite": [
+      "etablissements",
+      "particuliers"
+    ],
+    "public_cible_detail": [
+      "Lycéennes",
+      "Enseignants du secondaire",
+      "Établissements scolaires"
+    ],
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "32118507094842f10879dfce9fd565f4",
+    "titre": "TELEMAQUE :  Accompagnement des filleules franciliennes dans leur réussite",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/788",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-06-29",
+    "date_publication": "2024-09-01",
+    "organisme": "Région Île-de-France",
+    "resume": "Télémaque accompagne des lycéennes franciliennes, notamment en seconde, issues de milieux modestes et de quartiers prioritaires, pour les orienter vers des filières scientifiques et techniques d'excellence, en combinant mentorat école‑entreprise, ateliers, rencontres métiers et visites d'entreprises, afin de lever l'autocensure et renforcer leurs ambitions.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\32118507094842f10879dfce9fd565f4.txt",
+    "categories": [
+      "education-jeunesse",
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "mentorat",
+      "filles scientifiques",
+      "programme Olympe",
+      "jeunes lycéennes",
+      "ambition"
+    ],
+    "public_cible": [
+      "Établissement d'enseignement secondaire|||Particulier - Lycéen"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/788",
+    "email_contact": "contact@telemaque.org",
+    "eligibilite": [
+      "associations",
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Lycéennes de seconde en milieux modestes et quartiers prioritaires",
+      "Jeunes filles souhaitant poursuivre des études scientifiques"
+    ],
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "9acaa743a0d077c77bd32393547d797c",
+    "titre": "Soutien régional à la création et à la réhabilitation d'équipements sportifs franciliens",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/706",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": "2024-04-04",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région réduit les carences d’équipements sportifs et encourage la pratique sportive des Franciliens, en privilégiant les femmes, les personnes en situation de handicap et les lycéens.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\9acaa743a0d077c77bd32393547d797c.txt",
+    "categories": [
+      "culture-sport",
+      "solidarité-inclusion"
+    ],
+    "tags": [
+      "équipements sportifs",
+      "création",
+      "réhabilitation",
+      "subvention",
+      "Franciliens"
+    ],
+    "public_cible": [
+      "Association - Fondation|||Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Professionnel - PME < 250|||Professionnel - TPE < 10"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "soutien-equipements-sportifs@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivités"
+    ],
+    "public_cible_detail": [
+      "Femmes",
+      "Personnes en situation de handicap",
+      "Lycéens"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "238a2d99625ae194d51de0e5bcef65fe",
+    "titre": "Grands Lieux d'Innovation (GLI) France 2030",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/282",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-05-13",
+    "date_publication": "2025-02-01",
+    "organisme": "Région Île-de-France",
+    "resume": "L’État et la Région soutiennent la création de lieux d’innovation régionaux pour renforcer la compétitivité des filières stratégiques franciliennes.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\238a2d99625ae194d51de0e5bcef65fe.txt",
+    "categories": [
+      "economie-ess"
+    ],
+    "tags": [
+      "innovation",
+      "lieux d'innovation",
+      "filières stratégiques",
+      "mutualisation",
+      "financement"
+    ],
+    "public_cible": [
+      "Professionnel - Créateur d'entreprise|||Professionnel - TPE < 10|||Professionnel - PME < 250|||Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Établissement d'enseignement supérieur|||Établissement de recherche et laboratoire"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "http://leaderpia.iledefrance.fr/GLI-Filieres-France-2030",
+    "email_contact": "aides.economiques@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivités",
+      "etablissements",
+      "entreprises",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Professionnel - TPE < 10",
+      "Professionnel - PME < 250",
+      "Professionnel - ETI < 5000",
+      "Association - Fondation",
+      "Établissement d'enseignement supérieur"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "6a0a6881128adcc62f71040c89d414d7",
+    "titre": "Chèque prévention",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/596",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": "2023-04-03",
+    "organisme": "Région Île-de-France",
+    "resume": "Le Chèque prévention soutient les TPE et PME franciliennes ayant entamé une procédure amiable (mandat ad hoc ou conciliation) à partir du 1er janvier 2023 et abouti à un accord avec leurs créanciers ou partenaires, afin de préserver leurs activités et emplois.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\6a0a6881128adcc62f71040c89d414d7.txt",
+    "categories": [
+      "economie-ess"
+    ],
+    "tags": [
+      "prévention",
+      "TPE",
+      "PME",
+      "accord",
+      "défaillances"
+    ],
+    "public_cible": [
+      "Professionnel - TPE < 10|||Professionnel - PME < 250|||Association - Régie par la loi de 1901|||Professionnel - Artisan ou commercant"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "cheque-prevention-idf@asp-public.fr",
+    "eligibilite": [
+      "entreprises",
+      "associations",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "TPE franciliennes",
+      "PME franciliennes",
+      "artisans",
+      "commerçants"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "e59382e022a84d2a06b04dc5d69719b2",
+    "titre": "FEADER - MAEC API 2025 - Amélioration du potentiel pollinisateur des abeilles (70.29)",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/803",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-05-15",
+    "date_publication": "2025-04-02",
+    "organisme": "Région Île-de-France",
+    "resume": "Cette mesure agroenvironnementale de la région Île-de-France, financée par le FEADER, encourage les apiculteurs à maintenir leurs colonies d'abeilles et à favoriser la transhumance, en respectant des exigences techniques, afin de renforcer le potentiel pollinisateur sur le territoire jusqu'au 14 mai 2026.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\e59382e022a84d2a06b04dc5d69719b2.txt",
+    "categories": [
+      "environnement-transition"
+    ],
+    "tags": [
+      "abeilles",
+      "pollinisation",
+      "apiculture",
+      "soutien agricole",
+      "aide régionale"
+    ],
+    "public_cible": [
+      "Professionnel - Agriculture et alimentation|||Établissement d'enseignement secondaire"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/803",
+    "email_contact": "MAEC@iledefrance.fr",
+    "eligibilite": [
+      "professionnels",
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "apiculteurs",
+      "exploitations agricoles",
+      "etablissements d'enseignement secondaire"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "ba864dff79caa40398e044aec5c415b3",
+    "titre": "Programme Numérique responsable \"Mieux comprendre pour mieux utiliser\" avec l'association e-ENFANCE",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/238",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2026-06-30",
+    "date_publication": "2025-09-01",
+    "organisme": "Région Île-de-France",
+    "resume": "Le programme, mené avec l'association e-ENFance, vise à faire évoluer les comportements numériques des jeunes en abordant santé numérique, dépendance, protection des données, harcèlement, cyberharcèlement, sexting, revenge porn, chantage sexuel et impact de la pornographie, ainsi que d'autres thématiques prioritaires sur demande des établissements.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\ba864dff79caa40398e044aec5c415b3.txt",
+    "categories": [
+      "education-jeunesse",
+      "numerique"
+    ],
+    "tags": [
+      "programme numérique responsable",
+      "e-ENFANCE",
+      "harcèlement en ligne",
+      "cyberharcèlement",
+      "prévention"
+    ],
+    "public_cible": [
+      "Établissement d'enseignement secondaire"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://e-enfance.org/nos-interventions/demander-une-intervention",
+    "email_contact": "interventions@e-enfance.org",
+    "eligibilite": [
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Jeunes de 12-25 ans",
+      "Établissements d'enseignement secondaire"
+    ],
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "10b8423464b88e8844e76c9e4d61e868",
+    "titre": "Programme « Valeurs de la République et lutte contre les discriminations » avec l'Association ÉVEIL",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/241",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2026-06-30",
+    "date_publication": "2025-09-01",
+    "organisme": "Région Île-de-France",
+    "resume": "Programme de sensibilisation dans les lycées franciliens, animé par l'association ÉVEIL avec un enseignant, aborde les valeurs de la République et la laïcité, l'usage citoyen des réseaux sociaux et la lutte contre les discriminations, afin de créer un espace d'échange et de réflexion.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\10b8423464b88e8844e76c9e4d61e868.txt",
+    "categories": [
+      "education-jeunesse",
+      "solidarite-inclusion",
+      "numerique"
+    ],
+    "tags": [
+      "sensibilisation",
+      "valeurs républicaines",
+      "discriminations",
+      "citoyen numérique",
+      "lycées franciliens"
+    ],
+    "public_cible": [
+      "Établissement d'enseignement secondaire"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/241",
+    "email_contact": "info@eveil.asso.fr",
+    "eligibilite": [
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Lycéens (15-18 ans)",
+      "Enseignants"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "d4dfd7ddc212b5a1fd509b81c9e3fa48",
+    "titre": "Demande de distribution alimentaire",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/561",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-12-31",
+    "date_publication": "2024-03-11",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Île-de-France, via le programme « Région Solidaire », finance des distributions de paniers d’aide alimentaire aux familles, étudiants, jeunes en recherche d’emploi et seniors en difficulté, afin de répondre aux besoins non couverts.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\d4dfd7ddc212b5a1fd509b81c9e3fa48.txt",
+    "categories": [
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "aide alimentaire",
+      "solidarité régionale",
+      "collectivités",
+      "distribution",
+      "précarité"
+    ],
+    "public_cible": [
+      "Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Établissement d'enseignement supérieur|||Établissement ou organismes de formation (OF, OPCO, FSS, CFA...)"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/561",
+    "email_contact": "distribution.alimentaire@iledefrance.fr",
+    "eligibilite": [
+      "collectivités",
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Familles",
+      "Étudiants",
+      "Jeunes en recherche d'emploi",
+      "Seniors isolés"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "1283f03099d6f03a7628a0832bc4a8bf",
+    "titre": "Fonds d'acquisition exceptionnelle pour les collections des musées",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/480",
+    "source_id": "iledefrance_opendata",
+    "date_limite": null,
+    "date_publication": null,
+    "organisme": "Région Île-de-France",
+    "resume": "La Région Î²le‑de‑France lance un fonds d'acquisition exceptionnelle pour enrichir les collections des musées en financant des achats hors budget, répondant à des critères scientifiques, territoriaux et complémentaires, afin de renforcer l'attractivité culturelle et touristique de la région.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\1283f03099d6f03a7628a0832bc4a8bf.txt",
+    "categories": [
+      "culture-sport"
+    ],
+    "tags": [
+      "acquisition exceptionnelle",
+      "musées",
+      "collections",
+      "Région Îªle‑de‑France",
+      "projet culturel"
+    ],
+    "public_cible": [
+      "Professionnel - Culture|||Professionnel - Patrimoine|||Association - Régie par la loi de 1901|||Association - Fondation|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/480",
+    "email_contact": "heloise.maille-virole@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites",
+      "etablissements",
+      "professionnels"
+    ],
+    "public_cible_detail": [],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "136476619f34e9961d9f4facf28f9b7d",
+    "titre": "Appel à projets \"Ingénierie et Formations Professionnelles\" (IFP Ile de France)",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/305",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-12-28",
+    "date_publication": "2022-03-23",
+    "organisme": "Région Île-de-France",
+    "resume": "Soutenir des projets partenariaux d'ingénierie de formation et d'innovation dans les filières stratégiques d'Île-de-France (aéronautique, numérique, santé, BTP) afin de renforcer l'insertion professionnelle et la diversification des publics, avec suivi d'impact et label France 2030.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\136476619f34e9961d9f4facf28f9b7d.txt",
+    "categories": [
+      "economie-ess",
+      "insertion-emploi",
+      "numerique",
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "Ingénierie",
+      "Formations professionnelles",
+      "Île-de-France",
+      "France 2030",
+      "Partenariats"
+    ],
+    "public_cible": [
+      "Établissement d'enseignement secondaire|||Établissement ou organismes de formation (OF, OPCO, FSS, CFA...)|||Établissement d'enseignement supérieur|||Établissement de recherche et laboratoire"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.demarches-simplifiees.fr/commencer/aap-france-2030-regionalise-ile-de-france",
+    "email_contact": "cedric.djedovic@caissedesdepots.fr, transferttechno@iledefrance.fr, orientation.form.sup@iledefrance.fr, pascale.henny@drieets.gouv.fr",
+    "eligibilite": [
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "demandeurs d'emploi",
+      "entreprises",
+      "publics en situation de handicap"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "d164f8a6f1641648e13fee6ab321c6ec",
+    "titre": "Appel à candidature au label \"Patrimoine d'intérêt régional\" en faveur du patrimoine non protégé",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/110",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-08-30",
+    "date_publication": "2025-03-31",
+    "organisme": "Région Île-de-France",
+    "resume": "Le label Patrimoine d'intérêt régional distingue les bâtiments ou ensembles non protégés présentant un intérêt patrimonial pour l'Île-de-France, selon des critères spécifiques.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\d164f8a6f1641648e13fee6ab321c6ec.txt",
+    "categories": [
+      "culture-sport"
+    ],
+    "tags": [
+      "patrimoine",
+      "label",
+      "candidature",
+      "non protégé",
+      "Île-de-France"
+    ],
+    "public_cible": [
+      "Particulier - Francilien|||Professionnel - Patrimoine|||Professionnel - Culture|||Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.mesdemarches.iledefrance.fr",
+    "email_contact": "julie.faure@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites",
+      "professionnels",
+      "particuliers"
+    ],
+    "public_cible_detail": [
+      "Particuliers franciliens",
+      "Professionnels du patrimoine",
+      "Professionnels de la culture",
+      "Associations culturelles",
+      "Collectivités territoriales"
+    ],
+    "type_financement": "Prix",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "21feadb46127cd785ea9885d1af1587d",
+    "titre": "Budget d'Autonomie Educative Francilien (BAEF) à destination des lycées franciliens",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/564",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2026-07-15",
+    "date_publication": "2025-09-01",
+    "organisme": "Région Île-de-France",
+    "resume": "Le BAEF finance des actions éducatives menées par les lycées franciliens, favorisant leur autonomie et soutenant des projets liés à la lutte contre le décrochage, l'orientation, la citoyenneté, la prévention santé, l'EAC, le lien avec les entreprises, avec des plafonnements de 10 000 € pour les publics et 2 000 € pour les privés.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\21feadb46127cd785ea9885d1af1587d.txt",
+    "categories": [
+      "education-jeunesse"
+    ],
+    "tags": [
+      "BAEF",
+      "lycées",
+      "autonomie éducative",
+      "jeunes",
+      "Région Île-de-France"
+    ],
+    "public_cible": [
+      "Établissement d'enseignement secondaire"
+    ],
+    "montant_min": null,
+    "montant_max": 10000,
+    "url_candidature": "https://www.mesdemarches.iledefrance.fr",
+    "email_contact": "budgetdautonomie@iledefrance.fr",
+    "eligibilite": [
+      "etablissements"
+    ],
+    "public_cible_detail": [
+      "Lycéens"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "fff538b236afe0db8a7fb6cecabd3b5e",
+    "titre": "Petit patrimoine naturel",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/543",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2025-12-31",
+    "date_publication": "2025-02-12",
+    "organisme": "Région Île-de-France",
+    "resume": "Labellisation visant à identifier, valoriser et accompagner les gestionnaires d'espaces naturels de 50 à 20 000 m² en Île‑de‑France, afin d'améliorer leurs pratiques pour la biodiversité.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\fff538b236afe0db8a7fb6cecabd3b5e.txt",
+    "categories": [
+      "environnement-transition"
+    ],
+    "tags": [
+      "patrimoine naturel",
+      "biodiversité",
+      "espaces verts",
+      "labellisation",
+      "Ile-de-France"
+    ],
+    "public_cible": [
+      "Particulier - Francilien|||Association - Régie par la loi de 1901|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal|||Professionnel - TPE < 10|||Professionnel - PME < 250|||Établissement d'enseignement supérieur|||Établissement d'enseignement secondaire"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://mesdemarches.iledefrance.fr",
+    "email_contact": "biodiversite@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivites",
+      "etablissements",
+      "professionnels",
+      "particuliers"
+    ],
+    "public_cible_detail": [
+      "Propriétaires d'espaces naturels (50‑20 000 m²)",
+      "Locataires d'espaces naturels",
+      "Associations (loi 1901)",
+      "Collectivités territoriales",
+      "Bailleurs sociaux"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "701aa498df62e595ba41ea4895ba7b80",
+    "titre": "Aide à l'accompagnement de projets artistiques dans le domaine du spectacle vivant",
+    "url_source": "https://www.iledefrance.fr/aides-et-appels-a-projets/309",
+    "source_id": "iledefrance_opendata",
+    "date_limite": "2026-02-02",
+    "date_publication": "2026-01-04",
+    "organisme": "Région Île-de-France",
+    "resume": "La Région soutient la mutualisation et la coopération de structures franciliennes afin d’accompagner les équipes artistiques, d’incuber des projets, de favoriser leur production, diffusion et mise en réseau.",
+    "perimetre_geo": "Île-de-France",
+    "pdf_filename": null,
+    "content_file": "data\\iledefrance\\content\\701aa498df62e595ba41ea4895ba7b80.txt",
+    "categories": [
+      "culture-sport"
+    ],
+    "tags": [
+      "spectacle vivant",
+      "accompagnement artistique",
+      "mutualisation",
+      "incubation",
+      "repérage artistique"
+    ],
+    "public_cible": [
+      "Professionnel - Culture|||Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris"
+    ],
+    "montant_min": null,
+    "montant_max": null,
+    "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/309",
+    "email_contact": "barbara.constant@iledefrance.fr",
+    "eligibilite": [
+      "associations",
+      "collectivités",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "artistes",
+      "équipes artistiques",
+      "structures professionnelles du spectacle vivant"
+    ],
+    "type_financement": "Subvention",
+    "llm_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "enrichment_status": "success"
+  }
+]

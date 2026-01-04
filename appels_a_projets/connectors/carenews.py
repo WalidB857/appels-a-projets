@@ -15,7 +15,7 @@ from typing import Any
 import requests
 from bs4 import BeautifulSoup
 
-from .base import BaseConnector, RawAAP
+from .base import BaseConnector, RawAAP, save_raw_dataset
 
 
 @dataclass
@@ -24,7 +24,7 @@ class CarenewsConfig:
     base_url: str = "https://www.carenews.com"
     listing_url: str = "https://www.carenews.com/appels_a_projets"
     max_pages: int = 5  # Limit pages to scrape (43 pages total)
-    fetch_details: bool = False  # Whether to fetch detail pages
+    fetch_details: bool = True  # Changed to True by default for enrichment
     timeout: int = 30
     user_agent: str = "AAP-Watch/1.0 (contact@example.com)"
 
@@ -114,6 +114,10 @@ class CarenewsConnector(BaseConnector):
                 try:
                     aap = self._parse_card(card)
                     if aap and aap.url_source not in seen_urls:
+                        # Fetch details if configured
+                        if self.config.fetch_details:
+                            self._enrich_with_details(aap)
+                        
                         aaps.append(aap)
                         seen_urls.add(aap.url_source)
                 except Exception as e:
@@ -122,6 +126,25 @@ class CarenewsConnector(BaseConnector):
         
         return aaps
     
+    def _enrich_with_details(self, aap: RawAAP):
+        """Fetch detail page and update AAP object."""
+        try:
+            details = self.fetch_detail(aap.url_source)
+            
+            if details.get("description"):
+                aap.description = details["description"]
+                # Populate enrich_txt_html for LLM
+                aap.enrich_txt_html = f"TITRE: {aap.titre}\n\nRESUME: {aap.resume or ''}\n\nDESCRIPTION: {aap.description}"
+            
+            if details.get("email_contact"):
+                aap.email_contact = details["email_contact"]
+                
+            if details.get("url_candidature"):
+                aap.url_candidature = details["url_candidature"]
+                
+        except Exception as e:
+            self.logger.warning(f"Failed to enrich {aap.url_source}: {e}")
+
     def _parse_card(self, title_element) -> RawAAP | None:
         """
         Parse a single AAP card from the listing page.
@@ -264,11 +287,11 @@ class CarenewsConnector(BaseConnector):
 
 def main():
     """Test the connector."""
-    import json
+    import logging
     
     logging.basicConfig(level=logging.INFO)
     
-    config = CarenewsConfig(max_pages=2, fetch_details=False)
+    config = CarenewsConfig(max_pages=2, fetch_details=True)
     connector = CarenewsConnector(config)
     
     aaps = connector.run()
@@ -277,31 +300,8 @@ def main():
     print(f"Found {len(aaps)} AAPs")
     print(f"{'='*60}\n")
     
-    for aap in aaps[:5]:  # Show first 5
-        print(f"Titre: {aap.titre}")
-        print(f"Organisme: {aap.organisme or 'N/A'}")
-        print(f"Date limite: {aap.date_limite or 'N/A'}")
-        print(f"URL: {aap.url_source}")
-        print(f"Résumé: {aap.resume[:100] if aap.resume else 'N/A'}...")
-        print("-" * 40)
-    
-    # Export to JSON for analysis
-    output = [
-        {
-            "titre": aap.titre,
-            "organisme": aap.organisme,
-            "date_publication": aap.date_publication,
-            "date_limite": aap.date_limite,
-            "url_source": aap.url_source,
-            "resume": aap.resume,
-        }
-        for aap in aaps
-    ]
-    
-    with open("data/carenews_raw.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-    
-    print(f"\nExported to data/carenews_raw.json")
+    # Use standardized saver
+    save_raw_dataset(aaps, "carenews")
 
 
 if __name__ == "__main__":

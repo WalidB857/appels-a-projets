@@ -1,0 +1,18 @@
+TITRE: Challenge IA pour la Santé
+URL: https://www.iledefrance.fr/aides-et-appels-a-projets/766
+DATE_LIMITE: 2024-12-05
+
+--- SOURCE HTML ---
+TITRE: Challenge IA pour la Santé
+
+RESUME (chapo): Dans la continuité de son plan Intelligence Artificielle AI2021 et du plan régional en faveur de la santé, la Région Île-de-France et l'Hôpital Fondation Rothschild lancent le Challenge IA pour la Santé, doté de 500.000€.
+
+OBJECTIF: La sclérose en plaques (SEP) est une maladie affectant le système nerveux central (SNC), touchant environ 2,8 millions de personnes dans le monde, dont 130.000 en France. C'est la principale cause de handicap neurologique non traumatique chez les jeunes adultes.  l’HFAR propose de développer un algorithme IA permettant une relecture automatisée de l’imagerie de susceptibilité acquise dans le cadre du diagnostic et du suivi des patients atteints de SEP.  Le Challenge vise à initier un partenariat ambitieux, de long terme entre l’HFAR et une entreprise ayant démontré sa capacité à développer, valider et tester un algorithme d’intérêt pour améliorer la prise en charge des patients. La compétition consistera à : Détecter le signe de la veine centrale chez des patients, et si un diagnostic de SEP n’est pas fourni, donner une probabilité d’être atteint de cette pathologie.Détecter le signe du halo.
+
+QUI PEUT EN BENEFICIER: Professionnel - PME < 250|||Professionnel - ETI < 5000|||Établissement de recherche et laboratoire
+
+DEMARCHES: Le dossier de candidature est à renvoyer dûment complété (1 seule fois par groupement) à l'adresse mail ai-healthchallenge@iledefrance.fr du 1er octobre au 6 décembre 2024 à 23h59. Nous vous invitons à prendre connaissance des documents téléchargeables : la description du défi ainsi que le règlement du Challenge, convention d'échange des données avec l'HFAR. Le dossier complété doit ainsi contenir : La fiche de présentation candidat (1 par entité du groupement),Le Questionnaire de présélection (1 pour le groupement),La convention signée. Ce Challenge, coorganisé avec l'Hôpital Fondation Rothschild, est réalisé en partenariat avec le pôle de compétitivité Medicen Paris Region.
+
+CONTACT: <p><a href="mailtp:ai-healthchallenge@iledefrance.fr" target="_blank">ai-healthchallenge@iledefrance.fr</a></p><p><em><strong>For English-speaking candidates, you already have access to the challenge description in English and to the application form.</strong></em></p><p><em><strong>To complete your application, please contact us directly at the above e-mail address.</strong></em></p>
+
+

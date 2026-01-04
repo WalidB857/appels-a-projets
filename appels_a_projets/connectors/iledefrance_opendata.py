@@ -15,7 +15,7 @@ from typing import Any
 
 import requests
 
-from .base import BaseConnector, RawAAP
+from .base import BaseConnector, RawAAP, save_raw_dataset
 
 
 @dataclass
@@ -191,6 +191,34 @@ class IleDeFranceConnector(BaseConnector):
         demarches = fields.get("demarches_txt") or fields.get("demarches")
         url_candidature = self._extract_candidature_url(demarches) if demarches else None
         
+        # Construct enrichment text from API fields - using raw fields as requested
+        # We use the raw fields directly to give full context to the LLM
+        enrich_txt_html = f"TITRE: {fields.get('nom_de_l_aide_de_la_demarche', '')}\n\n"
+        
+        if fields.get("chapo_txt"):
+            enrich_txt_html += f"RESUME (chapo): {fields.get('chapo_txt')}\n\n"
+            
+        if fields.get("objectif_txt"):
+            enrich_txt_html += f"OBJECTIF: {fields.get('objectif_txt')}\n\n"
+            
+        if fields.get("beneficiaires"):
+            enrich_txt_html += f"BENEFICIAIRES: {fields.get('beneficiaires')}\n\n"
+        
+        if fields.get("qui_peut_en_beneficier"):
+            enrich_txt_html += f"QUI PEUT EN BENEFICIER: {fields.get('qui_peut_en_beneficier')}\n\n"
+            
+        if fields.get("conditions"):
+            enrich_txt_html += f"CONDITIONS: {fields.get('conditions')}\n\n"
+            
+        if fields.get("montant"):
+            enrich_txt_html += f"MONTANT: {fields.get('montant')}\n\n"
+            
+        if fields.get("demarches_txt"):
+            enrich_txt_html += f"DEMARCHES: {fields.get('demarches_txt')}\n\n"
+            
+        if fields.get("contact"):
+            enrich_txt_html += f"CONTACT: {fields.get('contact')}\n"
+
         return RawAAP(
             titre=titre,
             url_source=url_source,
@@ -206,6 +234,7 @@ class IleDeFranceConnector(BaseConnector):
             perimetre_geo=perimetre_geo,
             email_contact=email_contact,
             url_candidature=url_candidature,
+            enrich_txt_html=enrich_txt_html, # Added for LLM processing
         )
     
     def _parse_date(self, date_str: str | None) -> str | None:
@@ -289,7 +318,7 @@ class IleDeFranceConnector(BaseConnector):
 
 def main():
     """Test the connector."""
-    import json
+    import logging
     
     logging.basicConfig(level=logging.INFO)
     
@@ -302,36 +331,8 @@ def main():
     print(f"Found {len(aaps)} AAPs")
     print(f"{'='*60}\n")
     
-    for aap in aaps[:5]:  # Show first 5
-        print(f"Titre: {aap.titre}")
-        print(f"Organisme: {aap.organisme}")
-        print(f"Date limite: {aap.date_limite or 'N/A'}")
-        print(f"Catégories: {aap.categories}")
-        print(f"URL: {aap.url_source}")
-        print(f"Résumé: {aap.resume[:100] if aap.resume else 'N/A'}...")
-        print("-" * 40)
-    
-    # Export to JSON for analysis
-    output = [
-        {
-            "titre": aap.titre,
-            "organisme": aap.organisme,
-            "date_publication": aap.date_publication,
-            "date_limite": aap.date_limite,
-            "url_source": aap.url_source,
-            "resume": aap.resume,
-            "categories": aap.categories,
-            "tags": aap.tags,
-            "public_cible": aap.public_cible,
-            "perimetre_geo": aap.perimetre_geo,
-        }
-        for aap in aaps
-    ]
-    
-    with open("data/iledefrance_raw.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-    
-    print(f"\nExported to data/iledefrance_raw.json")
+    # Use standardized saver
+    save_raw_dataset(aaps, "iledefrance")
 
 
 if __name__ == "__main__":

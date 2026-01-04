@@ -57,6 +57,88 @@ class RawAAP:
     # Metadata
     raw_html: str | None = None
     scraped_at: datetime = field(default_factory=datetime.now)
+    
+    # Enrichment
+    enrich_txt_html: str | None = None
+    enrich_txt_pdf: str | None = None
+    pdf_filename: str | None = None
+
+
+def save_raw_dataset(aaps: list[RawAAP], source_name: str, output_dir: str = "data"):
+    """
+    Standardized method to save raw dataset for any connector.
+    
+    Creates:
+    - {output_dir}/{source_name}/metadata.json
+    - {output_dir}/{source_name}/content/{id}.txt
+    """
+    import json
+    import hashlib
+    import os
+    from pathlib import Path
+    
+    # Setup directories
+    base_dir = Path(output_dir) / source_name
+    content_dir = base_dir / "content"
+    content_dir.mkdir(parents=True, exist_ok=True)
+    
+    clean_metadata = []
+    
+    for aap in aaps:
+        # 1. Create unique ID (hash of URL)
+        doc_id = hashlib.md5(aap.url_source.encode()).hexdigest()
+        
+        # 2. Prepare full text for LLM
+        full_text = f"TITRE: {aap.titre}\n"
+        full_text += f"URL: {aap.url_source}\n"
+        if aap.date_limite:
+            full_text += f"DATE_LIMITE: {aap.date_limite}\n"
+        full_text += "\n"
+        
+        if aap.enrich_txt_html:
+            full_text += f"--- SOURCE HTML ---\n{aap.enrich_txt_html}\n\n"
+        
+        if aap.enrich_txt_pdf:
+            full_text += f"--- CONTENU PDF ({aap.pdf_filename or 'doc'}) ---\n{aap.enrich_txt_pdf}"
+        
+        # 3. Save text to file
+        txt_filename = f"{doc_id}.txt"
+        content_file_path = content_dir / txt_filename
+        with open(content_file_path, "w", encoding="utf-8") as f:
+            f.write(full_text)
+        
+        # 4. Prepare metadata for JSON
+        # Convert RawAAP to dict, excluding heavy text fields
+        meta = {
+            "id": doc_id,
+            "titre": aap.titre,
+            "url_source": aap.url_source,
+            "source_id": aap.source_id,
+            "date_limite": aap.date_limite,
+            "date_publication": aap.date_publication,
+            "organisme": aap.organisme,
+            "resume": aap.resume,
+            "perimetre_geo": aap.perimetre_geo,
+            "pdf_filename": aap.pdf_filename,
+            "content_file": str(content_file_path),
+            # Keep existing enrichment if any
+            "categories": aap.categories,
+            "tags": aap.tags,
+            "public_cible": aap.public_cible,
+            "montant_min": aap.montant_min,
+            "montant_max": aap.montant_max,
+            "url_candidature": aap.url_candidature,
+            "email_contact": aap.email_contact
+        }
+        clean_metadata.append(meta)
+    
+    # 5. Save lightweight JSON
+    metadata_path = base_dir / "metadata.json"
+    with open(metadata_path, "w", encoding="utf-8") as f:
+        json.dump(clean_metadata, f, ensure_ascii=False, indent=2)
+    
+    logger.info(f"Saved {len(aaps)} records to {base_dir}")
+    return metadata_path
 
 
 class BaseConnector(ABC):

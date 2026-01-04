@@ -1,0 +1,17 @@
+TITRE: Chèque prévention
+URL: https://www.iledefrance.fr/aides-et-appels-a-projets/596
+
+--- SOURCE HTML ---
+TITRE: Chèque prévention
+
+RESUME (chapo): Dans un contexte d'augmentation des défaillances, la Région se mobilise pour favoriser l’accès des entreprises franciliennes aux procédures amiables de prévention, afin de préserver l'activité et les emplois.
+
+OBJECTIF: Le Chèque prévention est destiné aux TPE et PME franciliennes qui ont : Ouvert une procédure de prévention (mandat ad hoc ou conciliation) à compter du 1er janvier 2023,Abouti à un accord (avec les créanciers et/ou partenaires).
+
+QUI PEUT EN BENEFICIER: Professionnel - TPE < 10|||Professionnel - PME < 250|||Association - Régie par la loi de 1901|||Professionnel - Artisan ou commercant
+
+DEMARCHES: La demande est à déposer sur la plateforme régionale mesdemarches.iledefrance.fr
+
+CONTACT: <ul><li>Pour une <strong>question relative à l’in</strong><strong>struction d’un dossier </strong>en cours : <a href="mailto:cheque-prevention-idf@asp-public.fr" target="_blank">cheque-prevention-idf@asp-public.fr<br /></a></li><li>Pour d'autres questions, consultez <a href="https://www.iledefrance.fr/cheque-prevention-tpe-pme-artisans-faqquestions-frequentes" target="_blank">la FAQ Chèque prévention en ligne</a> (même contenu que celui de la FAQ en PDF téléchargeable plus bas).</li><li>Pour des <strong>questions avan</strong><strong>t le dépôt d'un dossier</strong> : <a href="mailto:cheque-prevention@iledefrance.fr" target="_blank">cheque-prevention@iledefrance.fr</a></li></ul>
+
+

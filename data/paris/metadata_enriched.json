@@ -1,0 +1,597 @@
+[
+  {
+    "id": "402b1e2203fd7b3fbfa69a6381973e21",
+    "titre": "Appel à projets pour le partage de la culture scientifique 2026 à Paris",
+    "url_source": "https://www.paris.fr/pages/appel-a-projets-2024-pour-le-partage-de-la-culture-scientifique-a-paris-25958",
+    "date_limite": "2026-02-11",
+    "organisme": "Ville de Paris",
+    "resume": "Appel à projets pour financer des projets de partage de la culture scientifique à Paris en 2026, avec un budget total de 150 000 €.",
+    "perimetre_geo": "Paris (75)",
+    "pdf_filename": "aap_culture-scientifique_2026-DqVw.pdf",
+    "content_file": "data\\paris\\content\\402b1e2203fd7b3fbfa69a6381973e21.txt",
+    "categories": [
+      "culture-sport"
+    ],
+    "tags": [
+      "culture scientifique",
+      "Paris",
+      "financement",
+      "projets",
+      "2026"
+    ],
+    "eligibilite": [
+      "associations",
+      "cooperatives",
+      "fondations",
+      "organismes publics",
+      "organismes de recherche",
+      "universites"
+    ],
+    "public_cible_detail": [
+      "grand public",
+      "jeunes publics",
+      "publics éloignés des sciences"
+    ],
+    "montant_min": 1000,
+    "montant_max": 19000,
+    "type_financement": "Subvention",
+    "url_candidature": "https://www.paris.fr/pages/appel-a-projets-2024-pour-le-partage-de-la-culture-scientifique-a-paris-25958",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "4a367018d1f7eeccfc17511922c83591",
+    "titre": "Un Carrousel sur la place de l'Hôtel de Ville",
+    "url_source": "https://www.paris.fr/pages/un-carrousel-sur-la-place-de-l-hotel-de-ville-33375",
+    "date_limite": "2026-02-02",
+    "organisme": "Ville de Paris",
+    "resume": "Appel à projets pour l'installation d'un manège de type carrousel sur la place de l'Hôtel de Ville à Paris du 2 mars au 29 juin 2026.",
+    "perimetre_geo": "Paris (75)",
+    "pdf_filename": null,
+    "content_file": "data\\paris\\content\\4a367018d1f7eeccfc17511922c83591.txt",
+    "categories": [
+      "culture-sport"
+    ],
+    "tags": [
+      "carrousel",
+      "manège",
+      "place de l'Hôtel de Ville",
+      "Paris",
+      "appel à projets"
+    ],
+    "eligibilite": [
+      "entreprises",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Familles",
+      "Enfants"
+    ],
+    "type_financement": "Redevance d’occupation du domaine public (56 euros/jour)",
+    "email_contact": "dae-candidature-emplacement@paris.fr",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "75e4990a0c6c2fcb6a0cdeee7a4221a3",
+    "titre": "Appel à projets « Prévenir les conduites à risques dans les établissements accueillant des adolescents et jeunes majeurs en situation de placement »",
+    "url_source": "https://www.paris.fr/pages/appel-a-projets-prevenir-les-conduites-a-risques-dans-les-etablissements-accueillant-des-adolescents-et-jeunes-majeurs-en-situation-de-placement-33349",
+    "date_limite": "2026-02-16",
+    "organisme": "Ville de Paris",
+    "resume": "Appel à projets pour prévenir les conduites à risques chez les adolescents et jeunes majeurs en situation de placement, ouvert jusqu'au 16 février 2026.",
+    "perimetre_geo": "Paris (75)",
+    "pdf_filename": "schema-de-protection-de-l-enfance-tome2-WKxo.pdf",
+    "content_file": "data\\paris\\content\\75e4990a0c6c2fcb6a0cdeee7a4221a3.txt",
+    "categories": [
+      "education-jeunesse",
+      "sante-handicap",
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "prévention",
+      "adolescents",
+      "jeunes majeurs",
+      "placement",
+      "conduites à risques"
+    ],
+    "eligibilite": [
+      "associations",
+      "etablissements",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Adolescents et jeunes majeurs de 13 à 21 ans en situation de placement",
+      "Professionnels accompagnant ces jeunes"
+    ],
+    "type_financement": "Subvention",
+    "url_candidature": "https://www.paris.fr/pages/appel-a-projets-prevenir-les-conduites-a-risques-dans-les-etablissements-accueillant-des-adolescents-et-jeunes-majeurs-en-situation-de-placement-33349",
+    "email_contact": "melissa.hadoux@paris.fr",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "0bc834d4c03639d5c0bb3ce9b89144e8",
+    "titre": "Exploitation d'un dispositif de réalité virtuelle historique sur le Parc des Rives de Seine (4e)",
+    "url_source": "https://www.paris.fr/pages/exploitation-d-un-dispositif-de-realite-virtuelle-historique-sur-le-parc-des-rives-de-seine-4e-33331",
+    "date_limite": "2026-01-30",
+    "organisme": "Ville de Paris",
+    "resume": "Appel à projets pour exploiter un dispositif de réalité virtuelle historique sur le Parc des Rives de Seine (4e) du 1er mai au 31 octobre 2026.",
+    "perimetre_geo": "Paris (75)",
+    "pdf_filename": "guide-du-candidat-agorize-Lnbq.pdf",
+    "content_file": "data\\paris\\content\\0bc834d4c03639d5c0bb3ce9b89144e8.txt",
+    "categories": [
+      "culture-sport"
+    ],
+    "tags": [
+      "réalité virtuelle",
+      "historique",
+      "Parc des Rives de Seine",
+      "Paris",
+      "dispositif"
+    ],
+    "eligibilite": [
+      "entreprises",
+      "professionnels",
+      "autre"
+    ],
+    "type_financement": "Redevance d’occupation du domaine public",
+    "url_candidature": "https://www.paris.fr/pages/exploitation-d-un-dispositif-de-realite-virtuelle-historique-sur-le-parc-des-rives-de-seine-4e-33331",
+    "email_contact": "dae-bee@paris.fr",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "6381d23a84089cb3e2bd98f2fd1cb974",
+    "titre": "Prévention des rixes entre jeunes à Paris",
+    "url_source": "https://www.paris.fr/pages/prevention-des-rixes-entre-jeunes-a-paris-33343",
+    "date_limite": "2026-01-29",
+    "organisme": "Ville de Paris",
+    "resume": "Appel à projets pour la prévention des rixes entre jeunes à Paris, axé sur le soutien à la parentalité et la gestion des tensions.",
+    "perimetre_geo": "Paris (75)",
+    "pdf_filename": "aap-2026-prevention-des-rixes-vf-Mntg.pdf",
+    "content_file": "data\\paris\\content\\6381d23a84089cb3e2bd98f2fd1cb974.txt",
+    "categories": [
+      "education-jeunesse",
+      "solidarite-inclusion",
+      "numerique"
+    ],
+    "tags": [
+      "jeunes",
+      "parentalité",
+      "prévention",
+      "rixes",
+      "Paris"
+    ],
+    "eligibilite": [
+      "associations"
+    ],
+    "public_cible_detail": [
+      "Jeunes",
+      "Parents",
+      "Familles"
+    ],
+    "type_financement": "Subvention",
+    "url_candidature": "https://www.paris.fr/pages/prevention-des-rixes-entre-jeunes-a-paris-33343",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "96cd5e7385899f67f43b6441d7e3c3da",
+    "titre": "Appel à projets « Paris Fabrik » : formations professionnelles aux métiers de la transition écologique",
+    "url_source": "https://www.paris.fr/pages/appel-a-projets-parisfabrik-5-20455",
+    "date_limite": "2026-02-19",
+    "organisme": "Ville de Paris",
+    "resume": "Appel à projets Paris Fabrik : formations professionnelles aux métiers de la transition écologique pour les Parisien·ne·s.",
+    "perimetre_geo": "Paris (75)",
+    "pdf_filename": "reglement_aap_parisfabrik-ATDF.pdf",
+    "content_file": "data\\paris\\content\\96cd5e7385899f67f43b6441d7e3c3da.txt",
+    "categories": [
+      "environnement-transition",
+      "insertion-emploi"
+    ],
+    "tags": [
+      "formation",
+      "transition écologique",
+      "emploi",
+      "Paris",
+      "métiers verts"
+    ],
+    "eligibilite": [
+      "associations",
+      "entreprises",
+      "professionnels",
+      "autre"
+    ],
+    "public_cible_detail": [
+      "Parisien·ne·s"
+    ],
+    "type_financement": "Subvention",
+    "url_candidature": "https://www.paris.fr/pages/appel-a-projets-parisfabrik-5-20455",
+    "email_contact": "dae-parisfabrik@paris.fr",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "ce027683eed86d454e5d878de0ad0db8",
+    "titre": "Appel à projets immobiliers 2026 pour des lieux de collecte, transformation, production, vente et logistique pour une économie solidaire et engagée à Paris",
+    "url_source": "https://www.paris.fr/pages/appel-a-projets-immobiliers-dans-le-19e-des-locaux-pour-des-activites-circulaires-de-l-economie-sociale-et-solidaire-24205",
+    "date_limite": "2026-04-02",
+    "organisme": "Ville de Paris",
+    "resume": "Appel à projets pour des lieux de collecte, transformation, production, vente et logistique pour une économie solidaire et engagée à Paris.",
+    "perimetre_geo": "Paris (75)",
+    "pdf_filename": "aap-immo-economie-de-demain-2026-mWo5.pdf",
+    "content_file": "data\\paris\\content\\ce027683eed86d454e5d878de0ad0db8.txt",
+    "categories": [
+      "economie-ess",
+      "environnement-transition"
+    ],
+    "tags": [
+      "économie circulaire",
+      "alimentation durable",
+      "immobilier",
+      "ESS",
+      "Paris"
+    ],
+    "eligibilite": [
+      "associations",
+      "entreprises"
+    ],
+    "public_cible_detail": [
+      "Acteurs de l'économie sociale et solidaire"
+    ],
+    "type_financement": "Subvention",
+    "url_candidature": "https://www.paris.fr/pages/le-service-numerique-paris-subventions-24118",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "5989061b949e8d44ccc8e39480db40ad",
+    "titre": "Résidences artistiques \"Art pour grandir\" en collèges 2026-2027",
+    "url_source": "https://www.paris.fr/pages/residences-artistiques-art-pour-grandir-en-colleges-2026-2027-33280",
+    "date_limite": "2026-02-04",
+    "organisme": "Ville de Paris",
+    "resume": "Appel à projets pour des résidences artistiques en collèges pour l'année 2026-2027, ouvert aux structures culturelles jusqu'au 4 février 2026.",
+    "perimetre_geo": "Paris (75)",
+    "pdf_filename": "reglement-rac-26-def-3UX2.pdf",
+    "content_file": "data\\paris\\content\\5989061b949e8d44ccc8e39480db40ad.txt",
+    "categories": [
+      "culture-sport",
+      "education-jeunesse"
+    ],
+    "tags": [
+      "art",
+      "résidence",
+      "collège",
+      "Paris",
+      "culture"
+    ],
+    "eligibilite": [
+      "associations",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Collégiens",
+      "Enfants de CM2",
+      "Jeunes Parisien∙nes"
+    ],
+    "url_candidature": "https://www.paris.fr/pages/residences-artistiques-art-pour-grandir-en-colleges-2026-2027-33280",
+    "email_contact": "dac-artpourgrandir@paris.fr",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "81f19a4792c15994dc8263a69ab1ce9b",
+    "titre": "Appel à propositions pour un emplacement commercial 115 Avenue des Champs Elysées (8e)",
+    "url_source": "https://www.paris.fr/pages/appel-a-propositions-pour-un-emplacement-commercial-115-avenue-des-champs-elysees-8e-arrondissement-33265",
+    "date_limite": "2026-01-14",
+    "organisme": "Ville de Paris",
+    "resume": "Appel à propositions pour un emplacement commercial situé au 115 Avenue des Champs Elysées dans le 8e arrondissement de Paris.",
+    "perimetre_geo": "Paris (75)",
+    "pdf_filename": "guide-du-candidat-02-qMva.pdf",
+    "content_file": "data\\paris\\content\\81f19a4792c15994dc8263a69ab1ce9b.txt",
+    "categories": [
+      "autre"
+    ],
+    "tags": [
+      "commercial",
+      "expérimental",
+      "virtuel",
+      "start-up",
+      "Paris"
+    ],
+    "eligibilite": [
+      "entreprises",
+      "professionnels",
+      "autre"
+    ],
+    "type_financement": "Autorisation d’occupation du domaine public",
+    "url_candidature": "https://aap-bka-bee.agorize.com",
+    "email_contact": "DAE-candidature-emplacement@paris.fr",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "13faacc91d42e9e853ad4f87d170680c",
+    "titre": "Appel à projets « Parcours linguistiques à visée professionnelle » (PLVP) 2026",
+    "url_source": "https://www.paris.fr/pages/appel-a-projets-parcours-linguistiques-a-visee-professionnelle-plvp-2020-7465",
+    "date_limite": "2026-02-03",
+    "organisme": "Ville de Paris",
+    "resume": "Appel à projets pour des formations linguistiques professionnelles à Paris, visant à améliorer la maîtrise du français et l'insertion professionnelle des chercheurs d'emploi.",
+    "perimetre_geo": "Paris (75)",
+    "pdf_filename": "1-reglement-plvp-2026-vf-BQiz.pdf",
+    "content_file": "data\\paris\\content\\13faacc91d42e9e853ad4f87d170680c.txt",
+    "categories": [
+      "insertion-emploi",
+      "education-jeunesse",
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "langue française",
+      "insertion professionnelle",
+      "emploi",
+      "formation",
+      "Paris"
+    ],
+    "eligibilite": [
+      "associations",
+      "etablissements",
+      "entreprises"
+    ],
+    "public_cible_detail": [
+      "Parisien·nes en recherche d’emploi",
+      "Contrat de travail précaire",
+      "Habitants des quartiers populaires parisiens",
+      "Femmes",
+      "Allocataires du RSA"
+    ],
+    "montant_max": 710000,
+    "type_financement": "Subvention",
+    "url_candidature": "https://www.paris.fr/pages/appel-a-projets-parcours-linguistiques-a-visee-professionnelle-plvp-2020-7465",
+    "email_contact": "plvp@paris.fr",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "d9491e82e8f1d9454722fe6e7cac8ee4",
+    "titre": "Postulez aux Trophées parisiens de l’économie sociale et solidaire",
+    "url_source": "https://www.paris.fr/pages/les-trophees-parisiens-de-l-economie-sociale-et-solidaire-19793",
+    "date_limite": "2026-01-29",
+    "organisme": "Ville de Paris",
+    "resume": "Appel à projets pour soutenir l’économie sociale et solidaire (ESS) à Paris, avec des subventions jusqu’à 25 000 euros.",
+    "perimetre_geo": "Paris (75)",
+    "pdf_filename": "reglement-aap-trophees-2026-v2-U2Ei.pdf",
+    "content_file": "data\\paris\\content\\d9491e82e8f1d9454722fe6e7cac8ee4.txt",
+    "categories": [
+      "economie-ess",
+      "solidarite-inclusion",
+      "environnement-transition"
+    ],
+    "tags": [
+      "ESS",
+      "subvention",
+      "Paris",
+      "innovation sociale",
+      "emploi"
+    ],
+    "eligibilite": [
+      "associations",
+      "entreprises",
+      "autre"
+    ],
+    "public_cible_detail": [
+      "Personnes éloignées de l’emploi",
+      "Bénéficiaires du RSA",
+      "Habitants des quartiers prioritaires"
+    ],
+    "montant_max": 25000,
+    "type_financement": "Subvention",
+    "url_candidature": "https://parisasso.paris.fr/parisassos/",
+    "email_contact": "dae-stes@paris.fr",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "d797202ee78c2b39ab56b10ddd628dfe",
+    "titre": "Résidences artistiques \"Art pour grandir\" en crèches 2026-2027",
+    "url_source": "https://www.paris.fr/pages/residences-artistiques-art-pour-grandir-en-creches-2026-2027-33121",
+    "date_limite": "2026-01-08",
+    "organisme": "Ville de Paris",
+    "resume": "Appel à projets pour des résidences artistiques en crèches parisiennes pour l'année 2026-2027, permettant aux enfants de s'initier à diverses disciplines artistiques.",
+    "perimetre_geo": "Paris (75)",
+    "pdf_filename": "2-eglement-structures-culturelles-eveil-2627-EhOM.pdf",
+    "content_file": "data\\paris\\content\\d797202ee78c2b39ab56b10ddd628dfe.txt",
+    "categories": [
+      "culture-sport"
+    ],
+    "tags": [
+      "art",
+      "crèches",
+      "résidences artistiques",
+      "enfants",
+      "Paris"
+    ],
+    "eligibilite": [
+      "structures culturelles"
+    ],
+    "public_cible_detail": [
+      "enfants en crèche",
+      "parents",
+      "professionnels de la petite enfance"
+    ],
+    "url_candidature": "https://www.paris.fr/pages/residences-artistiques-art-pour-grandir-en-creches-2026-2027-33121",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "c1a070435d6474cb83e3b7929c42ee10",
+    "titre": "Appel à projets : Actions de prévention de la perte d’autonomie des séniors parisiens",
+    "url_source": "https://www.paris.fr/pages/appel-a-projets-actions-de-prevention-de-la-perte-d-autonomie-des-seniors-parisiens-a-paris-33034",
+    "date_limite": "2026-01-09",
+    "organisme": "Ville de Paris",
+    "resume": "Appel à projets pour des actions de prévention de la perte d'autonomie des séniors parisiens, ouvert jusqu'au 9 janvier 2026.",
+    "perimetre_geo": "Paris (75)",
+    "pdf_filename": "cadre-reglementaire-2026-LiCF.pdf",
+    "content_file": "data\\paris\\content\\c1a070435d6474cb83e3b7929c42ee10.txt",
+    "categories": [
+      "sante-handicap",
+      "solidarite-inclusion"
+    ],
+    "tags": [
+      "séniors",
+      "autonomie",
+      "prévention",
+      "Paris",
+      "vieillissement"
+    ],
+    "eligibilite": [
+      "associations",
+      "etablissements",
+      "autre"
+    ],
+    "public_cible_detail": [
+      "Séniors parisiens de 60 ans et plus",
+      "Séniors fragiles et isolés"
+    ],
+    "type_financement": "Subvention",
+    "url_candidature": "https://teleservices.paris.fr",
+    "email_contact": "dsol-conferencefinanceurs@paris.fr",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "9a585c043ada3314aa99d7a62dfb7705",
+    "titre": "Appel à projets des activités péri et extrascolaires « Renouvellement urbain »",
+    "url_source": "https://www.paris.fr/pages/appel-a-projets-des-activites-peri-et-extrascolaires-renouvellement-urbain-16541",
+    "date_limite": "2026-01-05",
+    "organisme": "Ville de Paris",
+    "resume": "Appel à projets pour des ateliers pédagogiques dans des écoles et collèges publics parisiens en renouvellement urbain.",
+    "perimetre_geo": "Paris (75)",
+    "pdf_filename": "1-appelaprojets_tap2026_-reglement_aap_vf-YHmx.pdf",
+    "content_file": "data\\paris\\content\\9a585c043ada3314aa99d7a62dfb7705.txt",
+    "categories": [
+      "education-jeunesse",
+      "logement-urbanisme"
+    ],
+    "tags": [
+      "ateliers pédagogiques",
+      "renouvellement urbain",
+      "écoles",
+      "collèges",
+      "Paris"
+    ],
+    "eligibilite": [
+      "associations",
+      "autre"
+    ],
+    "public_cible_detail": [
+      "Élèves d'écoles et collèges publics",
+      "Enfants en situation de renouvellement urbain"
+    ],
+    "type_financement": "Subvention",
+    "url_candidature": "https://www.paris.fr/pages/appel-a-projets-des-activites-peri-et-extrascolaires-renouvellement-urbain-16541",
+    "email_contact": "dasco-tap@paris.fr",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "f9ead0bd923225d27be8868c34c796b2",
+    "titre": "Appel à projets des temps d'activités périscolaires (TAP)",
+    "url_source": "https://www.paris.fr/pages/appel-a-projets-des-temps-d-activites-periscolaires-tap-16522",
+    "date_limite": "2026-01-05",
+    "organisme": "Ville de Paris",
+    "resume": "Appel à projets pour des ateliers pédagogiques dans les temps d'activités périscolaires (TAP) des écoles parisiennes pour l'année 2026-2027.",
+    "perimetre_geo": "Paris (75)",
+    "pdf_filename": "1-appelaprojets_tap2026_-reglement_aap_vf-wGSa.pdf",
+    "content_file": "data\\paris\\content\\f9ead0bd923225d27be8868c34c796b2.txt",
+    "categories": [
+      "education-jeunesse"
+    ],
+    "tags": [
+      "enfants",
+      "ateliers",
+      "éducation",
+      "périscolaire",
+      "Paris"
+    ],
+    "eligibilite": [
+      "associations",
+      "autre"
+    ],
+    "public_cible_detail": [
+      "Enfants scolarisés en écoles maternelles et élémentaires parisiennes"
+    ],
+    "type_financement": "Subvention",
+    "url_candidature": "https://www.paris.fr/pages/appel-a-projets-des-temps-d-activites-periscolaires-tap-16522",
+    "email_contact": "dasco-tap@paris.fr",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "965c03e7565b853cb0872551e234e661",
+    "titre": "Aides pour les artistes et événements hip-hop",
+    "url_source": "https://www.paris.fr/pages/nouvelles-aides-pour-les-artistes-et-evenements-hip-hop-30483",
+    "date_limite": "2025-11-07",
+    "organisme": "Ville de Paris",
+    "resume": "Aides pour les artistes et événements hip-hop. Appel à projets pour soutenir la création et la diffusion de concerts, spectacles, battles, expositions et événements pluridisciplinaires dans le domaine du hip-hop.",
+    "perimetre_geo": "Paris (75)",
+    "pdf_filename": "aide-a-la-musique-hh-2026-s1-cKZW.pdf",
+    "content_file": "data\\paris\\content\\965c03e7565b853cb0872551e234e661.txt",
+    "categories": [
+      "culture-sport"
+    ],
+    "tags": [
+      "hip-hop",
+      "artistes",
+      "concerts",
+      "battles",
+      "expositions"
+    ],
+    "eligibilite": [
+      "associations",
+      "entreprises",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Artistes professionnels",
+      "Publics parisiens"
+    ],
+    "montant_max": 10000,
+    "type_financement": "Subvention",
+    "url_candidature": "https://www.paris.fr/pages/nouvelles-aides-pour-les-artistes-et-evenements-hip-hop-30483",
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  },
+  {
+    "id": "aa2bb3b5df19c3a5e37583764bd1c216",
+    "titre": "Terrains de recherche : découvrez les thématiques",
+    "url_source": "https://www.paris.fr/pages/terrains-de-recherche-32728",
+    "date_limite": "2025-10-31",
+    "organisme": "Ville de Paris",
+    "resume": "Appel à projets Terrains de recherche pour confronter étudiants à des problématiques de politiques publiques et apporter un regard neuf aux services municipaux.",
+    "perimetre_geo": "Paris (75)",
+    "pdf_filename": null,
+    "content_file": "data\\paris\\content\\aa2bb3b5df19c3a5e37583764bd1c216.txt",
+    "categories": [
+      "education-jeunesse",
+      "autre"
+    ],
+    "tags": [
+      "recherche",
+      "étudiants",
+      "politiques publiques",
+      "collaboration",
+      "innovation"
+    ],
+    "eligibilite": [
+      "etablissements",
+      "professionnels"
+    ],
+    "public_cible_detail": [
+      "Étudiants de master",
+      "Enseignants-chercheurs",
+      "Responsables de formation"
+    ],
+    "llm_model": "mistralai/mistral-7b-instruct:free",
+    "enrichment_status": "success"
+  }
+]
