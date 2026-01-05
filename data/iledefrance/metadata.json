@@ -17,9 +17,7 @@
     "tags": [
       "Attractivité"
     ],
-    "public_cible": [
-      "Établissement d'enseignement supérieur"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -44,9 +42,7 @@
     "tags": [
       "Région solidaire"
     ],
-    "public_cible": [
-      "Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Département|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -71,9 +67,7 @@
     "tags": [
       "Région solidaire"
     ],
-    "public_cible": [
-      "Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Département|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -97,9 +91,7 @@
     "tags": [
       "Attractivité"
     ],
-    "public_cible": [
-      "Entreprises"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -121,9 +113,7 @@
       "education-jeunesse"
     ],
     "tags": [],
-    "public_cible": [
-      "Particulier - Lycéen|||Établissement d'enseignement secondaire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -148,9 +138,7 @@
     "tags": [
       "Région solidaire"
     ],
-    "public_cible": [
-      "Associations|||Collectivités - Institutions|||Entreprises"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -174,9 +162,7 @@
     "tags": [
       "Attractivité"
     ],
-    "public_cible": [
-      "Professionnel - Chercheur|||Établissement de recherche et laboratoire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -198,9 +184,7 @@
       "education-jeunesse"
     ],
     "tags": [],
-    "public_cible": [
-      "Établissement de recherche et laboratoire|||Professionnel - Chercheur|||Établissement d'enseignement supérieur|||Association - Fondation|||Professionnel - PME < 250"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": "https://www.europeidf.fr/jai-un-projet/appels-a-projets/plateformes-recherche",
@@ -222,9 +206,7 @@
       "culture-sport"
     ],
     "tags": [],
-    "public_cible": [
-      "Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - EPCI|||Association - Régie par la loi de 1901|||Professionnel - Agriculture et alimentation"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -248,9 +230,7 @@
     "tags": [
       "Smart Région|||Emploi|||Attractivité"
     ],
-    "public_cible": [
-      "Professionnel - TPE < 10|||Professionnel - PME < 250"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -274,9 +254,7 @@
     "tags": [
       "Budget participatif"
     ],
-    "public_cible": [
-      "Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal|||Association - Régie par la loi de 1901|||Établissement d'enseignement secondaire|||Établissement d'enseignement supérieur|||Professionnel - ETI < 5000|||Professionnel - PME < 250|||Professionnel - GE > 5000|||Professionnel - TPE < 10"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -299,9 +277,7 @@
       "environnement-transition"
     ],
     "tags": [],
-    "public_cible": [
-      "Professionnel - Agriculture et alimentation|||Professionnel - TPE < 10|||Professionnel - PME < 250|||Professionnel - ETI < 5000|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -325,9 +301,7 @@
     "tags": [
       "Egalité femmes/hommes"
     ],
-    "public_cible": [
-      "Établissement d'enseignement secondaire|||Particulier - Lycéen"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -351,9 +325,7 @@
     "tags": [
       "Attractivité"
     ],
-    "public_cible": [
-      "Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Département|||Association - Régie par la loi de 1901|||Établissement d'enseignement secondaire|||Établissement de recherche et laboratoire|||Établissement ou organismes de formation (OF, OPCO, FSS, CFA...)"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": "https://www.iledefrance.fr/actes/deliberations/CP2024-294RAP.pdf",
@@ -378,9 +350,7 @@
     "tags": [
       "Budget participatif|||Handicap|||Région solidaire"
     ],
-    "public_cible": [
-      "Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal|||Établissement d'enseignement secondaire|||Établissement d'enseignement supérieur"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -405,9 +375,7 @@
     "tags": [
       "Attractivité|||Handicap|||Région solidaire|||Smart Région"
     ],
-    "public_cible": [
-      "Entreprises|||Associations"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -431,9 +399,7 @@
     "tags": [
       "Attractivité"
     ],
-    "public_cible": [
-      "Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - EPCI|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Professionnel - PME < 250|||Professionnel - TPE < 10|||Association - Fondation"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -457,9 +423,7 @@
     "tags": [
       "Sécurité"
     ],
-    "public_cible": [
-      "Collectivités - Institutions"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -484,9 +448,7 @@
     "tags": [
       "Région solidaire|||Egalité femmes/hommes"
     ],
-    "public_cible": [
-      "Association - Régie par la loi de 1901|||Association - ONG|||Association - Fondation"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/soutien-aux-femmes-en-difficulte",
@@ -508,9 +470,7 @@
       "culture-sport"
     ],
     "tags": [],
-    "public_cible": [
-      "Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Professionnel - Agriculture et alimentation"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -534,9 +494,7 @@
     "tags": [
       "Handicap"
     ],
-    "public_cible": [
-      "Professionnel - TPE < 10|||Professionnel - PME < 250"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -558,9 +516,7 @@
       "culture-sport"
     ],
     "tags": [],
-    "public_cible": [
-      "Professionnel - Culture|||Professionnel - Patrimoine|||Association - Régie par la loi de 1901|||Association - Fondation|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Bailleurs sociaux"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -585,9 +541,7 @@
     "tags": [
       "Région solidaire"
     ],
-    "public_cible": [
-      "Association - Régie par la loi de 1901"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -611,9 +565,7 @@
     "tags": [
       "Emploi|||Attractivité"
     ],
-    "public_cible": [
-      "Particulier - Francilien|||Professionnel - Créateur d'entreprise"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -637,9 +589,7 @@
     "tags": [
       "Cinéma - Audiovisuel - Jeu vidéo"
     ],
-    "public_cible": [
-      "Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -663,9 +613,7 @@
     "tags": [
       "Livre"
     ],
-    "public_cible": [
-      "Association - Fondation|||Association - Régie par la loi de 1901|||Association - ONG|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Office de tourisme intercommunal"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -689,9 +637,7 @@
     "tags": [
       "Emploi|||Smart Région|||Handicap"
     ],
-    "public_cible": [
-      "Professionnel - Chercheur|||Établissement de recherche et laboratoire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -715,9 +661,7 @@
     "tags": [
       "Attractivité"
     ],
-    "public_cible": [
-      "Professionnel - PME < 250|||Professionnel - TPE < 10|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Département|||Association - Régie par la loi de 1901|||Association - Fondation"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -741,9 +685,7 @@
     "tags": [
       "Sécurité"
     ],
-    "public_cible": [
-      "Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Département"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -765,9 +707,7 @@
       "education-jeunesse"
     ],
     "tags": [],
-    "public_cible": [
-      "Établissement d'enseignement secondaire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -791,9 +731,7 @@
     "tags": [
       "Smart Région"
     ],
-    "public_cible": [
-      "Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Département|||Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Professionnel - PME < 250|||Professionnel - TPE < 10"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -815,9 +753,7 @@
       "education-jeunesse"
     ],
     "tags": [],
-    "public_cible": [
-      "Établissement d'enseignement secondaire|||Établissement d'enseignement supérieur|||Particulier - Lycéen"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -839,9 +775,7 @@
       "education-jeunesse"
     ],
     "tags": [],
-    "public_cible": [
-      "Particulier - Lycéen|||Établissement d'enseignement secondaire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -866,9 +800,7 @@
     "tags": [
       "Région solidaire"
     ],
-    "public_cible": [
-      "Association - Fondation|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -892,9 +824,7 @@
     "tags": [
       "Attractivité|||Patrimoine"
     ],
-    "public_cible": [
-      "Particulier - Francilien|||Professionnel - Culture|||Professionnel - Patrimoine|||Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -918,9 +848,7 @@
     "tags": [
       "Attractivité|||Emploi"
     ],
-    "public_cible": [
-      "Professionnel - PME < 250|||Professionnel - ETI < 5000|||Établissement de recherche et laboratoire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -944,9 +872,7 @@
     "tags": [
       "Attractivité"
     ],
-    "public_cible": [
-      "Professionnel - Créateur d'entreprise|||Professionnel - Culture|||Professionnel - TPE < 10|||Professionnel - PME < 250|||Professionnel - GE > 5000|||Association - Fondation|||Association - ONG"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -970,9 +896,7 @@
     "tags": [
       "Budget participatif"
     ],
-    "public_cible": [
-      "Association - Régie par la loi de 1901|||Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Professionnel - PME < 250|||Professionnel - TPE < 10|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -996,9 +920,7 @@
     "tags": [
       "Egalité femmes/hommes"
     ],
-    "public_cible": [
-      "Établissement d'enseignement secondaire|||Particulier - Lycéen"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1022,9 +944,7 @@
     "tags": [
       "Emploi"
     ],
-    "public_cible": [
-      "Établissement ou organismes de formation (OF, OPCO, FSS, CFA...)"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1048,9 +968,7 @@
     "tags": [
       "Attractivité"
     ],
-    "public_cible": [
-      "Professionnel - Chercheur|||Établissement de recherche et laboratoire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1074,9 +992,7 @@
     "tags": [
       "Smart Région"
     ],
-    "public_cible": [
-      "Professionnel - Chercheur|||Établissement de recherche et laboratoire|||Établissement d'enseignement supérieur"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1100,9 +1016,7 @@
     "tags": [
       "Attractivité|||Smart Région|||Emploi"
     ],
-    "public_cible": [
-      "Professionnel - TPE < 10|||Professionnel - PME < 250|||Association - Régie par la loi de 1901"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1124,9 +1038,7 @@
       "autre"
     ],
     "tags": [],
-    "public_cible": [
-      "Associations"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1151,9 +1063,7 @@
     "tags": [
       "Région solidaire"
     ],
-    "public_cible": [
-      "Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": "https://www.iledefrance.fr/aides-et-appels-a-projets/egalite-femmes-hommes-et-lutte-contre-les-violences-faites-aux-femmes",
@@ -1178,9 +1088,7 @@
     "tags": [
       "Arts plastiques"
     ],
-    "public_cible": [
-      "Professionnel - Créateur d'entreprise|||Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Professionnel - PME < 250|||Professionnel - TPE < 10|||Professionnel - Artisan ou commercant|||Professionnel - Culture|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Office de tourisme intercommunal|||Collectivité ou institution - Département|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1204,9 +1112,7 @@
     "tags": [
       "Attractivité"
     ],
-    "public_cible": [
-      "Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Professionnel - PME < 250|||Professionnel - TPE < 10"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1230,9 +1136,7 @@
     "tags": [
       "Finances & Budget"
     ],
-    "public_cible": [
-      "Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Professionnel - PME < 250|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal|||Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Établissement ou organismes de formation (OF, OPCO, FSS, CFA...)|||Établissement d'enseignement secondaire|||Établissement d'enseignement supérieur|||Établissement de recherche et laboratoire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1254,9 +1158,7 @@
       "culture-sport"
     ],
     "tags": [],
-    "public_cible": [
-      "Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Professionnel - TPE < 10|||Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Association - Fondation|||Professionnel - PME < 250"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1278,9 +1180,7 @@
       "education-jeunesse"
     ],
     "tags": [],
-    "public_cible": [
-      "Établissement d'enseignement secondaire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1303,9 +1203,7 @@
       "solidarite-inclusion"
     ],
     "tags": [],
-    "public_cible": [
-      "Association - Régie par la loi de 1901"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1329,9 +1227,7 @@
     "tags": [
       "Région solidaire"
     ],
-    "public_cible": [
-      "Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1356,9 +1252,7 @@
     "tags": [
       "Région solidaire"
     ],
-    "public_cible": [
-      "Professionnel - TPE < 10"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1380,9 +1274,7 @@
       "education-jeunesse"
     ],
     "tags": [],
-    "public_cible": [
-      "Établissement d'enseignement secondaire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1404,9 +1296,7 @@
       "environnement-transition"
     ],
     "tags": [],
-    "public_cible": [
-      "Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal|||Association - Régie par la loi de 1901|||Établissement d'enseignement secondaire|||Établissement d'enseignement supérieur|||Établissement ou organismes de formation (OF, OPCO, FSS, CFA...)"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1430,9 +1320,7 @@
     "tags": [
       "Attractivité|||Emploi"
     ],
-    "public_cible": [
-      "Particulier - Francilien|||Professionnel - Créateur d'entreprise"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1456,9 +1344,7 @@
     "tags": [
       "Attractivité|||Emploi"
     ],
-    "public_cible": [
-      "Professionnel - Créateur d'entreprise"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1480,9 +1366,7 @@
       "education-jeunesse"
     ],
     "tags": [],
-    "public_cible": [
-      "Particulier - Lycéen|||Établissement d'enseignement secondaire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1504,9 +1388,7 @@
       "autre"
     ],
     "tags": [],
-    "public_cible": [
-      "Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": "https://mesdemarches.iledefrance.fr/",
@@ -1530,9 +1412,7 @@
     "tags": [
       "Attractivité|||Emploi"
     ],
-    "public_cible": [
-      "Établissement de recherche et laboratoire|||Professionnel - TPE < 10|||Professionnel - ETI < 5000|||Professionnel - PME < 250"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1556,9 +1436,7 @@
     "tags": [
       "Patrimoine|||Attractivité"
     ],
-    "public_cible": [
-      "Professionnel - Culture|||Professionnel - Patrimoine|||Association - Régie par la loi de 1901"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1583,9 +1461,7 @@
     "tags": [
       "Budget participatif"
     ],
-    "public_cible": [
-      "Professionnel - Agriculture et alimentation"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1611,9 +1487,7 @@
     "tags": [
       "Attractivité|||Egalité femmes/hommes|||Emploi"
     ],
-    "public_cible": [
-      "Association - Régie par la loi de 1901|||Professionnel - Chercheur|||Professionnel - TPE < 10|||Professionnel - PME < 250"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1637,9 +1511,7 @@
     "tags": [
       "Organismes de formations sanitaires et sociales"
     ],
-    "public_cible": [
-      "Lycées et centres de formation|||Collectivités - Institutions"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1661,9 +1533,7 @@
       "autre"
     ],
     "tags": [],
-    "public_cible": [
-      "Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - EPCI"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1688,9 +1558,7 @@
     "tags": [
       "Région solidaire"
     ],
-    "public_cible": [
-      "Association - Régie par la loi de 1901|||Association - ONG|||Association - Fondation|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Département"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1713,9 +1581,7 @@
       "solidarite-inclusion"
     ],
     "tags": [],
-    "public_cible": [
-      "Établissement d'enseignement supérieur|||Établissement de recherche et laboratoire|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1740,9 +1606,7 @@
     "tags": [
       "Emploi"
     ],
-    "public_cible": [
-      "Particulier - Francilien|||Professionnel - Créateur d'entreprise|||Professionnel - TPE < 10|||Professionnel - PME < 250"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1766,9 +1630,7 @@
     "tags": [
       "Smart Région|||Attractivité"
     ],
-    "public_cible": [
-      "Particuliers|||Jeunes|||Entreprises|||Professionnels"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1792,9 +1654,7 @@
     "tags": [
       "Attractivité|||Emploi"
     ],
-    "public_cible": [
-      "Chercheurs"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": "https://mesdemarches.iledefrance.fr/",
@@ -1818,9 +1678,7 @@
     "tags": [
       "Spectacle vivant"
     ],
-    "public_cible": [
-      "Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Professionnel - Culture|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1842,9 +1700,7 @@
       "education-jeunesse"
     ],
     "tags": [],
-    "public_cible": [
-      "Établissement d'enseignement secondaire|||Établissement ou organismes de formation (OF, OPCO, FSS, CFA...)|||Particulier - Lycéen"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1866,9 +1722,7 @@
       "education-jeunesse"
     ],
     "tags": [],
-    "public_cible": [
-      "Particulier - Lycéen|||Établissement d'enseignement secondaire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1891,9 +1745,7 @@
       "solidarite-inclusion"
     ],
     "tags": [],
-    "public_cible": [
-      "Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Association - Régie par la loi de 1901|||Collectivité ou institution - Bailleurs sociaux"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1917,9 +1769,7 @@
     "tags": [
       "Jeux olympiques et paralympiques 2024"
     ],
-    "public_cible": [
-      "Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de > 20 000 hab"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1942,9 +1792,7 @@
       "environnement-transition"
     ],
     "tags": [],
-    "public_cible": [
-      "Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1968,9 +1816,7 @@
     "tags": [
       "Organismes de formations sanitaires et sociales"
     ],
-    "public_cible": [
-      "Association - Fondation|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -1994,9 +1840,7 @@
     "tags": [
       "Budget participatif"
     ],
-    "public_cible": [
-      "Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - EPCI"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2018,9 +1862,7 @@
       "autre"
     ],
     "tags": [],
-    "public_cible": [
-      "Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Association - Fondation|||Association - ONG"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2042,9 +1884,7 @@
       "environnement-transition"
     ],
     "tags": [],
-    "public_cible": [
-      "Collectivité ou institution - Bailleurs sociaux|||Association - Régie par la loi de 1901"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2068,9 +1908,7 @@
     "tags": [
       "Attractivité"
     ],
-    "public_cible": [
-      "Professionnel - Créateur d'entreprise|||Professionnel - TPE < 10|||Professionnel - PME < 250"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2093,9 +1931,7 @@
       "environnement-transition"
     ],
     "tags": [],
-    "public_cible": [
-      "Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - EPCI"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2120,9 +1956,7 @@
     "tags": [
       "Budget participatif"
     ],
-    "public_cible": [
-      "Association - Régie par la loi de 1901|||Association - Fondation|||Association - ONG|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal|||Établissement d'enseignement secondaire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2144,9 +1978,7 @@
       "culture-sport"
     ],
     "tags": [],
-    "public_cible": [
-      "Professionnel - Agriculture et alimentation"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2170,9 +2002,7 @@
     "tags": [
       "Attractivité"
     ],
-    "public_cible": [
-      "Professionnel - PME < 250|||Professionnel - TPE < 10|||Professionnel - ETI < 5000"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2196,9 +2026,7 @@
     "tags": [
       "Egalité femmes/hommes"
     ],
-    "public_cible": [
-      "Établissement d'enseignement secondaire|||Particulier - Lycéen"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2222,9 +2050,7 @@
     "tags": [
       "Egalité femmes/hommes"
     ],
-    "public_cible": [
-      "Établissement d'enseignement secondaire|||Particulier - Lycéen"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2248,9 +2074,7 @@
     "tags": [
       "Handicap|||Jeux olympiques et paralympiques 2024"
     ],
-    "public_cible": [
-      "Association - Fondation|||Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Professionnel - PME < 250|||Professionnel - TPE < 10"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2274,9 +2098,7 @@
     "tags": [
       "Smart Région|||Attractivité|||Emploi"
     ],
-    "public_cible": [
-      "Professionnel - Créateur d'entreprise|||Professionnel - TPE < 10|||Professionnel - PME < 250|||Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Établissement d'enseignement supérieur|||Établissement de recherche et laboratoire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": "http://leaderpia.iledefrance.fr/GLI-Filieres-France-2030",
@@ -2300,9 +2122,7 @@
     "tags": [
       "Attractivité|||Emploi"
     ],
-    "public_cible": [
-      "Professionnel - TPE < 10|||Professionnel - PME < 250|||Association - Régie par la loi de 1901|||Professionnel - Artisan ou commercant"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2325,9 +2145,7 @@
       "environnement-transition"
     ],
     "tags": [],
-    "public_cible": [
-      "Professionnel - Agriculture et alimentation|||Établissement d'enseignement secondaire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2349,9 +2167,7 @@
       "education-jeunesse"
     ],
     "tags": [],
-    "public_cible": [
-      "Établissement d'enseignement secondaire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2373,9 +2189,7 @@
       "education-jeunesse"
     ],
     "tags": [],
-    "public_cible": [
-      "Établissement d'enseignement secondaire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2401,9 +2215,7 @@
     "tags": [
       "Région solidaire"
     ],
-    "public_cible": [
-      "Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Établissement d'enseignement supérieur|||Établissement ou organismes de formation (OF, OPCO, FSS, CFA...)"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2427,9 +2239,7 @@
     "tags": [
       "Patrimoine|||Attractivité"
     ],
-    "public_cible": [
-      "Professionnel - Culture|||Professionnel - Patrimoine|||Association - Régie par la loi de 1901|||Association - Fondation|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2453,9 +2263,7 @@
     "tags": [
       "Attractivité"
     ],
-    "public_cible": [
-      "Établissement d'enseignement secondaire|||Établissement ou organismes de formation (OF, OPCO, FSS, CFA...)|||Établissement d'enseignement supérieur|||Établissement de recherche et laboratoire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": "https://www.demarches-simplifiees.fr/commencer/aap-france-2030-regionalise-ile-de-france",
@@ -2479,9 +2287,7 @@
     "tags": [
       "Patrimoine|||Attractivité"
     ],
-    "public_cible": [
-      "Particulier - Francilien|||Professionnel - Patrimoine|||Professionnel - Culture|||Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2503,9 +2309,7 @@
       "education-jeunesse"
     ],
     "tags": [],
-    "public_cible": [
-      "Établissement d'enseignement secondaire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2527,9 +2331,7 @@
       "environnement-transition"
     ],
     "tags": [],
-    "public_cible": [
-      "Particulier - Francilien|||Association - Régie par la loi de 1901|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal|||Professionnel - TPE < 10|||Professionnel - PME < 250|||Établissement d'enseignement supérieur|||Établissement d'enseignement secondaire"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,
@@ -2553,9 +2355,7 @@
     "tags": [
       "Spectacle vivant"
     ],
-    "public_cible": [
-      "Professionnel - Culture|||Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris"
-    ],
+    "public_cible": [],
     "montant_min": null,
     "montant_max": null,
     "url_candidature": null,

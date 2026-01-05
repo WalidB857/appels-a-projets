@@ -174,11 +174,8 @@ class IleDeFranceConnector(BaseConnector):
         if mots_cles:
             tags = [t.strip() for t in mots_cles.split(",") if t.strip()]
         
-        # Public cible
+        # Public cible - REMOVED as per instructions to let LLM handle it
         public_cible = []
-        qui = fields.get("qui_peut_en_beneficier") or fields.get("qui")
-        if qui:
-            public_cible = [qui]
         
         # Geographic scope (always IDF for this source)
         perimetre_geo = "Île-de-France"
