@@ -1,0 +1,18 @@
+TITRE: Tickets-Loisirs
+URL: https://www.iledefrance.fr/aides-et-appels-a-projets/123
+DATE_LIMITE: 2025-12-17
+
+--- SOURCE HTML ---
+TITRE: Tickets-Loisirs
+
+RESUME (chapo): La Région mène, via les Tickets-Loisirs qui permettent d'entrer gratuitement dans ses îles de loisirs, une politique volontariste de développement de l'accès aux loisirs et aux vacances pour les Franciliens qui en sont privés.
+
+OBJECTIF: Les Tickets-Loisirs permettent, suivant les catégories de bénéficiaires, le financement des projets suivants : Sorties en groupe à la journée,Cycles d'activités sportives,Actions portées par le mouvement sportif,Séjours au profit de familles fragilisées,Séjours au profit de femmes victimes de violences,Séjours « sport-langues »,Séjours au profit des adhérents  et licenciés sportifs.
+
+QUI PEUT EN BENEFICIER: Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris
+
+DEMARCHES: Deux appels à projets sont ouverts du 4 septembre au 17 décembre 2025 pour les sorties/séjours d'automne et d'hiver 2025/2026  Appel à projets « Tickets-Loisirs : sorties à la journée et cycles d'activité dans les îles de loisirs ». Les candidats doivent répondre exclusivement sur la plateforme en ligne des aides régionales. Dans le cadre d'un cycle d'activité, un devis de l'île de loisirs est nécessaire.Appel à projets « Tickets-Loisirs : séjours dans les îles de loisirs ». Les candidats doivent répondre exclusivement sur la plateforme en ligne des aides régionales. Un devis de l'île de loisirs est nécessaire pour chaque demande de séjour. Les dossiers doivent être déposés sur mesdemarches.iledefrance.fr.  De nouveaux appels à projets seront lancés à partir de fin janvier 2026.
+
+CONTACT: Direction des sports, des loisirs, de la solidarité et de la citoyenneté<br />Service loisirs<br /><a href="mailto:loisirs@iledefrance.fr">loisirs@iledefrance.fr</a>
+
+

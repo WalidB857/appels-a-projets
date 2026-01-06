@@ -1,0 +1,18 @@
+TITRE: Aide au montage de projets européens
+URL: https://www.iledefrance.fr/aides-et-appels-a-projets/634
+DATE_LIMITE: 2025-11-29
+
+--- SOURCE HTML ---
+TITRE: Aide au montage de projets européens
+
+RESUME (chapo): La Région Île-de-France propose de vous aider dans votre recherche de financements européens. Cette offre d'accompagnement s'articule autour de 3 phases : informer, conseiller, appuyer au montage d'un projet européen innovant.
+
+OBJECTIF: Un projet européen, c'est un projet financé par l'Union européenne qui s'approprie, à l'échelle locale, interrégionale ou européenne des enjeux européens.  Il peut être mené localement en réponse à des enjeux du territoire et européens.  Il peut aussi impulser de nouvelles idées et confronter son expérience, ses pratiques, ses outils avec ceux d'homologues d'autres régions ou pays d'Europe.  L'objectif d'un projet européen peut ainsi être de construire ensemble des réalisations innovantes destinées à être répliquées ou mutualisées.
+
+QUI PEUT EN BENEFICIER: Professionnel - ETI < 5000|||Professionnel - GE > 5000|||Professionnel - PME < 250|||Collectivité ou institution - Autre (GIP, copropriété, EPA...)|||Collectivité ou institution - Bailleurs sociaux|||Collectivité ou institution - Communes de 10 000 à 20 000 hab|||Collectivité ou institution - Communes de 2000 à 10 000 hab|||Collectivité ou institution - Communes de < 2000 hab|||Collectivité ou institution - Communes de > 20 000 hab|||Collectivité ou institution - Département|||Collectivité ou institution - EPCI|||Collectivité ou institution - EPT / Métropole du Grand Paris|||Collectivité ou institution - Office de tourisme intercommunal|||Association - Fondation|||Association - ONG|||Association - Régie par la loi de 1901|||Établissement ou organismes de formation (OF, OPCO, FSS, CFA...)|||Établissement d'enseignement secondaire|||Établissement d'enseignement supérieur|||Établissement de recherche et laboratoire
+
+DEMARCHES: Pour bénéficier de cette aide en ingénierie, vous pouvez écrire à europe@iledefrance.fr en précisant le budget du projet, les éventuels partenaires européens mobilisés, et le programme ou les appels à projets éventuellement identifiés.
+
+CONTACT: <a href="mailto:europe@iledefrance.fr" title="europe@iledefrance.fr" target="_blank">europe@iledefrance.fr</a>
+
+

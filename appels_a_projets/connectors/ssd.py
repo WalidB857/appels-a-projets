@@ -15,7 +15,8 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-from .base import BaseConnector, RawAAP
+from .base import BaseConnector, RawAAP, save_raw_dataset
+from ..utils.pdf_extractor import PdfExtractor
 
 
 @dataclass
@@ -43,6 +44,7 @@ class SSDConnector(BaseConnector):
         self.session.headers.update({
             "User-Agent": self.config.user_agent,
         })
+        self.pdf_extractor = PdfExtractor()
     
     def fetch_raw(self) -> list[BeautifulSoup]:
         """
@@ -137,17 +139,39 @@ class SSDConnector(BaseConnector):
         resume = None
         email_contact = None
         date_limite = None
+        description = ""
+        pdf_text = ""
+        pdf_filename = None
         
         # --- FETCH DETAILS ---
         try:
-            # Skip non-html files
-            if not any(url_source.lower().endswith(ext) for ext in ['.pdf', '.doc', '.docx', '.xls', '.xlsx', '.zip']):
+            # Check if it is a PDF directly
+            is_pdf = any(url_source.lower().endswith(ext) for ext in ['.pdf'])
+            
+            if is_pdf:
+                self.logger.info(f"Direct PDF link found: {url_source}")
+                pdf_filename = url_source.split('/')[-1]
+                # Download and extract PDF
+                resp = self.session.get(url_source, timeout=self.config.timeout)
+                resp.raise_for_status()
+                pdf_text = self.pdf_extractor.extract(resp.content, filename=pdf_filename)
+                
+            else:
+                # It's an HTML page
                 # Be polite with the server
                 time.sleep(0.2)
                 
                 detail_resp = self.session.get(url_source, timeout=self.config.timeout)
                 detail_resp.raise_for_status()
                 detail_soup = BeautifulSoup(detail_resp.text, 'html.parser')
+                
+                # Extract full text for enrichment
+                main_content = detail_soup.select_one("#main") or detail_soup.select_one(".texte") or detail_soup.body
+                if main_content:
+                    # Remove scripts/styles
+                    for s in main_content(["script", "style"]):
+                        s.decompose()
+                    description = main_content.get_text(" ", strip=True)
                 
                 # 1. Resume extraction
                 # Strategy A: DSFR .fr-text--lead (New standard)
@@ -212,6 +236,20 @@ class SSDConnector(BaseConnector):
                             date_limite = selected_date.strftime('%Y-%m-%d')
                             break # Stop if we found a date with a pattern
                     
+                # 4. Look for linked PDFs in the page
+                pdf_link = detail_soup.find('a', href=re.compile(r'\.pdf$', re.I))
+                if pdf_link:
+                    pdf_href = pdf_link.get('href')
+                    pdf_url = urljoin(url_source, pdf_href)
+                    self.logger.info(f"Found PDF in page: {pdf_url}")
+                    try:
+                        pdf_resp = self.session.get(pdf_url, timeout=30)
+                        pdf_resp.raise_for_status()
+                        pdf_text = self.pdf_extractor.extract(pdf_resp.content, filename=pdf_url.split('/')[-1])
+                        pdf_filename = pdf_url.split('/')[-1]
+                    except Exception as e:
+                        self.logger.warning(f"Failed to extract PDF {pdf_url}: {e}")
+
         except Exception as e:
             self.logger.warning(f"Could not fetch details for {url_source}: {e}")
 
@@ -232,6 +270,9 @@ class SSDConnector(BaseConnector):
                 except:
                     pass
         
+        # Prepare enrichment text
+        enrich_txt_html = f"TITRE: {titre}\n\nRESUME: {resume or ''}\n\nDESCRIPTION: {description}"
+
         return RawAAP(
             titre=titre,
             url_source=url_source,
@@ -240,14 +281,16 @@ class SSDConnector(BaseConnector):
             organisme='Préfecture de Seine-Saint-Denis',
             resume=resume,
             email_contact=email_contact,
-            perimetre_geo='Seine-Saint-Denis (93)'
+            perimetre_geo='Seine-Saint-Denis (93)',
+            enrich_txt_html=enrich_txt_html,
+            enrich_txt_pdf=pdf_text,
+            pdf_filename=pdf_filename
         )
 
 
 def main():
     """Test the connector."""
-    import json
-    import os
+    import logging
     logging.basicConfig(level=logging.INFO)
     
     connector = SSDConnector()
@@ -255,25 +298,8 @@ def main():
     
     print(f"\nFound {len(aaps)} AAPs")
     
-    # Export for verification
-    output = [
-        {
-            "titre": aap.titre,
-            "url_source": aap.url_source,
-            "date_limite": aap.date_limite,
-            "organisme": aap.organisme,
-            "resume": aap.resume,
-            "email_contact": aap.email_contact,
-            "perimetre_geo": aap.perimetre_geo
-        }
-        for aap in aaps
-    ]
-    
-    os.makedirs("data", exist_ok=True)
-    with open("data/ssd_raw.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-    
-    print(f"Exported to data/ssd_raw.json")
+    # Use standardized saver
+    save_raw_dataset(aaps, "ssd")
 
 if __name__ == "__main__":
     main()
