@@ -84,6 +84,23 @@ class SSDConnector(BaseConnector):
                 
         return pages
 
+    def _find_redirect_link(self, soup: BeautifulSoup, base_url: str) -> str | None:
+        """Find a link with text like 'voir ici', 'retrouvez ici'."""
+        patterns = [
+            r'retrouvez.*?ici',
+            r'voir.*?ici',
+            r'présent.*?ici',
+            r'cliquez.*?ici',
+            r'consultez.*?ici'
+        ]
+        combined_pattern = "|".join(patterns)
+        
+        for a in soup.find_all('a', href=True):
+            text = a.get_text(" ", strip=True)
+            if re.search(combined_pattern, text, re.IGNORECASE):
+                return urljoin(base_url, a['href'])
+        return None
+
     def parse(self, pages: list[BeautifulSoup]) -> list[RawAAP]:
         """
         Parse the HTML pages to extract AAPs.
@@ -165,6 +182,19 @@ class SSDConnector(BaseConnector):
                 detail_resp.raise_for_status()
                 detail_soup = BeautifulSoup(detail_resp.text, 'html.parser')
                 
+                # Check for external content (redirects)
+                external_url = self._find_redirect_link(detail_soup, url_source)
+                external_soup = None
+                
+                if external_url:
+                    self.logger.info(f"Following external link: {external_url}")
+                    try:
+                        ext_resp = self.session.get(external_url, timeout=self.config.timeout)
+                        ext_resp.raise_for_status()
+                        external_soup = BeautifulSoup(ext_resp.text, 'html.parser')
+                    except Exception as e:
+                        self.logger.warning(f"Failed to fetch external content {external_url}: {e}")
+
                 # Extract full text for enrichment
                 main_content = detail_soup.select_one("#main") or detail_soup.select_one(".texte") or detail_soup.body
                 if main_content:
@@ -172,6 +202,14 @@ class SSDConnector(BaseConnector):
                     for s in main_content(["script", "style"]):
                         s.decompose()
                     description = main_content.get_text(" ", strip=True)
+                
+                if external_soup:
+                    # Clean and append external content
+                    ext_body = external_soup.body or external_soup
+                    for s in ext_body(["script", "style"]):
+                        s.decompose()
+                    ext_text = ext_body.get_text(" ", strip=True)
+                    description += f"\n\n[CONTENU EXTERNE SCRAPÉ: {external_url}]\n{ext_text}"
                 
                 # 1. Resume extraction
                 # Strategy A: DSFR .fr-text--lead (New standard)
@@ -200,6 +238,9 @@ class SSDConnector(BaseConnector):
                 
                 # 2. Contact (Emails extraction)
                 page_text = detail_soup.get_text(" ", strip=True)
+                if external_soup:
+                    page_text += " " + external_soup.get_text(" ", strip=True)
+                
                 emails = re.findall(r'[\w\.-]+@[\w\.-]+\.\w+', page_text)
                 if emails:
                     # Deduplicate and join
@@ -238,6 +279,12 @@ class SSDConnector(BaseConnector):
                     
                 # 4. Look for linked PDFs in the page
                 pdf_link = detail_soup.find('a', href=re.compile(r'\.pdf$', re.I))
+                if not pdf_link and external_soup:
+                    # Check external page for PDF if not found in main
+                    pdf_link = external_soup.find('a', href=re.compile(r'\.pdf$', re.I))
+                    if pdf_link:
+                         url_source = external_url # Adjust context for relative links
+
                 if pdf_link:
                     pdf_href = pdf_link.get('href')
                     pdf_url = urljoin(url_source, pdf_href)

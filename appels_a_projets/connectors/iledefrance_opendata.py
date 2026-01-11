@@ -151,6 +151,9 @@ class IleDeFranceConnector(BaseConnector):
         date_publication = self._parse_date(fields.get("date_ouverture"))
         date_limite = self._parse_date(fields.get("date_cloture"))
         
+        if not date_limite:
+            date_limite = "2050-01-01"
+        
         # Resume: prefer chapo_txt, fallback to objectif_txt
         resume = fields.get("chapo_txt") or fields.get("objectif_txt")
         if resume:
