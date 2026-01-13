@@ -52,6 +52,25 @@ ALLOWED_TAGS = [
     "humanitaire", "aide internationale",
     "femmes", "détresse",
     "hébergement", "pauvreté",
+    # Tags enrichis (Insertion, emploi, égalité, bien-être)
+    "recherche d'emploi", "chômage", "bien-être", "confiance en soi",
+    "compétences psychosociales", "égalité femmes-hommes", "mixité",
+    "mentorat", "formation", "insertion professionnelle", "soft skills",
+    "empowerment", "lien social", "entrepreneuriat féminin", "QPV", "quartiers prioritaires",
+    # Enrichissement supplémentaire (parcours, résilience, égalité)
+    "estime de soi", "résilience", "entraide", "coopération",
+    "lutte contre les discriminations", "égalité des chances", "diversité",
+    "inclusion numérique", "retour à l'emploi", "entrepreneuriat social",
+    "équilibre vie pro-perso", "parentalité",
+    # Enrichissement supplémentaire (Focus: Insertion, Mieux-être, Égalité)
+    "insertion par l'activité économique", "IAE", "chantier d'insertion",
+    "entreprise d'insertion", "accompagnement vers l'emploi", "savoir-être",
+    "image de soi", "gestion du stress", "bienveillance", "proactivité", "mise en mouvement",
+    "ateliers collaboratifs", "développement de potentiel", "dynamique de groupe",
+    "égalité professionnelle", "mixité des métiers", "lutte contre les stéréotypes",
+    "place des femmes", "leadership féminin", "droits des femmes", "parité",
+    "emploi des jeunes", "emploi des seniors", "reconversion professionnelle",
+    "bilan de compétences", "santé au travail", "tiers-lieux", "coworking solidaire"
 ]
 
 def get_openrouter_client():

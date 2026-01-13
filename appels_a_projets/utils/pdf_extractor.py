@@ -9,6 +9,10 @@ from typing import Optional
 # Configure logging
 logger = logging.getLogger(__name__)
 
+# Reduce noisy pdfminer logs (common on some PDFs with invalid pattern colors)
+logging.getLogger('pdfminer').setLevel(logging.ERROR)
+logging.getLogger('pdfminer.pdfinterp').setLevel(logging.ERROR)
+
 class PdfExtractor:
     """
     Extract text from PDF bytes using a combination of methods:
@@ -66,6 +70,12 @@ class PdfExtractor:
         Main entry point to extract text from PDF bytes.
         """
         if not pdf_bytes:
+            return ""
+
+        # Basic sanity check: signature
+        if not pdf_bytes.startswith(b'%PDF-'):
+            head = pdf_bytes[:32]
+            logger.warning(f"Input does not look like a PDF for {filename or 'PDF'} (head={head!r}).")
             return ""
 
         # 1. Standard extraction
