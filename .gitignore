@@ -4,10 +4,8 @@ __pycache__/
 .venv/
 .env
 
-# Data locale
-data/*.db
-data/*.sqlite
-data/*.csv
+# Data locale (ignorer tout le dossier data/ sauf structure)
+data/
 
 # IDE
 .vscode/
