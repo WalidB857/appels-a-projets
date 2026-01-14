@@ -4,6 +4,11 @@ Pipeline complet : Fetch → Enrich → Push to Airtable/Notion
 
 Extensions:
 - Option --sources pour limiter le pipeline à une ou plusieurs sources (ex: ssd_ressources)
+- Option --only-source (alias ergonomique) pour une seule source
+
+Exemples:
+- Scraper + enrichir + push Notion (sans vider la base) pour AppelAProjets:
+  python scripts/run_pipeline.py --sources appelaprojets --destination notion --no-clear
 """
 
 import argparse
@@ -13,7 +18,7 @@ import time
 from pathlib import Path
 
 # Liste des sources à traiter
-SOURCES = ['carenews', 'iledefrance', 'paris', 'ssd', 'ssd_ressources']
+SOURCES = ['carenews', 'iledefrance', 'paris', 'ssd', 'ssd_ressources', 'professionbanlieue', 'appelaprojets']
 
 
 def run_command(command, description, cwd=None):
@@ -59,7 +64,17 @@ def main():
         help="(Notion) Ne pas vider/archiver la base avant push (ajout/upsert).",
     )
 
+    # Nouveau: alias ergonomique pour une seule source
+    parser.add_argument(
+        "--only-source",
+        default=None,
+        help=f"Alias de --sources pour une seule source. Ex: --only-source appelaprojets. Options: {', '.join(SOURCES)}",
+    )
+
     args = parser.parse_args()
+
+    if args.only_source:
+        args.sources = args.only_source
 
     selected_sources = [s.strip() for s in args.sources.split(',') if s.strip()]
     unknown = [s for s in selected_sources if s not in SOURCES]
@@ -103,6 +118,8 @@ def main():
                 'paris': f"{sys.executable} -m appels_a_projets.connectors.paris",
                 'ssd': f"{sys.executable} -m appels_a_projets.connectors.ssd",
                 'ssd_ressources': f"{sys.executable} -m appels_a_projets.connectors.ssd_ressources",
+                'professionbanlieue': f"{sys.executable} -m appels_a_projets.connectors.professionbanlieue",
+                'appelaprojets': f"{sys.executable} -m appels_a_projets.connectors.appelaprojets",
             }
             fetch_results[source] = run_command(cmd_by_source[source], f"Fetch {source}")
             time.sleep(2)

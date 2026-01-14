@@ -13,14 +13,14 @@ load_dotenv()
 # Configuration
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
-# Modèle par défaut : Gemini 2.0 Flash (Très rapide, intelligent, contexte énorme)
-DEFAULT_MODEL = "google/gemini-2.0-flash-exp:free"
+# Modèle par défaut : Mistral Small 3.1 (gratuit, performant, bon pour l'extraction structurée)
+DEFAULT_MODEL = "mistralai/mistral-small-3.1-24b-instruct:free"
 
 # Liste de modèles de repli à essayer en ordre si le premier échoue
 # STRICTEMENT basée sur la liste fournie avec la mention (free)
 FALLBACK_MODELS = [
+    "google/gemini-2.0-flash-exp:free",          # Gemini 2.0 Flash Experimental
     "meta-llama/llama-3.3-70b-instruct:free",       # Llama 3.3 70B
-    "mistralai/mistral-small-3.1-24b-instruct:free", # Mistral Small 3.1
     "nvidia/nemotron-3-nano-30b-a3b:free",          # Nvidia Nemotron 30B
     "google/gemma-3-27b-it:free",                   # Gemma 3 27B
     "deepseek/deepseek-r1-0528:free",               # DeepSeek R1 (Excellent raisonnement)

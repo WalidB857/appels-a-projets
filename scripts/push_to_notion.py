@@ -6,7 +6,7 @@ import pandas as pd
 
 from appels_a_projets.connectors.notion_connector import NotionConnector
 
-SOURCES = ['carenews', 'iledefrance', 'paris', 'ssd', 'ssd_ressources']
+SOURCES = ['carenews', 'iledefrance', 'paris', 'ssd', 'ssd_ressources', 'professionbanlieue', 'appelaprojets']
 DATA_DIR = Path("data")
 
 

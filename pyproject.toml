@@ -22,6 +22,7 @@ dependencies = [
     "pdf2image>=1.17.0",
     "pillow>=10.2.0",
     "notion-client>=2.7.0",
+    "feedparser>=6.0.12",
 ]
 packages = [{ include = "appels_a_projets" }]
 
